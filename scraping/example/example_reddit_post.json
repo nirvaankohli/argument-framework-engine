@@ -1,0 +1,319 @@
+{
+  "thread_id": "1on8vm6",
+  "subreddit": "Backend",
+  "title": "Go VS Rust: which one is better",
+  "utterances": [
+    {
+      "id": "U1",
+      "speaker_id": "S1",
+      "parent_id": null,
+      "author": "yoftahe1",
+      "text": "Go VS Rust: which one is better\n\nI have worked on Python, Typescript and C#. But recently I see GO and Rust going so viral on the internet. Some saying the future of programming. I wanted to know which one has better opportunities, speed... ",
+      "depth": 0
+    },
+    {
+      "id": "U2",
+      "speaker_id": "S2",
+      "parent_id": "U1",
+      "author": "plebbening",
+      "text": "Go is much simpler to be good at and for 99% of apps it’s more than enough performance.\n\nBeing good at rust is actually quite hard and for most projects it doesn’t really matter what language you use.\n\nI enjoy writing both, but rust async is annoying imo. And understanding rust macros or even writing them yourself is no easy feat.",
+      "depth": 1
+    },
+    {
+      "id": "U3",
+      "speaker_id": "S3",
+      "parent_id": "U2",
+      "author": "solidiquis1",
+      "text": "You can become a Rust expert without ever writing a proc/decl macro. What do you find annoying about async Rust? I'm not blind to its blemishes, but 99% of general use cases, async Rust is quite simple and can feel very similar to Goroutines. Go concurrency is convenient and while writing your code it can feel nice, but there's a serious lack of safety features that makes the actual processing of verifying safety incredibly time consuming. The Go race detector isn't great.\n\nI'd rather write a bunch of Arc&lt;Mutex&lt;T&gt;&gt; any day of the week than do Go concurrency. I use both Go and Rust at work, and there's concurrency issues are much more common in our Go code.",
+      "depth": 2
+    },
+    {
+      "id": "U4",
+      "speaker_id": "S2",
+      "parent_id": "U3",
+      "author": "plebbening",
+      "text": "If you can’t write macros you are not an expert, or at least we have differing opinions on what an expert is.\n\nRust sync and async are two seperate languages, every package needs to support async, to do it nicely you need 3rd party packages like tokio.\nYou need to do some async stuff? Well now all your code gets the async tag.",
+      "depth": 3
+    },
+    {
+      "id": "U5",
+      "speaker_id": "S4",
+      "parent_id": "U2",
+      "author": "BenchEmbarrassed7316",
+      "text": "Asynchronous Rust is much more convenient than go:\n\n- Rust compiler guarantees no data races, you don't have to worry about it at all. Data races in go when using fat pointers (slices or interfaces) can lead to memory corruption (go isn't a memory-safe language) which can lead to C-like vulnerabilities \n- asynchronous tasks can be canceled automatically when the caller decides they are no longer needed, you don't have to manually pass the context and manually write checks in each function whether the task was canceled\n- there are high-level abstractions for parallel iterators, you just replace `iter` with `pair_iter` and your code starts running about 16 times faster\n- no Promises/Futures, so for even a simple parallel call, you need to create a channel, wrap the function you call in a closure that will receive the result of the function and write it to the channel once. This is much more convenient to do in Rust\n\nIn general, go is a low-level imperative language, while Rust is a high-level declarative language.",
+      "depth": 2
+    },
+    {
+      "id": "U6",
+      "speaker_id": "S5",
+      "parent_id": "U5",
+      "author": "jshen",
+      "text": "Implying that go has the same risks as C with respect to memory is simply not accurate.",
+      "depth": 3
+    },
+    {
+      "id": "U7",
+      "speaker_id": "S4",
+      "parent_id": "U6",
+      "author": "BenchEmbarrassed7316",
+      "text": "Yes, there are certainly more such risks in C. However, go is often mistakenly positioned as a language that is completely free of such risks, which is also not accurate.",
+      "depth": 4
+    },
+    {
+      "id": "U8",
+      "speaker_id": "S5",
+      "parent_id": "U7",
+      "author": "jshen",
+      "text": "Can you be more specific about the risks. I do not believe go will access memory beyond the bounds checks (unless you use the unsafe package) which is typically what people mean when they talk about C memory safety.",
+      "depth": 5
+    },
+    {
+      "id": "U9",
+      "speaker_id": "S4",
+      "parent_id": "U8",
+      "author": "BenchEmbarrassed7316",
+      "text": "https://www.ralfj.de/blog/2025/07/24/memory-safety.html\n\n\nSearch title of this article to find the discussion on Reddit or HN.\n\n\ngo is positioned as a language for concurrent programming. In fact, simplicity, concurrency and speed compared to interpreted languages are its only advantages. But from the point of view of concurrent programming safety, all it provides is a race detector.\n\n\ngo is also not a carefully designed language. Literally its philosophy is to do some crap and move on. They could have put more effort and made the slices and interfaces safe. But they didn't.",
+      "depth": 6
+    },
+    {
+      "id": "U10",
+      "speaker_id": "S5",
+      "parent_id": "U9",
+      "author": "jshen",
+      "text": "Thanks for sharing. I need to read that material slowly to understand it fully. It's not clear to me if it poses the same kind of security risk.\n\nEdit: also, your link specifically says it's defining memory safety as something broader than no \"out of bounds\" access. I'm not sure I agree with that, which is the crux of our difference of opinion.",
+      "depth": 7
+    },
+    {
+      "id": "U11",
+      "speaker_id": "S4",
+      "parent_id": "U10",
+      "author": "BenchEmbarrassed7316",
+      "text": "&gt; out of bounds\n\nThis error leads to exactly that.\n\nThere is an interface and two structures. The first structure is 128 bytes long and the second is 8 bytes long. The interface method overwrites last 8 bytes of your structure's data, meaning it writes [addr + 120] for the first structure and [addr + 0] for the second.\n\nAn interface is a thick pointer, it is a reference to the methods table and a reference to the structure. A data race means that only one value of interface will be updated, so you end up with a call to the first structure's method that takes second struct pointer. And it writes data at offset 120 bytes. This method will corrupt your memory.",
+      "depth": 8
+    },
+    {
+      "id": "U12",
+      "speaker_id": "S5",
+      "parent_id": "U11",
+      "author": "jshen",
+      "text": "Do you know if this is possible in Java?",
+      "depth": 9
+    },
+    {
+      "id": "U13",
+      "speaker_id": "S4",
+      "parent_id": "U12",
+      "author": "BenchEmbarrassed7316",
+      "text": "As I understand - no. Because there is no fat pointers in Java. You can get runtime data race exception but not memory corruption in Java.\n\nhttps://blogtitle.github.io/go-slices-gotchas/\n\nHere is an article that describes how slices work in go. This nicely demonstrates philosophy of go \"Do some crap and move on\".\n\nThis problem can be solved in at least two ways: abandon the subslices without allocation and get a clean external API, or split it into two types, a vector and a slice without the ability to add or remove elements. What decision did they make? Neither.",
+      "depth": 10
+    },
+    {
+      "id": "U14",
+      "speaker_id": "S6",
+      "parent_id": "U1",
+      "author": "nilkanth987",
+      "text": "Go is currently stronger in industry: cloud companies, fintech, AI infra, SaaS, and startups hire Go devs A LOT.\n\nRust demand is rising, but jobs are more niche-blockchain, security, gaming engines, systems, compilers.\n\nFor pure job availability today → Go has more openings.",
+      "depth": 1
+    },
+    {
+      "id": "U15",
+      "speaker_id": "S3",
+      "parent_id": "U14",
+      "author": "solidiquis1",
+      "text": "Rust is becoming quite popular in the world of aerospace startups where I work.",
+      "depth": 2
+    },
+    {
+      "id": "U16",
+      "speaker_id": "S7",
+      "parent_id": "U15",
+      "author": "DirtyWetNoises",
+      "text": "And defence",
+      "depth": 3
+    },
+    {
+      "id": "U17",
+      "speaker_id": "S3",
+      "parent_id": "U16",
+      "author": "solidiquis1",
+      "text": "Yep",
+      "depth": 4
+    },
+    {
+      "id": "U18",
+      "speaker_id": "S8",
+      "parent_id": "U1",
+      "author": "vlahunter",
+      "text": "The best language is the one paying your bills and your bread. Depending the place you live the market might defer.\n\nObviously with Rsut you can target lower level but if that is your goal then C/C++/Zig maybe are more logical way to go. If you only care for backend then Golang will be good enough for 99% of the cases whereas Rust will shine in this 1% of the cases. \n\nNot that Rust is bad but i feel the effort needed must be far higher...",
+      "depth": 1
+    },
+    {
+      "id": "U19",
+      "speaker_id": "S4",
+      "parent_id": "U18",
+      "author": "BenchEmbarrassed7316",
+      "text": "Writing code in Rust is much easier than in go. Rust is not a low-level language. Although you can do that if necessary. But you usually write high-level declarative code unlike go.\n\nA typical example is resource management: if you need to open a file, Rust will understand when you are done using it and close all unnecessary resources. go forces programmers to pay attention to such little things.",
+      "depth": 2
+    },
+    {
+      "id": "U20",
+      "speaker_id": "S9",
+      "parent_id": "U1",
+      "author": "qrzychu69",
+      "text": "Personally, I'm sticking to C#.\n\nIf there is something that's too slow, I can always pass that one endpoint to Rust\n\nIn my professional carrier, that didn't happen yet, but I don't work for Netflix or Google.\n\nAlso, C# is more than fast enough, specially since dotnet 8 with ref structs - you can go really low level of you want. You don't get 0 cost abstractions, but you get nice high level API for simd for example.\n\nThing is, if you have to ask this question, the answer isn't important to you, you'd be fine with Ruby on Rails probably, and a Mac mini in the closet.\n\nIf the answer is important, you probably already know which one it is for you, because you know you should just try it out and see if it really helps.\n\nThere is nothing inherently better in Rust or Go that works for everything. If your program is just async IO, C# won't be much slower than Rust, but will be MUCH easier to maintain than Go or Rust.",
+      "depth": 1
+    },
+    {
+      "id": "U21",
+      "speaker_id": "S10",
+      "parent_id": "U20",
+      "author": "just_looking_aroun",
+      "text": "I work for a company where we tend to handle 50k req/sec on the low end in C#, and the code still hasn't become a bottleneck it's always been the db.",
+      "depth": 2
+    },
+    {
+      "id": "U22",
+      "speaker_id": "S11",
+      "parent_id": "U21",
+      "author": "Due_Campaign_9765",
+      "text": "Crying in Python's 15 req/sec :(",
+      "depth": 3
+    },
+    {
+      "id": "U23",
+      "speaker_id": "S12",
+      "parent_id": "U1",
+      "author": "rrrodzilla",
+      "text": "I like and use both. Go is definitely fun to write. But I’m far more productive busting out backend services in Rust and reach for that unless I’m required to reach for anything else. You don’t need to be at FAANG scale to benefit from inherently safe, fast code that is super easy to debug, fast and productive to write (once you bite the bullet and learn it). Code reviews become easier, refactors simpler, and teams who get proficient thoroughly enjoy writing code in it. That being said, asking which one is better is a little nonsensical given all the factors to weigh for any given set of requirements.",
+      "depth": 1
+    },
+    {
+      "id": "U24",
+      "speaker_id": "S13",
+      "parent_id": "U1",
+      "author": "gbrennon",
+      "text": "Go is easier for writing code but i prefer rust because of some builtin approaches like `Result` that is similar to `Either` but its name is so much explicit that people who doesnt have deep knowledge about monads can easily understand",
+      "depth": 1
+    },
+    {
+      "id": "U25",
+      "speaker_id": "S14",
+      "parent_id": "U1",
+      "author": "No-Awaren3ss",
+      "text": "I have tried both of them\nbut still can't leave Ruby\n\n\nyou should try Ruby",
+      "depth": 1
+    },
+    {
+      "id": "U26",
+      "speaker_id": "S15",
+      "parent_id": "U1",
+      "author": "szines",
+      "text": "Rust.",
+      "depth": 1
+    },
+    {
+      "id": "U27",
+      "speaker_id": "S16",
+      "parent_id": "U1",
+      "author": "anotherrhombus",
+      "text": "I kinda hate declarative languages so I'm more of a team Go person myself, but I write a lot of C and Zig. I use Rust whenever I get the chance, we just never need to reach for it and I'm genuinely not sure we'll ever \"need\" to reach for it",
+      "depth": 1
+    },
+    {
+      "id": "U28",
+      "speaker_id": "S14",
+      "parent_id": "U1",
+      "author": "No-Awaren3ss",
+      "text": "I have tried both of them\nbut still can't leave Ruby\n\nyou should try Ruby",
+      "depth": 1
+    },
+    {
+      "id": "U29",
+      "speaker_id": "S17",
+      "parent_id": "U1",
+      "author": "YahenP",
+      "text": "Both languages ​​are niche, and in different niches. Neither one is a leader in its own niche. Furthermore, Rust is generally a poor choice for backend programming. Of course, nothing prevents you from trying to write a web service in it, but that would be just for fun, not for practical purposes.",
+      "depth": 1
+    },
+    {
+      "id": "U30",
+      "speaker_id": "S18",
+      "parent_id": "U1",
+      "author": "jfinch3",
+      "text": "Go and Rust are for two different niches. \n\nGo is the perfect language for the microservice, the backend server process etc. It’s simple, fast, direct, and no frills.  \n\nRust is for when you need to take a step lower and build something even more fundamental. When you want to write the operating system, the embedded firmware, the router protocol implementation. \n\nHaving used both I see Go as a great middle ground language where you can reasonably argue it’s at least “a good choice” for most things you’d want to do. I see Rust as the perfect choose for a couple of niches, and outside of that you are usually making a bad trade of development speed for performance you might not need.",
+      "depth": 1
+    },
+    {
+      "id": "U31",
+      "speaker_id": "S19",
+      "parent_id": "U1",
+      "author": "Steven_Compton",
+      "text": "Go and Rust head in totally different directions.\n\nGo keeps things clean and direct — fast compile times, simple syntax, and built-in concurrency through goroutines. You write a service, hit `go run`, and everything just flows. Most cloud and backend stacks rely on it now: Docker, Kubernetes, Cloudflare, etc. That demand keeps climbing.\n\nRust pushes deeper — memory safety without garbage collection, zero-cost abstractions, and control that feels surgical. The compiler guards every move, forcing safer habits and stronger performance. Ideal for systems, embedded, crypto, or engine development. The curve stays steep, but the payoff feels worth the grind.\n\nGo suits engineers chasing quick delivery and scalability. Rust suits builders chasing precision and long-term performance.\n\nFor career growth, Go opens doors faster; Rust builds mastery that lasts.\n\nBoth hold strong futures — pick the one matching how you like to think and build.",
+      "depth": 1
+    },
+    {
+      "id": "U32",
+      "speaker_id": "S20",
+      "parent_id": "U1",
+      "author": "cbdeane",
+      "text": "Go is just a fantastic language, I use it everyday at work. I love all the ideas of rust but I don’t love writing rust.",
+      "depth": 1
+    },
+    {
+      "id": "U33",
+      "speaker_id": "S21",
+      "parent_id": "U1",
+      "author": "GolangLinuxGuru1979",
+      "text": "Rust isn’t a good language for the backend . If by backend you mean code that runs on the server, interacts with infrastructure, and provide functionality and contracts for other systems.\n\nRust is just too heavy handed for this type of work.  You’re putting a fairly complicated language in the backend that’s very few people know and it’s hard to learn.  Go fits the backend too perfectly.  It’s easy to learn, performant, and has much simpler concurrency.\n\nAsync Rust is a mess.  It don’t belong in a backend system in the corporate world.  I don’t care what anyone will tell you.\n\nRust should be for memory safety applications where latency really matters.  Yeah Rust can have some benefits on the backend with a smaller memory footprint compared to Go.  But the reality in a cloud environment people can cheaply just add another node.\n\n\nRust may be good for desktop apps and memory safety apps. Where that is super important.  But it’s just a waste of time to use it for backend services",
+      "depth": 1
+    },
+    {
+      "id": "U34",
+      "speaker_id": "S12",
+      "parent_id": "U33",
+      "author": "rrrodzilla",
+      "text": "Yeah cause not all apps need memory safety, right??",
+      "depth": 2
+    },
+    {
+      "id": "U35",
+      "speaker_id": "S22",
+      "parent_id": "U34",
+      "author": "Sampath_97",
+      "text": "😂😂",
+      "depth": 3
+    },
+    {
+      "id": "U36",
+      "speaker_id": "S23",
+      "parent_id": "U1",
+      "author": "KiraLawliet68",
+      "text": "I read an aritcle Tiktok intern replace some Go code with Rust and it saves company money 200k and improve speed of API or something",
+      "depth": 1
+    },
+    {
+      "id": "U37",
+      "speaker_id": "S24",
+      "parent_id": "U36",
+      "author": "editor_of_the_beast",
+      "text": "Well that settles it",
+      "depth": 2
+    },
+    {
+      "id": "U38",
+      "speaker_id": "S8",
+      "parent_id": "U36",
+      "author": "vlahunter",
+      "text": "Here is the Blog post regarding this story but it is not just black and white, more things can be found there.  \n[https://wxiaoyun.com/blog/rust-rewrite-case-study/?trk=public\\_post\\_comment-text](https://wxiaoyun.com/blog/rust-rewrite-case-study/?trk=public_post_comment-text)",
+      "depth": 2
+    },
+    {
+      "id": "U39",
+      "speaker_id": "S25",
+      "parent_id": "U36",
+      "author": "opossum787",
+      "text": "Importantly, they didn’t rewrite everything. They identified one particular part of one API that was having performance problems for reasons related to how Go works and only rewrote that.",
+      "depth": 2
+    }
+  ]
+}

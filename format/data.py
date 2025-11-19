@@ -13,6 +13,7 @@ class Argument:
     speaker: Optional[str] = None
     confidence: Optional[float] = None  # 0–1 from the LLM
 
+
 @dataclass
 class Relation:
 
@@ -21,3 +22,12 @@ class Relation:
     type: RelationType  # supports or attacks
     confidence: Optional[float] = None  # 0–1 from the LLM
 
+
+@dataclass
+class Utterance:
+    id: str
+    speaker_id: Optional[str]
+    parent_id: Optional[str]
+    author: Optional[str]
+    text: str
+    depth: int

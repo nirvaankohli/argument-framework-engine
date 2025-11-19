@@ -1,0 +1,28 @@
+{
+  "thread_id": "abcdef",
+  "subreddit": "SomeSub",
+  "title": "Some thread title",
+  "utterances": [
+    {
+      "id": "u0",
+      "parent_id": null,
+      "author": "OP_username",
+      "text": "Post title\n\nPost body...",
+      "depth": 0
+    },
+    {
+      "id": "u1",
+      "parent_id": "u0",
+      "author": "commenter1",
+      "text": "First top-level comment text...",
+      "depth": 1
+    },
+    {
+      "id": "u2",
+      "parent_id": "u1",
+      "author": "commenter2",
+      "text": "Reply to commenter1...",
+      "depth": 2
+    }
+  ]
+}
