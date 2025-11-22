@@ -1,0 +1,36 @@
+{
+  "content": "```json\n{\n  \"relations\": [\n    {\n      \"from\": \"A102\",\n      \"to\": \"A101\",\n      \"type\": \"supports\",\n      \"explanation\": \"An active community often makes a technology more enjoyable and easier to learn due to readily available help and resources.\",\n      \"strength\": 0.7\n    },\n    {\n      \"from\": \"A103\",\n      \"to\": \"A101\",\n      \"type\": \"supports\",\n      \"explanation\": \"Efficiency in building MVPs and iterating on projects can make a framework more fun and interesting for developers who value rapid development.\",\n      \"strength\": 0.6\n    }\n  ]\n}\n```",
+  "full_response": {
+    "id": "gen-1763770638-PtCvXwIfc8zhLErRYiEb",
+    "provider": "Google",
+    "model": "google/gemini-2.5-flash",
+    "object": "chat.completion",
+    "created": 1763770638,
+    "choices": [
+      {
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "STOP",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"relations\": [\n    {\n      \"from\": \"A102\",\n      \"to\": \"A101\",\n      \"type\": \"supports\",\n      \"explanation\": \"An active community often makes a technology more enjoyable and easier to learn due to readily available help and resources.\",\n      \"strength\": 0.7\n    },\n    {\n      \"from\": \"A103\",\n      \"to\": \"A101\",\n      \"type\": \"supports\",\n      \"explanation\": \"Efficiency in building MVPs and iterating on projects can make a framework more fun and interesting for developers who value rapid development.\",\n      \"strength\": 0.6\n    }\n  ]\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 390,
+      "completion_tokens": 165,
+      "total_tokens": 555,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0
+      }
+    }
+  }
+}
