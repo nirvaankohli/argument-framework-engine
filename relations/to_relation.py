@@ -242,7 +242,7 @@ Arguments: {{DATA}}"""
                 {"role": "user", "content": user},
             ],
             "temperature": 0.3,
-            "max_tokens": 14000,
+            "max_tokens": 30000,
         }
 
     def process_send_request(self, arguments, per=15):

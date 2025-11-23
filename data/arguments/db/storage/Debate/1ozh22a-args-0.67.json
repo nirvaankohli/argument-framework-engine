@@ -1,0 +1,212 @@
+{
+  "thread_id": "1ozh22a",
+  "subreddit": "Debate",
+  "title": "How to deal with outrageous motions?",
+  "threshold": 0.67,
+  "num_arguments": 29,
+  "arguments": [
+    {
+      "id": "A1",
+      "text": "If an administrator knew that a coach had students debate the topic of making rape legal, the coach would be at significant risk of losing their job.",
+      "utterance_id": "U2",
+      "speaker": "S2",
+      "confidence": 0.95
+    },
+    {
+      "id": "A2",
+      "text": "Debating the topic of making rape legal is wildly inappropriate.",
+      "utterance_id": "U2",
+      "speaker": "S2",
+      "confidence": 0.95
+    },
+    {
+      "id": "A3",
+      "text": "Any adult who works with young people should know that debating the topic of making rape legal is inappropriate.",
+      "utterance_id": "U2",
+      "speaker": "S2",
+      "confidence": 0.95
+    },
+    {
+      "id": "A4",
+      "text": "The scenario described is cringe-worthy.",
+      "utterance_id": "U3",
+      "speaker": "S3",
+      "confidence": 0.8
+    },
+    {
+      "id": "A5",
+      "text": "There can be value in using lopsided resolutions in a practice setting when accompanied by significant guidance from the coach.",
+      "utterance_id": "U5",
+      "speaker": "S5",
+      "confidence": 0.85
+    },
+    {
+      "id": "A6",
+      "text": "The resolution to make rape legal is offensive and inappropriate.",
+      "utterance_id": "U5",
+      "speaker": "S5",
+      "confidence": 0.95
+    },
+    {
+      "id": "A7",
+      "text": "The weakness of the resolution to make rape legal is its offensive and inappropriate nature, not its one-sidedness.",
+      "utterance_id": "U5",
+      "speaker": "S5",
+      "confidence": 0.9
+    },
+    {
+      "id": "A8",
+      "text": "Parents should be informed about the assigned topic.",
+      "utterance_id": "U5",
+      "speaker": "S5",
+      "confidence": 0.8
+    },
+    {
+      "id": "A9",
+      "text": "A school administrator should be alerted about the assigned topic.",
+      "utterance_id": "U5",
+      "speaker": "S5",
+      "confidence": 0.8
+    },
+    {
+      "id": "A10",
+      "text": "Someone in a position of authority needs to inform the coach that this topic is not okay and must never be repeated.",
+      "utterance_id": "U5",
+      "speaker": "S5",
+      "confidence": 0.9
+    },
+    {
+      "id": "A11",
+      "text": "There is no debate to the topic of making rape legal.",
+      "utterance_id": "U10",
+      "speaker": "S8",
+      "confidence": 0.9
+    },
+    {
+      "id": "A12",
+      "text": "It was unacceptable for the coach to make students debate the topic of making rape legal.",
+      "utterance_id": "U10",
+      "speaker": "S8",
+      "confidence": 0.95
+    },
+    {
+      "id": "A13",
+      "text": "The coach's actions are inappropriate and could end an educator's career.",
+      "utterance_id": "U11",
+      "speaker": "S9",
+      "confidence": 0.99
+    },
+    {
+      "id": "A14",
+      "text": "The coach's actions violate the main principles of safeguarding.",
+      "utterance_id": "U11",
+      "speaker": "S9",
+      "confidence": 0.98
+    },
+    {
+      "id": "A15",
+      "text": "The coach's actions should be reported.",
+      "utterance_id": "U11",
+      "speaker": "S9",
+      "confidence": 0.97
+    },
+    {
+      "id": "A16",
+      "text": "One should reconsider their relationship and contact with the person for their own safety if they are uncomfortable reporting the actions.",
+      "utterance_id": "U11",
+      "speaker": "S9",
+      "confidence": 0.95
+    },
+    {
+      "id": "A17",
+      "text": "The coach should be reported.",
+      "utterance_id": "U12",
+      "speaker": "S10",
+      "confidence": 0.99
+    },
+    {
+      "id": "A18",
+      "text": "The coach's actions are unacceptable.",
+      "utterance_id": "U12",
+      "speaker": "S10",
+      "confidence": 0.98
+    },
+    {
+      "id": "A19",
+      "text": "The coach should be reported.",
+      "utterance_id": "U13",
+      "speaker": "S11",
+      "confidence": 0.99
+    },
+    {
+      "id": "A20",
+      "text": "The coach should not be working with children.",
+      "utterance_id": "U13",
+      "speaker": "S11",
+      "confidence": 0.98
+    },
+    {
+      "id": "A21",
+      "text": "The coach should be reported to an administrator.",
+      "utterance_id": "U14",
+      "speaker": "S12",
+      "confidence": 0.99
+    },
+    {
+      "id": "A22",
+      "text": "If the coach is not an employee of a school, one should stop working with them.",
+      "utterance_id": "U14",
+      "speaker": "S12",
+      "confidence": 0.95
+    },
+    {
+      "id": "A23",
+      "text": "A coach suggesting the topic is concerning.",
+      "utterance_id": "U15",
+      "speaker": "S4",
+      "confidence": 0.97
+    },
+    {
+      "id": "A24",
+      "text": "The topic is outrageous and a bad choice by the coach.",
+      "utterance_id": "U16",
+      "speaker": "S13",
+      "confidence": 0.98
+    },
+    {
+      "id": "A25",
+      "text": "The one-sided topic is offensive and inappropriate.",
+      "utterance_id": "U16",
+      "speaker": "S13",
+      "confidence": 0.97
+    },
+    {
+      "id": "A26",
+      "text": "Engaging in this activity with children is inappropriate.",
+      "utterance_id": "U17",
+      "speaker": "S14",
+      "confidence": 0.95
+    },
+    {
+      "id": "A27",
+      "text": "What the coach did was not acceptable.",
+      "utterance_id": "U18",
+      "speaker": "S15",
+      "confidence": 0.99
+    },
+    {
+      "id": "A28",
+      "text": "One should talk to an administrator if the coach's actions made people uncomfortable.",
+      "utterance_id": "U18",
+      "speaker": "S15",
+      "confidence": 0.95
+    },
+    {
+      "id": "A29",
+      "text": "The spirit of debate is education and accessibility.",
+      "utterance_id": "U18",
+      "speaker": "S15",
+      "confidence": 0.9
+    }
+  ]
+}

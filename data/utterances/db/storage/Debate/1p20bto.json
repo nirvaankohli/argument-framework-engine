@@ -1,0 +1,31 @@
+{
+  "thread_id": "1p20bto",
+  "subreddit": "Debate",
+  "title": "How to open club",
+  "utterances": [
+    {
+      "id": "U1",
+      "speaker_id": "S1",
+      "parent_id": null,
+      "author": "Timely-Bluebird-4161",
+      "text": "How to open club\n\nI wanted to start a parli club in a middle school as a high school debater, mostly for college and learning more debate. Idk if this is the right time tho or if its too late, or how to teach a bunch of middle schoolers debate. How should I reach out to the schools that I want to help start a club in? NYC btw, how should I set up the material if I even could get this started? I'm soooo lost so some guidance would be appreciated for any questions I might need answers to in the future, even if I didn't list it here. Should I start a club somewhere else? Lmk",
+      "depth": 0
+    },
+    {
+      "id": "U2",
+      "speaker_id": "S2",
+      "parent_id": "U1",
+      "author": "horsebycommittee",
+      "text": "If you're not sure how to even begin, then consider that you might not be the right person to establish a new middle school team. Do you have coaching experience as a varsity member on your own school's team? Have you participated on a middle school team in any capacity? Is there an adult advisor who wants to work with you in the middle school?\n\nI would strongly suggest you reach out to an *existing* MS team and offer your services there in order to get an understanding of what's involved and what these students need from a coach. (They are not merely \"small high schoolers\" -- there are significant differences in knowledge, skills, focus, and interests.) Once you have experience with an existing team, you'll have a much better idea what would be needed to start a new team from scratch.",
+      "depth": 1
+    },
+    {
+      "id": "U3",
+      "speaker_id": "S3",
+      "parent_id": "U1",
+      "author": "Scratchlax",
+      "text": "https://www.nyparli.org/faq - you might try working with this group that seems to have extensive parli experience and is based in NYC. Their website indicates they're trying to make MS parli happen in NYC, so connecting with them might make your job easier.",
+      "depth": 1
+    }
+  ]
+}

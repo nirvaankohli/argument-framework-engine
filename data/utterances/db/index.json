@@ -2,6 +2,9 @@
   "index": {
     "https://www.reddit.com/r/Backend/comments/1on8vm6/go_vs_rust_which_one_is_better/": "storage/Backend/1on8vm6.json",
     "https://www.reddit.com/r/Backend/comments/1p21idn/for_experienced_backend_engineers/": "storage/Backend/1p21idn.json",
-    "https://www.reddit.com/r/compsci/comments/q3x6il/starting_a_cs_club_in_highschool/": "storage/compsci/q3x6il.json"
+    "https://www.reddit.com/r/compsci/comments/q3x6il/starting_a_cs_club_in_highschool/": "storage/compsci/q3x6il.json",
+    "https://www.reddit.com/r/Debate/comments/1oh5mdy/how_to_deal_with_disrespectful_opponents/": "storage/Debate/1oh5mdy.json",
+    "https://www.reddit.com/r/Debate/comments/1ozh22a/how_to_deal_with_outrageous_motions/": "storage/Debate/1ozh22a.json",
+    "https://www.reddit.com/r/Debate/comments/1p20bto/how_to_open_club/": "storage/Debate/1p20bto.json"
   }
 }

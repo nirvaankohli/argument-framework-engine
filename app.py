@@ -1,7 +1,7 @@
 import streamlit as st
 from htbuilder.units import rem
 from htbuilder import div, styles
-
+import time
 
 st.set_page_config(page_title="Argument Framework Engine", page_icon="⚖️", layout="wide")
 
@@ -67,16 +67,41 @@ if "reddit_url" in st.session_state:
 
     reddit_url = st.session_state["reddit_url"]
 
-    cleaner = ArgumentCleaner()
-    utteranceClient = RedditScraper()
+    with mid:
 
-    post_data = utteranceClient.process_post(reddit_url)
+        with st.spinner("Initializing..."):
 
-    arguments = cleaner.convert_utterances_to_arguments(
-        post_data["utterances"], threshold=0.67, utterance_data=post_data
-    )
+            cleaner = ArgumentCleaner()
+            utteranceClient = RedditScraper()
 
-    to_relation = ToRelation(arguments)
-    relations = to_relation.extract_relations(to_json=True)
+        with st.spinner("Getting Post Data..."):
 
-    st.json(relations)
+            st.success("Initialized!")
+
+            post_data = utteranceClient.process_post(reddit_url)
+
+        with st.spinner("Converting to Arguments..."):
+
+            st.success("Post Data Recieved!")
+
+            arguments = cleaner.convert_utterances_to_arguments(
+                post_data["utterances"], threshold=0.67, utterance_data=post_data
+            )
+
+        estimated_time = 1 + len(arguments) * (42/60)
+
+        t0 = time.time()
+
+        with st.spinner(f"Converting to Relations... Estimated Time: {estimated_time} seconds"):
+
+            st.success("Arguments Converted!")
+            to_relation = ToRelation(arguments)
+            relations = to_relation.extract_relations(to_json=True)
+            t1 = time.time()    
+            print(f"Time taken: {t1 - t0} seconds")
+
+        with st.spinner("Building Argument Framework..."):
+
+            
+
+        

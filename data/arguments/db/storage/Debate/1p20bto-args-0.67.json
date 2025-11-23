@@ -1,0 +1,37 @@
+{
+  "thread_id": "1p20bto",
+  "subreddit": "Debate",
+  "title": "How to open club",
+  "threshold": 0.67,
+  "num_arguments": 4,
+  "arguments": [
+    {
+      "id": "A1",
+      "text": "An individual who is unsure how to establish a new middle school team might not be the most suitable person for that role.",
+      "utterance_id": "U2",
+      "speaker": "S2",
+      "confidence": 0.95
+    },
+    {
+      "id": "A2",
+      "text": "Middle school students differ significantly from high school students in terms of knowledge, skills, focus, and interests, and should not be considered merely \"small high schoolers.\"",
+      "utterance_id": "U2",
+      "speaker": "S2",
+      "confidence": 0.9
+    },
+    {
+      "id": "A3",
+      "text": "Offering services to an existing middle school team is a good way to gain an understanding of what is involved in coaching and what students need.",
+      "utterance_id": "U2",
+      "speaker": "S2",
+      "confidence": 0.9
+    },
+    {
+      "id": "A4",
+      "text": "Connecting with the NY Parli group could simplify the process of starting a middle school parli club in NYC.",
+      "utterance_id": "U3",
+      "speaker": "S3",
+      "confidence": 0.85
+    }
+  ]
+}

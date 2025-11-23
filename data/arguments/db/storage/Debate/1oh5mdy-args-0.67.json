@@ -1,0 +1,380 @@
+{
+  "thread_id": "1oh5mdy",
+  "subreddit": "Debate",
+  "title": "How to deal with disrespectful opponents?",
+  "threshold": 0.67,
+  "num_arguments": 53,
+  "arguments": [
+    {
+      "id": "A1",
+      "text": "Disrespectful behavior from opponents is a common occurrence in Public Forum debate.",
+      "utterance_id": "U2",
+      "speaker": "S2",
+      "confidence": 0.95
+    },
+    {
+      "id": "A2",
+      "text": "Judges are aware of disrespectful behavior during debates.",
+      "utterance_id": "U4",
+      "speaker": "S3",
+      "confidence": 0.9
+    },
+    {
+      "id": "A3",
+      "text": "Judges may mention disrespectful behavior on the ballot, even if the disrespectful opponent wins.",
+      "utterance_id": "U4",
+      "speaker": "S3",
+      "confidence": 0.9
+    },
+    {
+      "id": "A4",
+      "text": "Etiquette is essential to prevent debates from devolving into shouting matches.",
+      "utterance_id": "U6",
+      "speaker": "S4",
+      "confidence": 0.95
+    },
+    {
+      "id": "A5",
+      "text": "Judges will notice and penalize disrespectful behavior from opponents.",
+      "utterance_id": "U7",
+      "speaker": "S5",
+      "confidence": 0.85
+    },
+    {
+      "id": "A6",
+      "text": "Complaining about opponents' ill-discipline to gain a win is generally not viewed positively.",
+      "utterance_id": "U7",
+      "speaker": "S5",
+      "confidence": 0.8
+    },
+    {
+      "id": "A7",
+      "text": "Many teams use confident body language as a strategic tactic.",
+      "utterance_id": "U7",
+      "speaker": "S5",
+      "confidence": 0.75
+    },
+    {
+      "id": "A8",
+      "text": "Calling out an opponent's disrespectful behavior during a debate can appear petty.",
+      "utterance_id": "U8",
+      "speaker": "S6",
+      "confidence": 0.9
+    },
+    {
+      "id": "A9",
+      "text": "Speculating on the reasons for an opponent's dropped point, especially if it involves insults, is not a productive strategy.",
+      "utterance_id": "U8",
+      "speaker": "S6",
+      "confidence": 0.9
+    },
+    {
+      "id": "A10",
+      "text": "Judges do not appreciate petty behavior from debaters.",
+      "utterance_id": "U9",
+      "speaker": "S7",
+      "confidence": 0.9
+    },
+    {
+      "id": "A11",
+      "text": "It is not strategic to respond to disrespectful behavior with similar tactics.",
+      "utterance_id": "U9",
+      "speaker": "S7",
+      "confidence": 0.85
+    },
+    {
+      "id": "A12",
+      "text": "Authentic respect and demonstration of excellence and integrity can be advantageous when opponents behave rudely.",
+      "utterance_id": "U9",
+      "speaker": "S7",
+      "confidence": 0.85
+    },
+    {
+      "id": "A13",
+      "text": "Judges will almost always penalize disrespectful opponents and show more leniency towards respectful debaters.",
+      "utterance_id": "U9",
+      "speaker": "S7",
+      "confidence": 0.8
+    },
+    {
+      "id": "A14",
+      "text": "The effectiveness of directly addressing an opponent's disrespectful behavior can depend on the judge.",
+      "utterance_id": "U10",
+      "speaker": "S5",
+      "confidence": 0.75
+    },
+    {
+      "id": "A15",
+      "text": "It is generally better to err on the side of aggression in debate.",
+      "utterance_id": "U10",
+      "speaker": "S5",
+      "confidence": 0.7
+    },
+    {
+      "id": "A16",
+      "text": "Debate often features over-confident and disrespectful individuals.",
+      "utterance_id": "U12",
+      "speaker": "S8",
+      "confidence": 0.9
+    },
+    {
+      "id": "A17",
+      "text": "Developing the ability to care less about disrespectful behavior is a valuable skill in debate and life.",
+      "utterance_id": "U12",
+      "speaker": "S8",
+      "confidence": 0.85
+    },
+    {
+      "id": "A18",
+      "text": "Judges likely observe disrespectful behavior and may comment on it in their ballots.",
+      "utterance_id": "U12",
+      "speaker": "S8",
+      "confidence": 0.85
+    },
+    {
+      "id": "A19",
+      "text": "Coaches often communicate with each other about student behavior.",
+      "utterance_id": "U12",
+      "speaker": "S8",
+      "confidence": 0.8
+    },
+    {
+      "id": "A20",
+      "text": "Reporting disrespectful behavior to a coach can lead to the coach addressing the issue with their student.",
+      "utterance_id": "U12",
+      "speaker": "S8",
+      "confidence": 0.8
+    },
+    {
+      "id": "A21",
+      "text": "Tournaments are unlikely to change results or disqualify competitors for the described disrespectful behavior.",
+      "utterance_id": "U12",
+      "speaker": "S8",
+      "confidence": 0.75
+    },
+    {
+      "id": "A22",
+      "text": "Judges should observe disrespectful behavior and address it in their ballot for coaches to act upon.",
+      "utterance_id": "U13",
+      "speaker": "S7",
+      "confidence": 0.9
+    },
+    {
+      "id": "A23",
+      "text": "Egregious disrespectful behavior, such as mocking disabilities or personal characteristics, warrants being addressed during the round.",
+      "utterance_id": "U14",
+      "speaker": "S9",
+      "confidence": 0.9
+    },
+    {
+      "id": "A24",
+      "text": "For less severe disrespectful behavior, it is best to remain composed and focus on one's own performance.",
+      "utterance_id": "U14",
+      "speaker": "S9",
+      "confidence": 0.85
+    },
+    {
+      "id": "A25",
+      "text": "It is advisable to address an opponent's inappropriate behavior during the debate, rather than waiting until afterward.",
+      "utterance_id": "U15",
+      "speaker": "S10",
+      "confidence": 0.8
+    },
+    {
+      "id": "A26",
+      "text": "A judge might penalize an opposing team for their behavior if a strong argument is made about it.",
+      "utterance_id": "U15",
+      "speaker": "S10",
+      "confidence": 0.75
+    },
+    {
+      "id": "A27",
+      "text": "A judge would find it difficult to police eye-rolling effectively.",
+      "utterance_id": "U15",
+      "speaker": "S10",
+      "confidence": 0.7
+    },
+    {
+      "id": "A28",
+      "text": "Laughing and interrupting a speech would be viewed very unfavorably by a judge.",
+      "utterance_id": "U15",
+      "speaker": "S10",
+      "confidence": 0.85
+    },
+    {
+      "id": "A29",
+      "text": "Judges should comment on ballots detailing disrespectful behavior and may reduce speaker points for blatant disrespect.",
+      "utterance_id": "U17",
+      "speaker": "S12",
+      "confidence": 0.95
+    },
+    {
+      "id": "A30",
+      "text": "Laughing and rude behavior during a debate is uncomfortable for judges.",
+      "utterance_id": "U17",
+      "speaker": "S12",
+      "confidence": 0.9
+    },
+    {
+      "id": "A31",
+      "text": "Disruptive behavior during a debate warrants intervention between speeches.",
+      "utterance_id": "U17",
+      "speaker": "S12",
+      "confidence": 0.9
+    },
+    {
+      "id": "A32",
+      "text": "Debaters should focus on their arguments rather than engaging in rude behavior.",
+      "utterance_id": "U17",
+      "speaker": "S12",
+      "confidence": 0.85
+    },
+    {
+      "id": "A33",
+      "text": "Mediocre debaters are often the ones who exhibit rude behavior.",
+      "utterance_id": "U17",
+      "speaker": "S12",
+      "confidence": 0.8
+    },
+    {
+      "id": "A34",
+      "text": "Highly intelligent individuals can agree with opponents and then force them into self-contradiction.",
+      "utterance_id": "U19",
+      "speaker": "S14",
+      "confidence": 0.9
+    },
+    {
+      "id": "A35",
+      "text": "Making people who believe they are always right contradict themselves is an effective strategy.",
+      "utterance_id": "U19",
+      "speaker": "S14",
+      "confidence": 0.85
+    },
+    {
+      "id": "A36",
+      "text": "Using logical and coherent questions related to an opponent's flawed argument can generate contradictions.",
+      "utterance_id": "U19",
+      "speaker": "S14",
+      "confidence": 0.8
+    },
+    {
+      "id": "A37",
+      "text": "Debaters should maintain kindness regardless of their opponents' behavior.",
+      "utterance_id": "U21",
+      "speaker": "S16",
+      "confidence": 0.9
+    },
+    {
+      "id": "A38",
+      "text": "Personal attacks in a speech should be addressed by telling the opponent off and informing the judge of the ineffectiveness of such tactics.",
+      "utterance_id": "U21",
+      "speaker": "S16",
+      "confidence": 0.85
+    },
+    {
+      "id": "A39",
+      "text": "Learning to deliver arguments clearly despite opponents' attempts to distract is a valuable skill.",
+      "utterance_id": "U22",
+      "speaker": "S17",
+      "confidence": 0.95
+    },
+    {
+      "id": "A40",
+      "text": "Composure under pressure, such as recovering after blanking during a rebuttal, is a positive trait in a debater.",
+      "utterance_id": "U22",
+      "speaker": "S17",
+      "confidence": 0.9
+    },
+    {
+      "id": "A41",
+      "text": "Teams that resort to disrespectful behavior often do so out of concern for their own position.",
+      "utterance_id": "U22",
+      "speaker": "S17",
+      "confidence": 0.85
+    },
+    {
+      "id": "A42",
+      "text": "Opponents' attempts to put a debater off can be interpreted as a compliment, indicating their concern about the debater's arguments.",
+      "utterance_id": "U22",
+      "speaker": "S17",
+      "confidence": 0.8
+    },
+    {
+      "id": "A43",
+      "text": "Debaters should match the energy of competent opponents.",
+      "utterance_id": "U23",
+      "speaker": "S18",
+      "confidence": 0.75
+    },
+    {
+      "id": "A44",
+      "text": "Pointing out mistakes on the line-by-line and refuting rude behavior as not being an argument are effective tactics.",
+      "utterance_id": "U23",
+      "speaker": "S18",
+      "confidence": 0.8
+    },
+    {
+      "id": "A45",
+      "text": "A coach should be asked to protest to tabroom regarding opponent behavior.",
+      "utterance_id": "U24",
+      "speaker": "S19",
+      "confidence": 0.8
+    },
+    {
+      "id": "A46",
+      "text": "Tabroom cannot overturn a judge's decision or award a win based on perceived rudeness from an opponent.",
+      "utterance_id": "U26",
+      "speaker": "S7",
+      "confidence": 0.95
+    },
+    {
+      "id": "A47",
+      "text": "Coaches or judges may have private conversations with an opposing coach about rude behavior, but not for minor issues like eye-rolling.",
+      "utterance_id": "U26",
+      "speaker": "S7",
+      "confidence": 0.85
+    },
+    {
+      "id": "A48",
+      "text": "Judges typically do not intervene for minor disrespectful behavior from opponents.",
+      "utterance_id": "U27",
+      "speaker": "S20",
+      "confidence": 0.9
+    },
+    {
+      "id": "A49",
+      "text": "Debaters should focus on their own performance rather than being distracted by opponents' behavior.",
+      "utterance_id": "U27",
+      "speaker": "S20",
+      "confidence": 0.85
+    },
+    {
+      "id": "A50",
+      "text": "Tabroom, as the headquarters for a tournament, can investigate rule violations and take actions beyond a judge's authority.",
+      "utterance_id": "U28",
+      "speaker": "S6",
+      "confidence": 0.95
+    },
+    {
+      "id": "A51",
+      "text": "Competitors should typically direct complaints through their coach to tabroom.",
+      "utterance_id": "U28",
+      "speaker": "S6",
+      "confidence": 0.9
+    },
+    {
+      "id": "A52",
+      "text": "Tabroom has the authority to adjust speaker points, award forfeits, reassign participants, or disqualify competitors.",
+      "utterance_id": "U28",
+      "speaker": "S6",
+      "confidence": 0.95
+    },
+    {
+      "id": "A53",
+      "text": "For minor behavioral issues, tabroom would likely issue a verbal reprimand or pass the complaint to the offending team's coach.",
+      "utterance_id": "U28",
+      "speaker": "S6",
+      "confidence": 0.85
+    }
+  ]
+}
