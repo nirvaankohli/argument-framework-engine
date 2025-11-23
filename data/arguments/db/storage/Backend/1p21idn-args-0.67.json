@@ -1,0 +1,786 @@
+{
+  "thread_id": "1p21idn",
+  "subreddit": "Backend",
+  "title": "For experienced backend engineers:",
+  "threshold": 0.67,
+  "num_arguments": 111,
+  "arguments": [
+    {
+      "id": "A1",
+      "text": "C#, Python, JavaScript, and Java have consistently been marketable languages for a long time in the USA.",
+      "utterance_id": "U2",
+      "speaker": "S1",
+      "confidence": 0.95
+    },
+    {
+      "id": "A2",
+      "text": "Go is a good language, but it is not as widely used as C#, Python, JavaScript, or Java.",
+      "utterance_id": "U2",
+      "speaker": "S1",
+      "confidence": 0.9
+    },
+    {
+      "id": "A3",
+      "text": "Good companies and teams prioritize a developer's willingness and excitement to learn new languages over their existing language knowledge.",
+      "utterance_id": "U2",
+      "speaker": "S1",
+      "confidence": 0.85
+    },
+    {
+      "id": "A4",
+      "text": "C# is as capable as other languages for backend development.",
+      "utterance_id": "U2",
+      "speaker": "S1",
+      "confidence": 0.9
+    },
+    {
+      "id": "A5",
+      "text": "LINQ is a killer feature that is missed in other programming languages.",
+      "utterance_id": "U2",
+      "speaker": "S1",
+      "confidence": 0.8
+    },
+    {
+      "id": "A6",
+      "text": "Java is widely used by companies in the local economy.",
+      "utterance_id": "U3",
+      "speaker": "S2",
+      "confidence": 0.9
+    },
+    {
+      "id": "A7",
+      "text": "A Computer Science degree is a requirement for employment in the current economy.",
+      "utterance_id": "U3",
+      "speaker": "S2",
+      "confidence": 0.8
+    },
+    {
+      "id": "A8",
+      "text": "Joining the \"AI\" bandwagon early can lead to financial gain from the hype.",
+      "utterance_id": "U3",
+      "speaker": "S2",
+      "confidence": 0.75
+    },
+    {
+      "id": "A9",
+      "text": "It is not necessary to learn languages other than Java or C# to secure a job.",
+      "utterance_id": "U4",
+      "speaker": "S3",
+      "confidence": 0.85
+    },
+    {
+      "id": "A10",
+      "text": "Kotlin improves developer experience, but not by a significant margin compared to Java or C#.",
+      "utterance_id": "U4",
+      "speaker": "S3",
+      "confidence": 0.75
+    },
+    {
+      "id": "A11",
+      "text": "The reliability and extensive knowledge base of the Java and C# ecosystems outweigh their disadvantages.",
+      "utterance_id": "U4",
+      "speaker": "S3",
+      "confidence": 0.9
+    },
+    {
+      "id": "A12",
+      "text": "Juniors with less than 3 years of experience should not start their learning roadmap with system architecture.",
+      "utterance_id": "U4",
+      "speaker": "S3",
+      "confidence": 0.8
+    },
+    {
+      "id": "A13",
+      "text": "Golang is significantly easier to learn than Java.",
+      "utterance_id": "U4",
+      "speaker": "S3",
+      "confidence": 0.85
+    },
+    {
+      "id": "A14",
+      "text": "There is no compelling reason to choose Golang over Java.",
+      "utterance_id": "U4",
+      "speaker": "S3",
+      "confidence": 0.75
+    },
+    {
+      "id": "A15",
+      "text": "The number of job openings for Golang is small.",
+      "utterance_id": "U4",
+      "speaker": "S3",
+      "confidence": 0.8
+    },
+    {
+      "id": "A16",
+      "text": "Golang jobs require extensive prior experience in the language.",
+      "utterance_id": "U5",
+      "speaker": "S2",
+      "confidence": 0.7
+    },
+    {
+      "id": "A17",
+      "text": "The industry demands 5+ years of experience for Java roles to gain employment.",
+      "utterance_id": "U5",
+      "speaker": "S2",
+      "confidence": 0.75
+    },
+    {
+      "id": "A18",
+      "text": "Java is an industry standard for building enterprise-grade systems.",
+      "utterance_id": "U6",
+      "speaker": "S4",
+      "confidence": 0.9
+    },
+    {
+      "id": "A19",
+      "text": "Employment opportunities for Java developers are abundant.",
+      "utterance_id": "U6",
+      "speaker": "S4",
+      "confidence": 0.85
+    },
+    {
+      "id": "A20",
+      "text": "Java is one of the most powerful programming languages.",
+      "utterance_id": "U6",
+      "speaker": "S4",
+      "confidence": 0.8
+    },
+    {
+      "id": "A21",
+      "text": "Understanding Java concepts allows a developer to write in any other language or runtime with different syntax.",
+      "utterance_id": "U6",
+      "speaker": "S4",
+      "confidence": 0.75
+    },
+    {
+      "id": "A22",
+      "text": "Go's model is more complete than Node.js or PHP, which use VM execution.",
+      "utterance_id": "U7",
+      "speaker": "S5",
+      "confidence": 0.75
+    },
+    {
+      "id": "A23",
+      "text": "Go allows for more functionality at the service level within an application.",
+      "utterance_id": "U7",
+      "speaker": "S5",
+      "confidence": 0.8
+    },
+    {
+      "id": "A24",
+      "text": "Modular systems in Go are performant and reliable.",
+      "utterance_id": "U7",
+      "speaker": "S5",
+      "confidence": 0.85
+    },
+    {
+      "id": "A25",
+      "text": "The need for two runtimes is a drawback of languages where the frontend introduces a Node.js stack.",
+      "utterance_id": "U7",
+      "speaker": "S5",
+      "confidence": 0.7
+    },
+    {
+      "id": "A26",
+      "text": "MVC is the most commonly practiced design pattern.",
+      "utterance_id": "U7",
+      "speaker": "S5",
+      "confidence": 0.8
+    },
+    {
+      "id": "A27",
+      "text": "Go is simple yet powerful.",
+      "utterance_id": "U8",
+      "speaker": "S6",
+      "confidence": 0.9
+    },
+    {
+      "id": "A28",
+      "text": "Strongly typed languages that produce a binary are preferable for backend development.",
+      "utterance_id": "U10",
+      "speaker": "S8",
+      "confidence": 0.85
+    },
+    {
+      "id": "A29",
+      "text": "The appeal of using JavaScript or Python for backend development is not clear.",
+      "utterance_id": "U10",
+      "speaker": "S8",
+      "confidence": 0.7
+    },
+    {
+      "id": "A30",
+      "text": "A binary output makes tools portable and deployable.",
+      "utterance_id": "U10",
+      "speaker": "S8",
+      "confidence": 0.9
+    },
+    {
+      "id": "A31",
+      "text": "The market for Go is niche.",
+      "utterance_id": "U11",
+      "speaker": "S9",
+      "confidence": 0.8
+    },
+    {
+      "id": "A32",
+      "text": "The .NET ecosystem is good.",
+      "utterance_id": "U13",
+      "speaker": "S10",
+      "confidence": 0.85
+    },
+    {
+      "id": "A33",
+      "text": "Kestrel is lightweight, fast, and easy to use.",
+      "utterance_id": "U13",
+      "speaker": "S10",
+      "confidence": 0.9
+    },
+    {
+      "id": "A34",
+      "text": "C# is as capable as other languages for backend development.",
+      "utterance_id": "U14",
+      "speaker": "S1",
+      "confidence": 0.9
+    },
+    {
+      "id": "A35",
+      "text": "LINQ is a killer feature that is missed in other programming languages.",
+      "utterance_id": "U14",
+      "speaker": "S1",
+      "confidence": 0.8
+    },
+    {
+      "id": "A36",
+      "text": "C# is a good language.",
+      "utterance_id": "U15",
+      "speaker": "S8",
+      "confidence": 0.75
+    },
+    {
+      "id": "A37",
+      "text": "C# allows developers to write complex code to appear intelligent.",
+      "utterance_id": "U15",
+      "speaker": "S8",
+      "confidence": 0.7
+    },
+    {
+      "id": "A38",
+      "text": "Go is easier to maintain in the long run due to its simplicity.",
+      "utterance_id": "U15",
+      "speaker": "S8",
+      "confidence": 0.85
+    },
+    {
+      "id": "A39",
+      "text": "A drawback of C# is that developers tend to over-complicate applications by incorporating many enterprise design patterns.",
+      "utterance_id": "U16",
+      "speaker": "S11",
+      "confidence": 0.85
+    },
+    {
+      "id": "A40",
+      "text": "The tendency to over-complicate applications with design patterns is common in any general-purpose, object-oriented language, not just C#.",
+      "utterance_id": "U17",
+      "speaker": "S1",
+      "confidence": 0.9
+    },
+    {
+      "id": "A41",
+      "text": "It is not mandatory to use the MVC pattern with .NET.",
+      "utterance_id": "U19",
+      "speaker": "S10",
+      "confidence": 0.9
+    },
+    {
+      "id": "A42",
+      "text": "Java has an evergreen and stable ecosystem.",
+      "utterance_id": "U20",
+      "speaker": "S13",
+      "confidence": 0.85
+    },
+    {
+      "id": "A43",
+      "text": "Typescript is suitable for backend development.",
+      "utterance_id": "U23",
+      "speaker": "S16",
+      "confidence": 0.8
+    },
+    {
+      "id": "A44",
+      "text": "With sufficient exposure, a developer can build applications in any language.",
+      "utterance_id": "U23",
+      "speaker": "S16",
+      "confidence": 0.85
+    },
+    {
+      "id": "A45",
+      "text": "Go is a fun language to write applications with.",
+      "utterance_id": "U25",
+      "speaker": "S18",
+      "confidence": 0.8
+    },
+    {
+      "id": "A46",
+      "text": "Go developers generally earn more than Python developers.",
+      "utterance_id": "U25",
+      "speaker": "S18",
+      "confidence": 0.85
+    },
+    {
+      "id": "A47",
+      "text": "Go developers are more likely to find good jobs.",
+      "utterance_id": "U25",
+      "speaker": "S18",
+      "confidence": 0.8
+    },
+    {
+      "id": "A48",
+      "text": "Go appears to be a robust backend language.",
+      "utterance_id": "U26",
+      "speaker": "S19",
+      "confidence": 0.8
+    },
+    {
+      "id": "A49",
+      "text": "Python has many job openings.",
+      "utterance_id": "U28",
+      "speaker": "S19",
+      "confidence": 0.85
+    },
+    {
+      "id": "A50",
+      "text": "Go is likely a harder entry point into the job market.",
+      "utterance_id": "U28",
+      "speaker": "S19",
+      "confidence": 0.75
+    },
+    {
+      "id": "A51",
+      "text": "Go offers great long-term opportunities.",
+      "utterance_id": "U28",
+      "speaker": "S19",
+      "confidence": 0.8
+    },
+    {
+      "id": "A52",
+      "text": "A developer will likely be successful with Python, TypeScript, or Go.",
+      "utterance_id": "U28",
+      "speaker": "S19",
+      "confidence": 0.8
+    },
+    {
+      "id": "A53",
+      "text": "Choosing Python was the right language choice.",
+      "utterance_id": "U29",
+      "speaker": "S20",
+      "confidence": 0.9
+    },
+    {
+      "id": "A54",
+      "text": "Not focusing on machine learning earlier is a regret.",
+      "utterance_id": "U29",
+      "speaker": "S20",
+      "confidence": 0.9
+    },
+    {
+      "id": "A55",
+      "text": "Python with FastAPI and Postgres would be the choice for quickly relearning and landing a job.",
+      "utterance_id": "U30",
+      "speaker": "S21",
+      "confidence": 0.9
+    },
+    {
+      "id": "A56",
+      "text": "Python is very easy to master.",
+      "utterance_id": "U30",
+      "speaker": "S21",
+      "confidence": 0.95
+    },
+    {
+      "id": "A57",
+      "text": "FastAPI has the same abstractions as Spring/AspMvc.",
+      "utterance_id": "U30",
+      "speaker": "S21",
+      "confidence": 0.9
+    },
+    {
+      "id": "A58",
+      "text": "Django can be a hodgepodge of weirdness due to its long existence.",
+      "utterance_id": "U30",
+      "speaker": "S21",
+      "confidence": 0.85
+    },
+    {
+      "id": "A59",
+      "text": "Mastering Python/FastAPI provides 80% of the capabilities of Java and .NET development.",
+      "utterance_id": "U30",
+      "speaker": "S21",
+      "confidence": 0.8
+    },
+    {
+      "id": "A60",
+      "text": "More time should have been spent on Java or C++.",
+      "utterance_id": "U31",
+      "speaker": "S22",
+      "confidence": 0.9
+    },
+    {
+      "id": "A61",
+      "text": "Backend and low-level development are more appealing than web development.",
+      "utterance_id": "U31",
+      "speaker": "S22",
+      "confidence": 0.9
+    },
+    {
+      "id": "A62",
+      "text": "Typescript is a suitable choice for both frontend and backend development.",
+      "utterance_id": "U32",
+      "speaker": "S23",
+      "confidence": 0.8
+    },
+    {
+      "id": "A63",
+      "text": "Java is suitable for job-related tasks.",
+      "utterance_id": "U33",
+      "speaker": "S24",
+      "confidence": 0.9
+    },
+    {
+      "id": "A64",
+      "text": "Rust is suitable for all development tools and hobby projects.",
+      "utterance_id": "U33",
+      "speaker": "S24",
+      "confidence": 0.9
+    },
+    {
+      "id": "A65",
+      "text": "The previous answer is the perfect answer.",
+      "utterance_id": "U34",
+      "speaker": "S25",
+      "confidence": 0.8
+    },
+    {
+      "id": "A66",
+      "text": "Starting a business earlier in one's career would have been beneficial.",
+      "utterance_id": "U35",
+      "speaker": "S26",
+      "confidence": 0.9
+    },
+    {
+      "id": "A67",
+      "text": "Scala is a language worth choosing.",
+      "utterance_id": "U36",
+      "speaker": "S27",
+      "confidence": 0.8
+    },
+    {
+      "id": "A68",
+      "text": "Scala and its effects systems, such as the ZIO stack, are impressive.",
+      "utterance_id": "U36",
+      "speaker": "S27",
+      "confidence": 0.9
+    },
+    {
+      "id": "A69",
+      "text": "Statically typed functional languages are enjoyable.",
+      "utterance_id": "U36",
+      "speaker": "S27",
+      "confidence": 0.9
+    },
+    {
+      "id": "A70",
+      "text": "Scala benefits from running on the JVM, providing access to Java's libraries.",
+      "utterance_id": "U36",
+      "speaker": "S27",
+      "confidence": 0.95
+    },
+    {
+      "id": "A71",
+      "text": "Scala is a dying language.",
+      "utterance_id": "U37",
+      "speaker": "S28",
+      "confidence": 0.95
+    },
+    {
+      "id": "A72",
+      "text": "Java with extra steps was not destined for long-term success.",
+      "utterance_id": "U38",
+      "speaker": "S8",
+      "confidence": 0.85
+    },
+    {
+      "id": "A73",
+      "text": "Monads seem like a good idea.",
+      "utterance_id": "U39",
+      "speaker": "S28",
+      "confidence": 0.8
+    },
+    {
+      "id": "A74",
+      "text": "Monad chains create ugly and messy stack traces when exceptions are thrown.",
+      "utterance_id": "U39",
+      "speaker": "S28",
+      "confidence": 0.85
+    },
+    {
+      "id": "A75",
+      "text": "It is difficult to find Scala engineers or train someone in Scala.",
+      "utterance_id": "U40",
+      "speaker": "S27",
+      "confidence": 0.9
+    },
+    {
+      "id": "A76",
+      "text": "Scala is a very tough language to master.",
+      "utterance_id": "U41",
+      "speaker": "S28",
+      "confidence": 0.95
+    },
+    {
+      "id": "A77",
+      "text": "Scala is an amazing language.",
+      "utterance_id": "U42",
+      "speaker": "S29",
+      "confidence": 0.9
+    },
+    {
+      "id": "A78",
+      "text": "The market for Scala is tough and barely alive.",
+      "utterance_id": "U42",
+      "speaker": "S29",
+      "confidence": 0.95
+    },
+    {
+      "id": "A79",
+      "text": "Java or Go would be preferable choices over Scala.",
+      "utterance_id": "U42",
+      "speaker": "S29",
+      "confidence": 0.85
+    },
+    {
+      "id": "A80",
+      "text": "Go is a cool language.",
+      "utterance_id": "U43",
+      "speaker": "S27",
+      "confidence": 0.85
+    },
+    {
+      "id": "A81",
+      "text": "Go's type system is rather simple.",
+      "utterance_id": "U43",
+      "speaker": "S27",
+      "confidence": 0.85
+    },
+    {
+      "id": "A82",
+      "text": "Java or Kotlin would be preferable choices.",
+      "utterance_id": "U43",
+      "speaker": "S27",
+      "confidence": 0.85
+    },
+    {
+      "id": "A83",
+      "text": "Kotlin surpassed Scala a long time ago.",
+      "utterance_id": "U44",
+      "speaker": "S30",
+      "confidence": 0.85
+    },
+    {
+      "id": "A84",
+      "text": "Scala is a dying language.",
+      "utterance_id": "U45",
+      "speaker": "S27",
+      "confidence": 0.9
+    },
+    {
+      "id": "A85",
+      "text": "Kotlin would be the preferred choice.",
+      "utterance_id": "U45",
+      "speaker": "S27",
+      "confidence": 0.85
+    },
+    {
+      "id": "A86",
+      "text": "C provides a pure low-level understanding.",
+      "utterance_id": "U47",
+      "speaker": "S32",
+      "confidence": 0.9
+    },
+    {
+      "id": "A87",
+      "text": "Go allows for implementing low-level understanding without headaches and offers broad hireability.",
+      "utterance_id": "U47",
+      "speaker": "S32",
+      "confidence": 0.9
+    },
+    {
+      "id": "A88",
+      "text": "Rust or Go are good choices because AI is currently a major trend.",
+      "utterance_id": "U48",
+      "speaker": "S33",
+      "confidence": 0.8
+    },
+    {
+      "id": "A89",
+      "text": "TypeScript has good language ergonomics.",
+      "utterance_id": "U49",
+      "speaker": "S34",
+      "confidence": 0.8
+    },
+    {
+      "id": "A90",
+      "text": "Job prospects for TS/Node backends look good.",
+      "utterance_id": "U49",
+      "speaker": "S34",
+      "confidence": 0.85
+    },
+    {
+      "id": "A91",
+      "text": "Golang is the best backend option due to its features.",
+      "utterance_id": "U50",
+      "speaker": "S35",
+      "confidence": 0.9
+    },
+    {
+      "id": "A92",
+      "text": "Go is insanely fast to compile.",
+      "utterance_id": "U50",
+      "speaker": "S35",
+      "confidence": 0.95
+    },
+    {
+      "id": "A93",
+      "text": "Go has very good frameworks, ranging from small/fast to robust/large.",
+      "utterance_id": "U50",
+      "speaker": "S35",
+      "confidence": 0.9
+    },
+    {
+      "id": "A94",
+      "text": "Go's threading and ability to handle huge volumes of requests are unmatched.",
+      "utterance_id": "U50",
+      "speaker": "S35",
+      "confidence": 0.9
+    },
+    {
+      "id": "A95",
+      "text": "Go's binaries can be run instantly or wrapped in Docker containers.",
+      "utterance_id": "U50",
+      "speaker": "S35",
+      "confidence": 0.95
+    },
+    {
+      "id": "A96",
+      "text": "The onboarding and learning speed for Go are exceptional.",
+      "utterance_id": "U50",
+      "speaker": "S35",
+      "confidence": 0.9
+    },
+    {
+      "id": "A97",
+      "text": "Go is the easiest and fastest language to learn due to its 25 keywords and single way of doing things.",
+      "utterance_id": "U50",
+      "speaker": "S35",
+      "confidence": 0.9
+    },
+    {
+      "id": "A98",
+      "text": "Go's verbose error handling is easy to implement with IDE features and valuable for detailed error information.",
+      "utterance_id": "U50",
+      "speaker": "S35",
+      "confidence": 0.9
+    },
+    {
+      "id": "A99",
+      "text": "Java's try/catch mechanism can lead to unhandled errors or ignored crucial issues.",
+      "utterance_id": "U50",
+      "speaker": "S35",
+      "confidence": 0.85
+    },
+    {
+      "id": "A100",
+      "text": "Go's plainness makes maintenance easier.",
+      "utterance_id": "U51",
+      "speaker": "S8",
+      "confidence": 0.95
+    },
+    {
+      "id": "A101",
+      "text": "Go is easy to read and build without much fluff, which helps with long-term projects with many contributors.",
+      "utterance_id": "U51",
+      "speaker": "S8",
+      "confidence": 0.9
+    },
+    {
+      "id": "A102",
+      "text": "Frontend developers often write code with endless abstractions and fancy one-liners.",
+      "utterance_id": "U51",
+      "speaker": "S8",
+      "confidence": 0.85
+    },
+    {
+      "id": "A103",
+      "text": "Go discourages and sometimes prevents complex coding styles.",
+      "utterance_id": "U51",
+      "speaker": "S8",
+      "confidence": 0.9
+    },
+    {
+      "id": "A104",
+      "text": "Go is easy to work with.",
+      "utterance_id": "U51",
+      "speaker": "S8",
+      "confidence": 0.95
+    },
+    {
+      "id": "A105",
+      "text": "Code is a liability, not an asset.",
+      "utterance_id": "U51",
+      "speaker": "S8",
+      "confidence": 0.85
+    },
+    {
+      "id": "A106",
+      "text": "Plain, working code is the best option, only surpassed by deleting code.",
+      "utterance_id": "U51",
+      "speaker": "S8",
+      "confidence": 0.9
+    },
+    {
+      "id": "A107",
+      "text": "Laravel was genuinely fun and interesting to learn.",
+      "utterance_id": "U53",
+      "speaker": "S37",
+      "confidence": 0.9
+    },
+    {
+      "id": "A108",
+      "text": "The community around Laravel is very active.",
+      "utterance_id": "U53",
+      "speaker": "S37",
+      "confidence": 0.95
+    },
+    {
+      "id": "A109",
+      "text": "Laravel is incredibly efficient for creating MVPs and iterating on projects.",
+      "utterance_id": "U53",
+      "speaker": "S37",
+      "confidence": 0.9
+    },
+    {
+      "id": "A110",
+      "text": "Rust has fewer memory issues in production.",
+      "utterance_id": "U54",
+      "speaker": "S38",
+      "confidence": 0.9
+    },
+    {
+      "id": "A111",
+      "text": "Rust might offer more opportunities to create worse memory problems.",
+      "utterance_id": "U55",
+      "speaker": "S39",
+      "confidence": 0.8
+    }
+  ]
+}

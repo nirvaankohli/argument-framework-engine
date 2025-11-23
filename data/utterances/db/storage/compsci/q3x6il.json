@@ -1,0 +1,255 @@
+{
+  "thread_id": "q3x6il",
+  "subreddit": "compsci",
+  "title": "Starting a CS Club in Highschool",
+  "utterances": [
+    {
+      "id": "U1",
+      "speaker_id": "S1",
+      "parent_id": null,
+      "author": "obvslynot",
+      "text": "Starting a CS Club in Highschool\n\nI\u2019m considering starting a computer science club at my highschool as I am deeply passionate about the subject and I\u2019d like to get my school\u2019s students to know about all of the possibilities in the field, and maybe even teach them a language and work on projects together. I was wondering if anyone here has any suggestions on how i could successfully introduce Computer Science to them and really capture its beauty.",
+      "depth": 0
+    },
+    {
+      "id": "U2",
+      "speaker_id": "S2",
+      "parent_id": "U1",
+      "author": "pablos4pandas",
+      "text": "Robotics clubs seems to be a good avenue for this. It provides a lot of structure, which is valuable without extensive experience as an educator. It also allows you to participate in competitions and interact with other students your age interested in the same subject.",
+      "depth": 1
+    },
+    {
+      "id": "U3",
+      "speaker_id": "S3",
+      "parent_id": "U2",
+      "author": "MrAcurite",
+      "text": "Problem with robotics is that you need hardware, or cash for hardware, and that can be difficult to manage for a couple high school kids to scrape together, especially if they know they might break shit. I'd recommend sticking with programming for the moment, because they can do that on their laptops pretty easily.",
+      "depth": 2
+    },
+    {
+      "id": "U4",
+      "speaker_id": "S4",
+      "parent_id": "U3",
+      "author": "Zestyclose_Cake_5644",
+      "text": "My school have a Robotics club and Robotics afternoon activity that meets in the fall and winter every weekday. The main challenges, I would say, is to gain knowledge on the hardware side. Robotics is very focused on hardware. As the only software guy in the team, I have to always make changes and compromises based on design and build. Software is always the bottom of the food chain in a robotics team. It is not a bad thing, I am just here to emphasize how software is not the paramount focus of robotics.",
+      "depth": 3
+    },
+    {
+      "id": "U5",
+      "speaker_id": "S5",
+      "parent_id": "U3",
+      "author": "jamesdanger-",
+      "text": "I mean basically all robotic programs are funded by local company\u2019s, so it\u2019s not out of pocket, and you have at least two teachers/adult leaders around. The robotics program is an amazing avenue that opens up kids minds about comp sci and engineering at the same time. I wouldn\u2019t shy away from this at all.",
+      "depth": 3
+    },
+    {
+      "id": "U6",
+      "speaker_id": "S3",
+      "parent_id": "U5",
+      "author": "MrAcurite",
+      "text": "Who says this kid is in an area of the country/world with companies capable of and interested in funding some high school roboticists?",
+      "depth": 4
+    },
+    {
+      "id": "U7",
+      "speaker_id": "S1",
+      "parent_id": "U6",
+      "author": "obvslynot",
+      "text": "Yeah, unfortunately there arent any of those in my country.",
+      "depth": 5
+    },
+    {
+      "id": "U8",
+      "speaker_id": "S6",
+      "parent_id": "U2",
+      "author": "spinwizard69",
+      "text": "A little more concise than my ramble.   In any event a club like this has huge advantages even for the student interested in coding.    The reason is simple it exposes him to other disciplines and how his coding interacts with such.   Robotics while still a focused niche does open up the student to electronics, mechanics and the interoperation of those with coding.\n\nStill I'd like to see even step back from such in pre college schooling to exposing students to creating hands on.    Be that in an art class / club or a shop class type setting.   It isn't like the shop classes of the 1960's and 1970's where there to hatch out machinists or carpenters, it is rather the development of the part of the brain that invokes using the hands and body to make something.   It is the tying of concepts that one might learn in trigonometry class to the real world.    Robotics, 3D printing and such are fine but they are not a substitute for learning how wood cuts, paint flows or metal grinds under the direction of human power.\n\nIn the end I'm not sure at the high school level having a highly focused club like a computer club really does the student a favor.",
+      "depth": 2
+    },
+    {
+      "id": "U9",
+      "speaker_id": "S7",
+      "parent_id": "U1",
+      "author": "bung_plug",
+      "text": "My plan for a CS club would use a simple video game platform to introduce new members to the basics of computing (logic, objects, etc.)\n\nThen, from there, we can explore different topics.\n\nOne important consideration is that I think students lose interest in computing when they realize it\u2019s just math dressed up as a computer in a lot of cases. I think that a web/app project wouldn\u2019t need to include much math, but most students want to know about artificial intelligence and machine learning. Idk how to handle this, but it may be helpful to poll students interested. Perhaps have a list of \u201cprojects\u201d or topics that they can vote for: \nEx. E-commerce, video game logic, UX/UI, etc.",
+      "depth": 1
+    },
+    {
+      "id": "U10",
+      "speaker_id": "S8",
+      "parent_id": "U1",
+      "author": "Miseryy",
+      "text": "Are you interested in CS, or interested in coding? They aren't the same thing, but do have overlap.\n\nIf it's coding, start a coding club. Code stuff up, doesn't really matter what. Make android apps and split the profit or something.\n\nIf it's actual CS, start an algorithms club. I started an Algorithms &amp; Interview Prep club @ my undergrad institution and it was pretty fun.",
+      "depth": 1
+    },
+    {
+      "id": "U11",
+      "speaker_id": "S1",
+      "parent_id": "U10",
+      "author": "obvslynot",
+      "text": "I am aware of the difference between the two. The way I currently see it is that programming is a method used in CS to solve algorithms. What kind of activities did you hold at your algorithm club?",
+      "depth": 2
+    },
+    {
+      "id": "U12",
+      "speaker_id": "S8",
+      "parent_id": "U11",
+      "author": "Miseryy",
+      "text": "We did a few things\n\n* Common algorithms that everyone should know, and some interview-like questions that use them. This can be stuff like sorting, binary search, or intro level dynamic programming\n\n* Data structures. We covered quite a few and I always tried to give a problem to solve with the data structure. For example, if we learn about min heap, then I had a problem that used min heap in optimal solution\n\n* Hard problems if I felt like it could be useful",
+      "depth": 3
+    },
+    {
+      "id": "U13",
+      "speaker_id": null,
+      "parent_id": "U11",
+      "author": "[deleted]",
+      "text": "It's not a method used to solve algorithms, programming, if anything, limits our ability in developing algorithms. Programming in computer science is equivalent to using symbols in maths - they're simply a means to an end , we don't actually care about them and they don't actually matter. By programming getting in the way of algorithms I mean we develop algorithms with the time required in mind - this often requires doing something in parallel or asynchronously which is a nightmare in programming and sometimes not possible and algorithms have to change to fit with the capabilities of programming languages.",
+      "depth": 3
+    },
+    {
+      "id": "U14",
+      "speaker_id": "S9",
+      "parent_id": "U1",
+      "author": "flame_wizard",
+      "text": "Hi! I can speak from experience on this. When I was in high school I started a coding club. Btw this is a great idea!\n\nFirst off, there may be some requirements to starting a club, you may need a 5 signature roster and to find a taecher to supervise meetings. If theres a techer who knows programming, try to get them to sponsor your club. You will also need to find a classroom for your meetings, definitely one with computers you can use. You will need to meet with your school's principal for logistics. You might also have to meet with someone from the school's IT department to get any dev environments, text editors, game engines, and any other software in that room set up. School IT departments are finnicky so make sure this is one of the first things you talk about with the principal. I was lucky and we even got a club website on the school's network. We lost access at some point though cuz they changed some stuff up in IT. Just sayin' if you can get a club site that could be a really cool club project for more trusted members to work on.\n\nA bunch of flyers, advertised snacks at an interest meeting, getting a shoutout in morning announcements/school paper, and trying to get shoutouts from teachers in programming-related and math classes will get people to an interest meeting easy.\n\nLogistical advice out of the way,\n\nI'd recommend starting with web development. All you need on thr computers is a web browser, access to local storage, and a text editor, and you can do web dev tutorials for a while. Start out with general intro to the technologies, then HTML, then CSS, then basic javascript, thrn more advanced javascrript, and have everyone make their own personalized site along the way as they follow the tutorials. One mistake I made was not preparing enough for the meetings.\n\nAfter members have some basic programming knowledge, i'd try to do game development. Getting a game engine like Unity or godot setup on computers may require some back and forths with administration, and may not be possible but trust me, most people who join will want to make games. I highly reccomend Godot. It is a lot easier to use for 2D games, but on the other hand you might find some people have already dabbled in unity or gamemaker so ask around. And ultimately its up to admin what software they put in labs/classrooms. Do some tutorials on the engine, minimum vaible products, and game design and then have them get in groups and make games. You could make it some sort of competition, like give em a month or 2 to work on it and find some judges.\n\ngood luck!",
+      "depth": 1
+    },
+    {
+      "id": "U15",
+      "speaker_id": "S1",
+      "parent_id": "U14",
+      "author": "obvslynot",
+      "text": "Thank you so much for your advice! Web dev is something I want to learn, as well as teach in the club. Unfortunately as I currently only know java basics, I don\u2019t have any experience in web in order to make something out of it in the club. Creating a website for the club is something I want to achieve though, so how do you recommend for me to go about the web dev stuff without me having background knowledge?",
+      "depth": 2
+    },
+    {
+      "id": "U16",
+      "speaker_id": "S9",
+      "parent_id": "U15",
+      "author": "flame_wizard",
+      "text": "I recommend using https://www.w3schools.com/ and making a portfolio site as you learn. First structure it in HTML, then add some style in CsS, then add some js to add tabs, buttons, effects, and anything you would have normally written in java. Over time improve this site as you learn better practice. If you want to learn how to get it on the internet, this is a later step and you can setup something through a hosting service (~120$/year) or just get up a domain name (~12$/year and follow a tutorial on how to set up a server on a raspberry pi and get it connected. Connecting it to the internet is not a necessary step to learn, but it can be cool to have as something u can drop on college apps or job applications in a few years\n\non another note,\nIt may be a challenge to get a java environment setup and working through a computer lab, but if you can that may be a better option as you already have some experience",
+      "depth": 3
+    },
+    {
+      "id": "U17",
+      "speaker_id": "S10",
+      "parent_id": "U1",
+      "author": "iLaysChipz",
+      "text": "If you can get together with teachers from other high schools, maybe you could make it a competition based club? Those always attracted a decent amount of students every year when I was in high school. Although I'd probably limit it to HTML and javascript, or if you have a budget than maybe Arduino with micro controllers.\n\nAlternatively, you could start a game dev club for aspiring coders. Game maker and Adobe Flash are how I personally got a start learning the syntax of programming languages.\n\nFinally as a third option, maybe check out [https://codesignal.com/](https://app.codesignal.com/arcade). Their arcade mode starts off with very simple programming tasks that seem like they would be very good for teaching novice coders. You can even change the language in the top right of each challenge if you have a specific language you want to teach",
+      "depth": 1
+    },
+    {
+      "id": "U18",
+      "speaker_id": "S11",
+      "parent_id": "U1",
+      "author": "BigDickThinkerPrez",
+      "text": "Check out USACO.",
+      "depth": 1
+    },
+    {
+      "id": "U19",
+      "speaker_id": "S1",
+      "parent_id": "U18",
+      "author": "obvslynot",
+      "text": "Unfortunately I dont reside in the US",
+      "depth": 2
+    },
+    {
+      "id": "U20",
+      "speaker_id": "S11",
+      "parent_id": "U19",
+      "author": "BigDickThinkerPrez",
+      "text": "You can still do codeforces",
+      "depth": 3
+    },
+    {
+      "id": "U21",
+      "speaker_id": "S6",
+      "parent_id": "U1",
+      "author": "spinwizard69",
+      "text": "You tell us nothing about your school its location nor your relationship with it.    Are you a student, teacher or a third party it makes a difference.\n\nBeyond that I'm not sure you will have a bunch of students flocking to such a club.    Frankly back when I was student personal computers where just becoming a thing and even then I couldn't imagine wasting time in a computer club.   I spent a lot of time back then reading Byte, Dr. Dobbs and other publications due to no resources in the way of hardware.    Even today hardware is expensive for the average student so I don't see a club working out well unless you are in a very affluent region.\n\nHonestly these days I really think the students need and would want a modern shop class / club.    In this context you would expose students to all sorts of technologies involved in the making of things.    Each student would be able to focus on his personal interests.   One could do CAD work, another work on programming and a third painting.    You get the idea but the idea, which is a club that is less well focused would bring in more students and thus a greater public interest (support).    Some schools have focused a bit on 3D printing but to my mind that is still too narrow of a niche.\n\nNow you may say there is no point in shop type classes / clubs in schools anymore.   However I'd say you are wrong based on personal experience in the engineering and support fields.   Often we have young people coming into the business that have no hands on beyond what they where taught in school in a very focused manner.     That is you can have a computer science graduate that doesn't have a clue about how machines work and have never actually created anything, not even out of a block of wood nor pencil on paper.    Such people have a hard time in the real world where they have to interact with a whole bunch of other skill sets.   \n\nSo what I'm saying here is that such clubs actually do high school students a huge disfavor.   Instead of a well rounded education that sets them up for life in college or the work force the community is left with students that are so narrowly capable they might as well be imbeciles.    The lack of focus on students exposure to new things just leads to far less capable humans after graduation.    Things like art class, shop class and other less than mainstream classes isn't about training people to be artists, machinist nor plumbers it is about development of the brain.   It is about tying the math and physics one should be learning in your mainstream classes to the real world.\n\nI'm rambling right now because locally we have been having huge troubles getting new people into the more advanced trades.   You literally get people with no comprehension about how things work.",
+      "depth": 1
+    },
+    {
+      "id": "U22",
+      "speaker_id": "S12",
+      "parent_id": "U21",
+      "author": "Cefiroth",
+      "text": "This is the most old aged, gate keepy answer possible. You couldn't be more wrong about everything. Why would you bring people together for a club just to separate them on different interests? And you have clearly never heard of a raspberry pi.\n\nThat's what i would do by the way. I have seen people make arcade cabinets using raspberry pi that has every console/game on it. Setting it up would be a good introduction to a lot of programming things as well as the payout being them creating their own gaming system. This way you bring people together on common interests (computer science, programming, video games), you learn both hardware and software and how to set them up, and they get to take home a physical device that has use (can play older video games and can be reset/changed for so many other tasks).",
+      "depth": 2
+    },
+    {
+      "id": "U23",
+      "speaker_id": "S6",
+      "parent_id": "U22",
+      "author": "spinwizard69",
+      "text": "The idea isn't to separate people but to bring them together.   The very idea of a computer club separates people, I'm not sure how you could think otherwise.    On the other hand a robotics club, and similar clubs, brings a bunch of people together with varying interests.\n\nAs for Raspberry PI I've most certainly heard of them and dozens of other similar cards and they have there problems in a public school.    Beyond that there is a cost issue.   At least a robotics club offers the opportunity to get donations.\n\nIt is funny that you bring arcade gaming cabinets as these highlight exactly what I'm talking about which is the creation of things and in the process developing multiple skills or at the very least exposing the student to things outside of computer science.    I'm not expecting the student to go into the trade of making gaining cabinets just to expose the student to other skills.   Gluing a cabinet together, soldering up some wires, installing electronics and what ever else is required to do a console is much more than a narrowly focused computer club where all you do is hack code.    \n\nIn a nut shell I really think it is deplorable that we pigeon hole students so early in the primary school career.    It really does seem like schools in general have gotten worse in this regard and don't expose students to all the possibilities out there.   There is even good reason to get students to operate outside of their comfort zone in high schools which is why we have mandatory classes.   If anything we need more diversity in those mandatory classes.",
+      "depth": 3
+    },
+    {
+      "id": "U24",
+      "speaker_id": "S12",
+      "parent_id": "U23",
+      "author": "Cefiroth",
+      "text": "How is a robotics club broader than computer science? And if you can get funds for that, then why couldn't you for anything else? \n\nAre you just trolling or are you too old to think about how much of future technology is going to be driven by todays students. The younger we can teach them computer science the better. Literally everyone interacts with computers on a daily basis. \n\nAlso, Im pretty sure all colleges now require an introductory computer science class as a general course anyway so its way more practical to set them up for that.",
+      "depth": 4
+    },
+    {
+      "id": "U25",
+      "speaker_id": "S6",
+      "parent_id": "U24",
+      "author": "spinwizard69",
+      "text": "&gt;How is a robotics club broader than computer science? \n\nYou can't be serious with that question.   I will give you the benefit of the doubt though and just highlight that many engineering and mathematic disciplines go into robotics.",
+      "depth": 5
+    },
+    {
+      "id": "U26",
+      "speaker_id": "S12",
+      "parent_id": "U25",
+      "author": "Cefiroth",
+      "text": "Good luck finding students to be interested in learning about engineering and mathematics when instead they could learn how to build and program their own device that plays any game they want and can do literally anything else they can think of. At some point you have to look at it from their point of view and adapt to their world instead of forcing them into yours. They are the world's future leaders and we have teach them to be. If everything they are told they should do is boring to them, they arent going to want to do it. Instead we have inject the ideas and philosophies that will help them the most into things they actually want to do. That's all I'm proposing",
+      "depth": 6
+    },
+    {
+      "id": "U27",
+      "speaker_id": "S13",
+      "parent_id": "U1",
+      "author": "t_h_o_m_a_s_1",
+      "text": "Robocode is a fun way to start programming, certainly if you already know a bit of java:\n\nhttps://robowiki.net/wiki/Robocode\n\nThis is purely a software game, no actual robot building skills needed.",
+      "depth": 1
+    },
+    {
+      "id": "U28",
+      "speaker_id": "S14",
+      "parent_id": "U1",
+      "author": "highaltitudewrangler",
+      "text": "There\u2019s lots of great curriculum out there that is free and could be used to get started.  Code.org, Khan Academy, CodeHS.  It would be cool to get some microcontrollers like Arduinos going for kids to see the connection between engineering, creativity and CS.  Raspberry Pis are computers that come with Python and other resources to learn coding, lots of DIY projects.  If internet is spotty, Raspberry Pis can be used to code without internet.  There\u2019s also App Inventor for kids to learn how to make apps. Lots of options these days that most professional CS folks never saw growing up.",
+      "depth": 1
+    },
+    {
+      "id": "U29",
+      "speaker_id": "S15",
+      "parent_id": "U1",
+      "author": "BuyingAcclaim",
+      "text": "Don\u2019t just give them khan academy assignments or some dumb website, actually teach them by hand if you\u2019re going to teach them a language.",
+      "depth": 1
+    },
+    {
+      "id": "U30",
+      "speaker_id": "S16",
+      "parent_id": "U1",
+      "author": "rchaudhary",
+      "text": "I would suggest starting a chapter of [Hack Club](https://hackclub.com/) at your highschool.",
+      "depth": 1
+    },
+    {
+      "id": "U31",
+      "speaker_id": "S17",
+      "parent_id": "U1",
+      "author": "codeobserver",
+      "text": "Check out [codeguppy.com](https://codeguppy.com) \\- it is a free coding platform that contains tons of projects that you can use in your curriculum.",
+      "depth": 1
+    }
+  ]
+}

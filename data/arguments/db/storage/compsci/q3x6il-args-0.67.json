@@ -1,0 +1,429 @@
+{
+  "thread_id": "q3x6il",
+  "subreddit": "compsci",
+  "title": "Starting a CS Club in Highschool",
+  "threshold": 0.67,
+  "num_arguments": 60,
+  "arguments": [
+    {
+      "id": "A1",
+      "text": "Robotics clubs are a good avenue for introducing computer science to students.",
+      "utterance_id": "U2",
+      "speaker": "S2",
+      "confidence": 0.95
+    },
+    {
+      "id": "A2",
+      "text": "Robotics clubs provide structure for educators without extensive experience.",
+      "utterance_id": "U2",
+      "speaker": "S2",
+      "confidence": 0.9
+    },
+    {
+      "id": "A3",
+      "text": "Robotics clubs require hardware or funding for hardware, which can be difficult for high school students to acquire.",
+      "utterance_id": "U3",
+      "speaker": "S3",
+      "confidence": 0.95
+    },
+    {
+      "id": "A4",
+      "text": "It is advisable to stick with programming for a computer science club, as it can be done easily on laptops.",
+      "utterance_id": "U3",
+      "speaker": "S3",
+      "confidence": 0.85
+    },
+    {
+      "id": "A5",
+      "text": "Gaining knowledge on the hardware side is a main challenge in robotics clubs.",
+      "utterance_id": "U4",
+      "speaker": "S4",
+      "confidence": 0.9
+    },
+    {
+      "id": "A6",
+      "text": "Robotics is very focused on hardware.",
+      "utterance_id": "U4",
+      "speaker": "S4",
+      "confidence": 0.9
+    },
+    {
+      "id": "A7",
+      "text": "Software is not the paramount focus of robotics.",
+      "utterance_id": "U4",
+      "speaker": "S4",
+      "confidence": 0.9
+    },
+    {
+      "id": "A8",
+      "text": "Most robotics programs are funded by local companies, so out-of-pocket expenses are not a concern.",
+      "utterance_id": "U5",
+      "speaker": "S5",
+      "confidence": 0.8
+    },
+    {
+      "id": "A9",
+      "text": "Robotics programs are an effective way to introduce students to computer science and engineering.",
+      "utterance_id": "U5",
+      "speaker": "S5",
+      "confidence": 0.9
+    },
+    {
+      "id": "A10",
+      "text": "A robotics club has significant advantages even for students interested in coding.",
+      "utterance_id": "U8",
+      "speaker": "S6",
+      "confidence": 0.9
+    },
+    {
+      "id": "A11",
+      "text": "Robotics exposes students to other disciplines and how coding interacts with them.",
+      "utterance_id": "U8",
+      "speaker": "S6",
+      "confidence": 0.9
+    },
+    {
+      "id": "A12",
+      "text": "Robotics opens up students to electronics, mechanics, and their interoperation with coding.",
+      "utterance_id": "U8",
+      "speaker": "S6",
+      "confidence": 0.9
+    },
+    {
+      "id": "A13",
+      "text": "Pre-college schooling should expose students to creating hands-on.",
+      "utterance_id": "U8",
+      "speaker": "S6",
+      "confidence": 0.85
+    },
+    {
+      "id": "A14",
+      "text": "The development of using hands and body to make something is important.",
+      "utterance_id": "U8",
+      "speaker": "S6",
+      "confidence": 0.85
+    },
+    {
+      "id": "A15",
+      "text": "Robotics, 3D printing, and similar activities are not a substitute for learning how materials like wood, paint, or metal behave under human direction.",
+      "utterance_id": "U8",
+      "speaker": "S6",
+      "confidence": 0.85
+    },
+    {
+      "id": "A16",
+      "text": "A highly focused club like a computer club at the high school level may not benefit students.",
+      "utterance_id": "U8",
+      "speaker": "S6",
+      "confidence": 0.75
+    },
+    {
+      "id": "A17",
+      "text": "Students tend to lose interest in computing when they perceive it as primarily mathematics.",
+      "utterance_id": "U9",
+      "speaker": "S7",
+      "confidence": 0.85
+    },
+    {
+      "id": "A18",
+      "text": "Computer Science and coding are not the same thing, though they do overlap.",
+      "utterance_id": "U10",
+      "speaker": "S8",
+      "confidence": 0.95
+    },
+    {
+      "id": "A19",
+      "text": "Programming is not a method used to solve algorithms; it can limit the ability to develop algorithms.",
+      "utterance_id": "U13",
+      "speaker": null,
+      "confidence": 0.8
+    },
+    {
+      "id": "A20",
+      "text": "Programming in computer science is a means to an end, similar to using symbols in mathematics.",
+      "utterance_id": "U13",
+      "speaker": null,
+      "confidence": 0.8
+    },
+    {
+      "id": "A21",
+      "text": "Algorithms often have to change to fit the capabilities of programming languages.",
+      "utterance_id": "U13",
+      "speaker": null,
+      "confidence": 0.85
+    },
+    {
+      "id": "A22",
+      "text": "Starting a coding club in high school is a good idea.",
+      "utterance_id": "U14",
+      "speaker": "S9",
+      "confidence": 0.9
+    },
+    {
+      "id": "A23",
+      "text": "Web development is a recommended starting point for a computer science club.",
+      "utterance_id": "U14",
+      "speaker": "S9",
+      "confidence": 0.9
+    },
+    {
+      "id": "A24",
+      "text": "Most people who join a computer science club will want to make games.",
+      "utterance_id": "U14",
+      "speaker": "S9",
+      "confidence": 0.85
+    },
+    {
+      "id": "A25",
+      "text": "Godot is highly recommended for game development due to its ease of use for 2D games.",
+      "utterance_id": "U14",
+      "speaker": "S9",
+      "confidence": 0.85
+    },
+    {
+      "id": "A26",
+      "text": "Creating a portfolio site while learning web development is a good approach.",
+      "utterance_id": "U16",
+      "speaker": "S9",
+      "confidence": 0.9
+    },
+    {
+      "id": "A27",
+      "text": "Connecting a website to the internet is not a necessary step for learning but can be beneficial for college or job applications.",
+      "utterance_id": "U16",
+      "speaker": "S9",
+      "confidence": 0.85
+    },
+    {
+      "id": "A28",
+      "text": "Setting up a Java environment in a computer lab can be challenging.",
+      "utterance_id": "U16",
+      "speaker": "S9",
+      "confidence": 0.8
+    },
+    {
+      "id": "A29",
+      "text": "A competition-based club can attract a decent amount of students.",
+      "utterance_id": "U17",
+      "speaker": "S10",
+      "confidence": 0.9
+    },
+    {
+      "id": "A30",
+      "text": "A computer club is unlikely to attract many students.",
+      "utterance_id": "U21",
+      "speaker": "S6",
+      "confidence": 0.8
+    },
+    {
+      "id": "A31",
+      "text": "Hardware is expensive for the average student, which makes a computer club difficult to succeed unless in an affluent region.",
+      "utterance_id": "U21_1",
+      "speaker": "S6",
+      "confidence": 0.85
+    },
+    {
+      "id": "A32",
+      "text": "Students would benefit from a modern shop class or club that exposes them to various technologies involved in making things.",
+      "utterance_id": "U21_2",
+      "speaker": "S6",
+      "confidence": 0.95
+    },
+    {
+      "id": "A33",
+      "text": "A club with a broader focus would attract more students and greater public support.",
+      "utterance_id": "U21_3",
+      "speaker": "S6",
+      "confidence": 0.9
+    },
+    {
+      "id": "A34",
+      "text": "Focusing solely on 3D printing is too narrow of a niche for a club.",
+      "utterance_id": "U21_4",
+      "speaker": "S6",
+      "confidence": 0.75
+    },
+    {
+      "id": "A35",
+      "text": "The absence of shop-type classes or clubs in schools is detrimental.",
+      "utterance_id": "U21_5",
+      "speaker": "S6",
+      "confidence": 0.9
+    },
+    {
+      "id": "A36",
+      "text": "Young people entering engineering and support fields often lack hands-on experience beyond what they learned in school.",
+      "utterance_id": "U21_6",
+      "speaker": "S6",
+      "confidence": 0.95
+    },
+    {
+      "id": "A37",
+      "text": "Computer science graduates may lack understanding of how machines work or how to create physical objects.",
+      "utterance_id": "U21_7",
+      "speaker": "S6",
+      "confidence": 0.9
+    },
+    {
+      "id": "A38",
+      "text": "Narrowly focused clubs do high school students a disservice by not providing a well-rounded education.",
+      "utterance_id": "U21_8",
+      "speaker": "S6",
+      "confidence": 0.9
+    },
+    {
+      "id": "A39",
+      "text": "A lack of exposure to new things leads to less capable individuals after graduation.",
+      "utterance_id": "U21_9",
+      "speaker": "S6",
+      "confidence": 0.85
+    },
+    {
+      "id": "A40",
+      "text": "Classes like art and shop are important for brain development and connecting academic subjects to the real world.",
+      "utterance_id": "U21_10",
+      "speaker": "S6",
+      "confidence": 0.95
+    },
+    {
+      "id": "A41",
+      "text": "The idea of separating people based on different interests for a club is flawed.",
+      "utterance_id": "U22",
+      "speaker": "S12",
+      "confidence": 0.8
+    },
+    {
+      "id": "A42",
+      "text": "Building arcade cabinets with Raspberry Pi can be a good introduction to programming and provide a tangible reward.",
+      "utterance_id": "U22_1",
+      "speaker": "S12",
+      "confidence": 0.95
+    },
+    {
+      "id": "A43",
+      "text": "Creating a gaming system with Raspberry Pi allows learning hardware and software while bringing people together with common interests.",
+      "utterance_id": "U22_2",
+      "speaker": "S12",
+      "confidence": 0.9
+    },
+    {
+      "id": "A44",
+      "text": "The very idea of a computer club separates people.",
+      "utterance_id": "U23",
+      "speaker": "S6",
+      "confidence": 0.85
+    },
+    {
+      "id": "A45",
+      "text": "A robotics club brings together people with varying interests.",
+      "utterance_id": "U23_1",
+      "speaker": "S6",
+      "confidence": 0.9
+    },
+    {
+      "id": "A46",
+      "text": "Raspberry Pi and similar cards have problems in public schools, including cost issues.",
+      "utterance_id": "U23_2",
+      "speaker": "S6",
+      "confidence": 0.8
+    },
+    {
+      "id": "A47",
+      "text": "A robotics club offers opportunities for donations.",
+      "utterance_id": "U23_3",
+      "speaker": "S6",
+      "confidence": 0.75
+    },
+    {
+      "id": "A48",
+      "text": "Creating physical objects like arcade gaming cabinets develops multiple skills beyond computer science.",
+      "utterance_id": "U23_4",
+      "speaker": "S6",
+      "confidence": 0.95
+    },
+    {
+      "id": "A49",
+      "text": "It is detrimental to pigeonhole students early in their primary school careers.",
+      "utterance_id": "U23_5",
+      "speaker": "S6",
+      "confidence": 0.9
+    },
+    {
+      "id": "A50",
+      "text": "Schools have gotten worse at exposing students to various possibilities.",
+      "utterance_id": "U23_6",
+      "speaker": "S6",
+      "confidence": 0.85
+    },
+    {
+      "id": "A51",
+      "text": "Students need more diversity in mandatory classes.",
+      "utterance_id": "U23_7",
+      "speaker": "S6",
+      "confidence": 0.8
+    },
+    {
+      "id": "A52",
+      "text": "Early computer science education is beneficial because future technology will be driven by today's students.",
+      "utterance_id": "U24",
+      "speaker": "S12",
+      "confidence": 0.9
+    },
+    {
+      "id": "A53",
+      "text": "Everyone interacts with computers daily, making computer science education practical.",
+      "utterance_id": "U24_1",
+      "speaker": "S12",
+      "confidence": 0.85
+    },
+    {
+      "id": "A54",
+      "text": "Most colleges require an introductory computer science class, making early exposure practical for students.",
+      "utterance_id": "U24_2",
+      "speaker": "S12",
+      "confidence": 0.9
+    },
+    {
+      "id": "A55",
+      "text": "Many engineering and mathematic disciplines are involved in robotics.",
+      "utterance_id": "U25",
+      "speaker": "S6",
+      "confidence": 0.95
+    },
+    {
+      "id": "A56",
+      "text": "Students are more likely to be interested in building and programming their own device that plays games than in learning engineering and mathematics.",
+      "utterance_id": "U26",
+      "speaker": "S12",
+      "confidence": 0.9
+    },
+    {
+      "id": "A57",
+      "text": "It is important to adapt to students' interests rather than force them into traditional learning methods.",
+      "utterance_id": "U26_1",
+      "speaker": "S12",
+      "confidence": 0.95
+    },
+    {
+      "id": "A58",
+      "text": "Injecting educational ideas and philosophies into activities students enjoy is more effective.",
+      "utterance_id": "U26_2",
+      "speaker": "S12",
+      "confidence": 0.9
+    },
+    {
+      "id": "A59",
+      "text": "Robocode is a fun way to start programming, especially for those familiar with Java.",
+      "utterance_id": "U27",
+      "speaker": "S13",
+      "confidence": 0.9
+    },
+    {
+      "id": "A60",
+      "text": "Teaching a programming language should involve direct instruction rather than relying solely on online assignments.",
+      "utterance_id": "U29",
+      "speaker": "S15",
+      "confidence": 0.9
+    }
+  ]
+}

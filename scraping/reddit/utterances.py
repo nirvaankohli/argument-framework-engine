@@ -19,7 +19,9 @@ class Utterance:
 
 
 class RedditScraper:
+
     def __init__(self, user_agent: str = USER_AGENT, timeout: float = 10.0) -> None:
+
         self.user_agent = user_agent
         self.timeout = timeout
 
@@ -46,6 +48,18 @@ class RedditScraper:
 
         speaker_map: Dict[str, str] = {}
         speaker_counter = 0
+
+        # check if exists
+
+        exists = False
+        db_instance = db()
+        db_instance.update_db()
+
+        if db_instance.check_if_utterance_in_db(url):
+
+            exists = True
+
+            return db_instance.fetch_utterance_from_db(url)
 
         def new_sid() -> str:
             nonlocal speaker_counter
@@ -149,18 +163,92 @@ class RedditScraper:
             "utterances": [u for u in utterances],
         }
 
+        db_instance.add_utterance_to_db(url, self.return_to_json())
+
+        self.result["db_path"] = str(db_instance.new_utterance_path)
+
         return self.result
-    
 
     def return_to_json(self) -> Dict[str, Any]:
 
-
         return {
-        "thread_id": self.result["thread_id"],
-        "subreddit": self.result["subreddit"],
-        "title": self.result["title"],
-        "utterances": [asdict(u) for u in self.result["utterances"]],
-    }
+            "thread_id": self.result["thread_id"],
+            "subreddit": self.result["subreddit"],
+            "title": self.result["title"],
+            "utterances": [asdict(u) for u in self.result["utterances"]],
+        }
+
+
+class db:
+
+    def __init__(self) -> None:
+
+        self.ROOT_DIR = Path(__file__).parent.parent.parent
+        self.ut_db_path = self.ROOT_DIR / "data" / "utterances" / "db" / "index.json"
+
+        # Create directory structure if it doesn't exist
+        self.ut_db_path.parent.mkdir(parents=True, exist_ok=True)
+
+        # Initialize database file if it doesn't exist
+        if not self.ut_db_path.exists():
+            with open(self.ut_db_path, "w", encoding="utf-8") as f:
+                json.dump({"index": {}}, f, indent=2)
+
+        with open(self.ut_db_path, "r", encoding="utf-8") as f:
+            self.ut_db = json.load(f)
+
+    def update_db(self) -> None:
+
+        with open(self.ut_db_path, "r", encoding="utf-8") as f:
+            self.ut_db = json.load(f)
+
+    def check_if_utterance_in_db(self, link: str) -> bool:
+
+        if link in self.ut_db["index"].keys():
+
+            return True
+
+        return False
+
+    def add_utterance_to_index(self, link: str, subreddit, thread_id: str) -> None:
+
+        self.ut_db["index"][link] = f"storage/{subreddit}/{thread_id}.json"
+
+        with open(self.ut_db_path, "w", encoding="utf-8") as f:
+
+            json.dump(self.ut_db, f, indent=2)
+
+    def add_utterance_to_db(self, link: str, data: Dict[str, Any]) -> None:
+
+        self.add_utterance_to_index(link, data["subreddit"], data["thread_id"])
+
+        self.new_utterance_dir_path = (
+            self.ROOT_DIR / "data" / "utterances" / "db" / "storage" / data["subreddit"]
+        )
+        self.new_utterance_path = (
+            self.new_utterance_dir_path / f"{data['thread_id']}.json"
+        )
+
+        self.new_utterance_dir_path.mkdir(parents=True, exist_ok=True)
+
+        with open(self.new_utterance_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2)
+
+    def fetch_utterance_from_db(self, link: str) -> Dict[str, Any]:
+
+        if not self.check_if_utterance_in_db(link):
+
+            raise ValueError("Utterance not found in DB")
+
+        path_str = self.ut_db["index"][link]
+
+        full_path = self.ROOT_DIR / "data" / "utterances" / "db" / path_str
+
+        with open(full_path, "r", encoding="utf-8") as f:
+
+            data = json.load(f)
+
+        return data
 
 
 if __name__ == "__main__":
@@ -172,8 +260,6 @@ if __name__ == "__main__":
     post_data = scraper.return_to_json()
 
     print(json.dumps(post_data, indent=2))
-
-    
 
     example_path = Path(__file__).parent.parent / "example" / "example_reddit_post.json"
     example_path.parent.mkdir(parents=True, exist_ok=True)

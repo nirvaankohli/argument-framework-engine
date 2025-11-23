@@ -93,7 +93,6 @@ class Relation:
     to_text: str  # target argument text
     type: RelationType  # "supports" or "attacks"
     strength: float  # 0.0–1.0 confidence
-    explanation: str  # short natural-language reason
 
 
 @dataclass
@@ -113,6 +112,9 @@ class ToRelation:
 
     def __init__(self, arguments) -> None:
 
+        if not arguments:
+            raise ValueError("No arguments provided for relation extraction")
+
         if is_dataclass(arguments[0]):
 
             self.arguments: List[Argument] = arguments
@@ -126,20 +128,42 @@ class ToRelation:
     def extract_relations(self, to_json: bool = False) -> List[Relation]:
 
         llm_cli = llm()
+
+        print(f"Processing {len(self.arguments)} arguments in optimized batches...")
+
         llm_response = llm_cli.process_send_request(self.arguments)
+
+        if len(self.arguments) > 20:
+            print("Running cross-batch analysis for additional relations...")
+            cross_batch_response = llm_cli.cross_batch_analysis(self.arguments)
+
+            all_relations = llm_response.get("relations", [])
+            all_relations.extend(cross_batch_response.get("relations", []))
+            llm_response = {"relations": all_relations}
 
         relations_data = llm_response.get("relations", [])
         relations: List[Relation] = []
 
-        # Create a lookup dict for argument texts by ID
         arg_text_lookup = {arg.id: arg.text for arg in self.arguments}
 
+        seen_pairs = set()
+        unique_relations = []
+
         for rel in relations_data:
+            pair_key = (rel.get("from"), rel.get("to"))
+            if pair_key not in seen_pairs:
+                seen_pairs.add(pair_key)
+                unique_relations.append(rel)
+
+        print(
+            f"Found {len(relations_data)} total relations, {len(unique_relations)} unique"
+        )
+
+        for rel in unique_relations:
             try:
                 from_id = rel["from"]
                 to_id = rel["to"]
 
-                # Look up the text for from and to arguments
                 from_text = arg_text_lookup.get(from_id, "")
                 to_text = arg_text_lookup.get(to_id, "")
 
@@ -149,8 +173,7 @@ class ToRelation:
                     from_text=from_text,
                     to_text=to_text,
                     type=rel["type"],
-                    strength=float(rel["strength"]),
-                    explanation=rel["explanation"],
+                    strength=float(rel.get("strength", 0.0)),
                 )
                 relations.append(relation)
             except KeyError as e:
@@ -167,7 +190,7 @@ class ToRelation:
 
 class llm:
 
-    def __init__(self, api_key: str = "use_local", timeout: float = 200.0) -> None:
+    def __init__(self, api_key: str = "use_local", timeout: float = 210.0) -> None:
 
         if api_key == "use_local":
 
@@ -181,7 +204,6 @@ class llm:
                 )
 
         self.default_prompts()
-
         self.api_key = api_key
         self.api_url = "https://ai.hackclub.com/proxy/v1/chat/completions"
         self.model = "google/gemini-2.5-flash"
@@ -189,46 +211,19 @@ class llm:
 
     def default_prompts(self) -> None:
 
-        self.system_prompt = """
-You classify relations between arguments.
+        self.system_prompt = "Find ALL relations between arguments. Return JSON with supports/attacks relations. Be liberal - include weak relations too."
 
-Given a JSON array of arguments, you must return ONLY JSON of direct relations:
-- "supports" if one argument gives reasons for another.
-- "attacks" if one argument gives reasons against another.
-If there is no clear relation, omit the pair entirely.
-Return strict JSON only.
-""".strip()
+        self.user_prompt = """Find ALL argument relations (supports/attacks). Include weak relations.
 
-        self.user_prompt = """
-You are given a JSON array of arguments. Each argument has:
-- id
-- text
-- speaker_id
-- utterance_id
+JSON format: {"relations":[{"from":"A1","to":"A2","type":"supports","strength":0.6}]}
 
-Task:
-- For all ordered pairs (Ai, Aj), i != j, detect direct SUPPORT or ATTACK.
-- Only include pairs with a clear relation.
-- "from" = argument doing the supporting/attacking.
-- "to"   = argument being supported/attacked.
+Rules:
+- Check EVERY pair for any connection
+- Include indirect/weak relations (strength 0.3+)
+- No limit on relations per argument
+- Look for: agreements, disagreements, elaborations, counterpoints, examples
 
-Respond with JSON only:
-
-{
-  "relations": [
-    {
-      "from": "A1",
-      "to": "A2",
-      "type": "supports" or "attacks",
-      "explanation": "Short reason for this relation.",
-      "strength": 0.0
-    }
-  ]
-}
-
-Arguments:
-{{DATA}}
-""".strip()
+Arguments: {{DATA}}"""
 
     def build_user_prompt(self, data: str) -> str:
 
@@ -246,11 +241,17 @@ Arguments:
                 {"role": "system", "content": system},
                 {"role": "user", "content": user},
             ],
-            "temperature": 0.0,
-            "max_tokens": 200000,
+            "temperature": 0.3,
+            "max_tokens": 14000,
         }
 
-    def process_send_request(self, arguments, per=20):
+    def process_send_request(self, arguments, per=15):
+
+        if len(arguments) <= 10:
+            per = len(arguments)
+        elif len(arguments) <= 30:
+            per = 12
+            per = 8
 
         split_json = []
 
@@ -296,15 +297,6 @@ Arguments:
                     response_data = r.json()
                     content = response_data["choices"][0]["message"]["content"]
 
-                    with open(
-                        f"debug_response_{len(response)}.json", "w", encoding="utf-8"
-                    ) as f:
-                        json.dump(
-                            {"content": content, "full_response": response_data},
-                            f,
-                            indent=2,
-                        )
-
                     if not content or content.strip() == "":
                         print(
                             f"Warning: Empty content from LLM for batch {len(response)}"
@@ -322,10 +314,11 @@ Arguments:
                     relations = parsed_content.get("relations", [])
                     response.append(relations)
 
+                    print("Successfully processed batch ")
+
                 except (KeyError, json.JSONDecodeError) as e:
                     print(f"Error parsing LLM response for batch {len(response)}: {e}")
                     print(f"Content was: {repr(content[:200])}")
-                    # Continue with empty relations instead of failing
                     response.append([])
                     continue
             else:
@@ -335,59 +328,103 @@ Arguments:
 
         return {"relations": [item for sublist in response for item in sublist]}
 
+    def cross_batch_analysis(self, arguments, sample_size=8):
+        import random
+
+        if len(arguments) <= 20:
+            return {"relations": []}
+
+        step = max(1, len(arguments) // sample_size)
+        sampled_args = [arguments[i] for i in range(0, len(arguments), step)][
+            :sample_size
+        ]
+
+        remaining = [arg for arg in arguments if arg not in sampled_args]
+        if remaining:
+            sampled_args.extend(random.sample(remaining, min(4, len(remaining))))
+
+        minimal_args = [
+            {
+                "id": arg.id,
+                "text": arg.text,
+                "speaker_id": getattr(arg, "speaker", None),
+                "utterance_id": arg.utterance_id,
+            }
+            for arg in sampled_args
+        ]
+
+        user_content = self.build_user_prompt(
+            data=json.dumps(minimal_args, separators=(",", ":"))
+        )
+
+        system_content = self.build_system_prompt()
+        payload = self.build_payload(system_content, user_content)
+
+        headers = {
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {self.api_key}",
+        }
+
+        try:
+            r = requests.post(
+                url=self.api_url, json=payload, headers=headers, timeout=self.timeout
+            )
+
+            if r.status_code == 200:
+                response_data = r.json()
+                content = response_data["choices"][0]["message"]["content"]
+
+                if content and content.strip():
+                    content = content.strip()
+                    if content.startswith("```json"):
+                        content = (
+                            content.replace("```json", "").replace("```", "").strip()
+                        )
+
+                    return json.loads(content)
+
+        except Exception as e:
+            print(f"Cross-batch analysis failed: {e}")
+
+        return {"relations": []}
+
 
 if __name__ == "__main__":
+    import sys
+
+    if len(sys.argv) != 2:
+        print("Usage: python to_relation.py <reddit_url>")
+        sys.exit(1)
+
+    reddit_url = sys.argv[1]
 
     import time
 
     s0 = time.time()
 
-    path_here = Path(__file__).parent.resolve()
+    # Get fresh data from Reddit and arguments
+    cleaner = to_argument.ArgumentCleaner()
+    utteranceClient = reddit_utterances.RedditScraper()
 
-    if os.path.exists(path_here / "sample_arguments.json"):
+    print("Fetching Reddit post...")
+    post_data = utteranceClient.process_post(reddit_url)
 
-        with open(path_here / "sample_arguments.json", "r", encoding="utf-8") as f:
-            json_data = json.load(f)
+    if post_data is None:
+        raise ValueError("Failed to fetch Reddit post data.")
 
-    else:
-
-        json_data = []
-
-    if json_data == []:
-
-        print("No relations found.")
-
-        cleaner = to_argument.ArgumentCleaner()
-        utteranceClient = reddit_utterances.RedditScraper()
-
-        post_data = utteranceClient.process_post(
-            "https://www.reddit.com/r/Backend/comments/1p21idn/for_experienced_backend_engineers/"
-        )
-
-        if post_data is None:
-
-            raise ValueError("Failed to fetch Reddit post data.")
-
-        arguments = cleaner.convert_utterances_to_arguments(
-            post_data["utterances"], threshold=0.67
-        )
-
-        json_data = [asdict(arg) for arg in arguments]
-
-        with open(path_here / "sample_arguments.json", "w", encoding="utf-8") as f:
-
-            json.dump(json_data, f, indent=2)
-
-    print(f"Loaded {len(json_data)} arguments for relation extraction.")
+    print("Extracting arguments...")
+    arguments = cleaner.convert_utterances_to_arguments(
+        post_data["utterances"], threshold=0.67, utterance_data=post_data
+    )
 
     s1 = time.time()
     print(f"Data preparation took {s1 - s0:.2f} seconds")
+    print(f"Processing {len(arguments)} arguments for relation extraction...")
 
-    to_relation = ToRelation(json_data)
-    llm_response = to_relation.extract_relations(to_json=True)
+    to_relation = ToRelation(arguments)
+    relations = to_relation.extract_relations(to_json=True)
 
     s2 = time.time()
 
-    print(f"Extracted {len(llm_response)} relations:")
-    print(f"Relation extraction took {s2 - s1:.2f} seconds")
+    print(f"Extracted {len(relations)} relations in {s2 - s1:.2f} seconds")
     print(f"Total time: {s2 - s0:.2f} seconds")

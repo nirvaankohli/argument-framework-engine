@@ -1,920 +1,1522 @@
 [
   {
     "from_id": "A1",
-    "to_id": "A4",
-    "from_text": "Companies use Java extensively.",
-    "to_text": "No need exists to learn languages beyond Java or C# solely for employment.",
+    "to_id": "A2",
+    "from_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "to_text": "Robotics clubs provide structure for educators without extensive experience.",
     "type": "supports",
-    "strength": 0.7,
-    "explanation": "A1 states that companies use Java extensively, which supports the idea that one might not need to learn other languages for employment if Java is already widely used."
+    "strength": 0.6
   },
   {
     "from_id": "A1",
-    "to_id": "A15",
-    "from_text": "Companies use Java extensively.",
-    "to_text": "Employment opportunities for Java developers are abundant.",
+    "to_id": "A3",
+    "from_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "to_text": "Robotics clubs require hardware or funding for hardware, which can be difficult for high school students to acquire.",
+    "type": "attacks",
+    "strength": 0.4
+  },
+  {
+    "from_id": "A1",
+    "to_id": "A4",
+    "from_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "to_text": "It is advisable to stick with programming for a computer science club, as it can be done easily on laptops.",
+    "type": "attacks",
+    "strength": 0.5
+  },
+  {
+    "from_id": "A1",
+    "to_id": "A5",
+    "from_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "to_text": "Gaining knowledge on the hardware side is a main challenge in robotics clubs.",
+    "type": "attacks",
+    "strength": 0.3
+  },
+  {
+    "from_id": "A1",
+    "to_id": "A9",
+    "from_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "to_text": "Robotics programs are an effective way to introduce students to computer science and engineering.",
     "type": "supports",
-    "strength": 0.9,
-    "explanation": "A1 states that companies use Java extensively, which directly supports the claim that employment opportunities for Java developers are abundant."
+    "strength": 0.9
+  },
+  {
+    "from_id": "A1",
+    "to_id": "A10",
+    "from_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "to_text": "A robotics club has significant advantages even for students interested in coding.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A1",
+    "to_id": "A11",
+    "from_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "to_text": "Robotics exposes students to other disciplines and how coding interacts with them.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A1",
+    "to_id": "A12",
+    "from_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "to_text": "Robotics opens up students to electronics, mechanics, and their interoperation with coding.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A2",
+    "to_id": "A1",
+    "from_text": "Robotics clubs provide structure for educators without extensive experience.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A3",
+    "to_id": "A1",
+    "from_text": "Robotics clubs require hardware or funding for hardware, which can be difficult for high school students to acquire.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "type": "attacks",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A3",
+    "to_id": "A4",
+    "from_text": "Robotics clubs require hardware or funding for hardware, which can be difficult for high school students to acquire.",
+    "to_text": "It is advisable to stick with programming for a computer science club, as it can be done easily on laptops.",
+    "type": "supports",
+    "strength": 0.0
+  },
+  {
+    "from_id": "A3",
+    "to_id": "A8",
+    "from_text": "Robotics clubs require hardware or funding for hardware, which can be difficult for high school students to acquire.",
+    "to_text": "Most robotics programs are funded by local companies, so out-of-pocket expenses are not a concern.",
+    "type": "attacks",
+    "strength": 0.8
   },
   {
     "from_id": "A4",
-    "to_id": "A9",
-    "from_text": "No need exists to learn languages beyond Java or C# solely for employment.",
-    "to_text": "No compelling reason exists to use Golang over Java.",
+    "to_id": "A1",
+    "from_text": "It is advisable to stick with programming for a computer science club, as it can be done easily on laptops.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "type": "attacks",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A4",
+    "to_id": "A3",
+    "from_text": "It is advisable to stick with programming for a computer science club, as it can be done easily on laptops.",
+    "to_text": "Robotics clubs require hardware or funding for hardware, which can be difficult for high school students to acquire.",
     "type": "supports",
-    "strength": 0.6,
-    "explanation": "A4 suggests that learning languages beyond Java or C# isn't necessary for employment, which supports the idea that there's no compelling reason to use Golang over Java."
+    "strength": 0.7
+  },
+  {
+    "from_id": "A4",
+    "to_id": "A10",
+    "from_text": "It is advisable to stick with programming for a computer science club, as it can be done easily on laptops.",
+    "to_text": "A robotics club has significant advantages even for students interested in coding.",
+    "type": "attacks",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A5",
+    "to_id": "A3",
+    "from_text": "Gaining knowledge on the hardware side is a main challenge in robotics clubs.",
+    "to_text": "Robotics clubs require hardware or funding for hardware, which can be difficult for high school students to acquire.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A5",
+    "to_id": "A6",
+    "from_text": "Gaining knowledge on the hardware side is a main challenge in robotics clubs.",
+    "to_text": "Robotics is very focused on hardware.",
+    "type": "supports",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A5",
+    "to_id": "A7",
+    "from_text": "Gaining knowledge on the hardware side is a main challenge in robotics clubs.",
+    "to_text": "Software is not the paramount focus of robotics.",
+    "type": "supports",
+    "strength": 0.7
   },
   {
     "from_id": "A6",
-    "to_id": "A4",
-    "from_text": "The reliability and extensive resources in the Java and C# ecosystems outweigh their disadvantages.",
-    "to_text": "No need exists to learn languages beyond Java or C# solely for employment.",
+    "to_id": "A5",
+    "from_text": "Robotics is very focused on hardware.",
+    "to_text": "Gaining knowledge on the hardware side is a main challenge in robotics clubs.",
     "type": "supports",
-    "strength": 0.7,
-    "explanation": "A6 argues that the reliability and resources of Java/C# outweigh disadvantages, supporting the idea that one doesn't need to learn other languages for employment."
+    "strength": 0.8
   },
   {
     "from_id": "A6",
-    "to_id": "A9",
-    "from_text": "The reliability and extensive resources in the Java and C# ecosystems outweigh their disadvantages.",
-    "to_text": "No compelling reason exists to use Golang over Java.",
+    "to_id": "A7",
+    "from_text": "Robotics is very focused on hardware.",
+    "to_text": "Software is not the paramount focus of robotics.",
     "type": "supports",
-    "strength": 0.6,
-    "explanation": "A6 highlights the strengths of Java and C#, which implicitly supports the idea that there's no compelling reason to use Golang over Java."
+    "strength": 0.8
+  },
+  {
+    "from_id": "A7",
+    "to_id": "A5",
+    "from_text": "Software is not the paramount focus of robotics.",
+    "to_text": "Gaining knowledge on the hardware side is a main challenge in robotics clubs.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A7",
+    "to_id": "A6",
+    "from_text": "Software is not the paramount focus of robotics.",
+    "to_text": "Robotics is very focused on hardware.",
+    "type": "supports",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A7",
+    "to_id": "A10",
+    "from_text": "Software is not the paramount focus of robotics.",
+    "to_text": "A robotics club has significant advantages even for students interested in coding.",
+    "type": "attacks",
+    "strength": 0.4
   },
   {
     "from_id": "A8",
-    "to_id": "A9",
-    "from_text": "Golang is significantly easier than Java.",
-    "to_text": "No compelling reason exists to use Golang over Java.",
+    "to_id": "A3",
+    "from_text": "Most robotics programs are funded by local companies, so out-of-pocket expenses are not a concern.",
+    "to_text": "Robotics clubs require hardware or funding for hardware, which can be difficult for high school students to acquire.",
     "type": "attacks",
-    "strength": 0.8,
-    "explanation": "A8 claims Golang is significantly easier than Java, which attacks the idea that there's no compelling reason to use Golang over Java."
+    "strength": 0.9
+  },
+  {
+    "from_id": "A9",
+    "to_id": "A1",
+    "from_text": "Robotics programs are an effective way to introduce students to computer science and engineering.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "type": "supports",
+    "strength": 0.9
   },
   {
     "from_id": "A9",
     "to_id": "A10",
-    "from_text": "No compelling reason exists to use Golang over Java.",
-    "to_text": "Few Golang job openings exist due to lack of advantages over Java.",
+    "from_text": "Robotics programs are an effective way to introduce students to computer science and engineering.",
+    "to_text": "A robotics club has significant advantages even for students interested in coding.",
     "type": "supports",
-    "strength": 0.8,
-    "explanation": "A9 states there's no compelling reason to use Golang over Java, which supports the claim that few Golang job openings exist due to lack of advantages."
+    "strength": 0.7
+  },
+  {
+    "from_id": "A9",
+    "to_id": "A11",
+    "from_text": "Robotics programs are an effective way to introduce students to computer science and engineering.",
+    "to_text": "Robotics exposes students to other disciplines and how coding interacts with them.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A9",
+    "to_id": "A12",
+    "from_text": "Robotics programs are an effective way to introduce students to computer science and engineering.",
+    "to_text": "Robotics opens up students to electronics, mechanics, and their interoperation with coding.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A10",
+    "to_id": "A1",
+    "from_text": "A robotics club has significant advantages even for students interested in coding.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "type": "supports",
+    "strength": 0.7
   },
   {
     "from_id": "A10",
     "to_id": "A4",
-    "from_text": "Few Golang job openings exist due to lack of advantages over Java.",
-    "to_text": "No need exists to learn languages beyond Java or C# solely for employment.",
-    "type": "supports",
-    "strength": 0.7,
-    "explanation": "A10 states few Golang job openings exist, reinforcing the idea that learning languages beyond Java or C# might not be necessary for employment."
+    "from_text": "A robotics club has significant advantages even for students interested in coding.",
+    "to_text": "It is advisable to stick with programming for a computer science club, as it can be done easily on laptops.",
+    "type": "attacks",
+    "strength": 0.7
   },
   {
-    "from_id": "A14",
+    "from_id": "A10",
+    "to_id": "A7",
+    "from_text": "A robotics club has significant advantages even for students interested in coding.",
+    "to_text": "Software is not the paramount focus of robotics.",
+    "type": "attacks",
+    "strength": 0.4
+  },
+  {
+    "from_id": "A10",
+    "to_id": "A9",
+    "from_text": "A robotics club has significant advantages even for students interested in coding.",
+    "to_text": "Robotics programs are an effective way to introduce students to computer science and engineering.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A10",
+    "to_id": "A11",
+    "from_text": "A robotics club has significant advantages even for students interested in coding.",
+    "to_text": "Robotics exposes students to other disciplines and how coding interacts with them.",
+    "type": "supports",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A10",
+    "to_id": "A12",
+    "from_text": "A robotics club has significant advantages even for students interested in coding.",
+    "to_text": "Robotics opens up students to electronics, mechanics, and their interoperation with coding.",
+    "type": "supports",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A11",
     "to_id": "A1",
-    "from_text": "Java serves as the industry standard for enterprise-grade systems.",
-    "to_text": "Companies use Java extensively.",
+    "from_text": "Robotics exposes students to other disciplines and how coding interacts with them.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
     "type": "supports",
-    "strength": 0.9,
-    "explanation": "A14 states Java is the industry standard for enterprise systems, which supports the claim that companies use Java extensively."
+    "strength": 0.6
+  },
+  {
+    "from_id": "A11",
+    "to_id": "A9",
+    "from_text": "Robotics exposes students to other disciplines and how coding interacts with them.",
+    "to_text": "Robotics programs are an effective way to introduce students to computer science and engineering.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A11",
+    "to_id": "A10",
+    "from_text": "Robotics exposes students to other disciplines and how coding interacts with them.",
+    "to_text": "A robotics club has significant advantages even for students interested in coding.",
+    "type": "supports",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A11",
+    "to_id": "A12",
+    "from_text": "Robotics exposes students to other disciplines and how coding interacts with them.",
+    "to_text": "Robotics opens up students to electronics, mechanics, and their interoperation with coding.",
+    "type": "supports",
+    "strength": 0.9
+  },
+  {
+    "from_id": "A12",
+    "to_id": "A1",
+    "from_text": "Robotics opens up students to electronics, mechanics, and their interoperation with coding.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A12",
+    "to_id": "A9",
+    "from_text": "Robotics opens up students to electronics, mechanics, and their interoperation with coding.",
+    "to_text": "Robotics programs are an effective way to introduce students to computer science and engineering.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A12",
+    "to_id": "A10",
+    "from_text": "Robotics opens up students to electronics, mechanics, and their interoperation with coding.",
+    "to_text": "A robotics club has significant advantages even for students interested in coding.",
+    "type": "supports",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A12",
+    "to_id": "A11",
+    "from_text": "Robotics opens up students to electronics, mechanics, and their interoperation with coding.",
+    "to_text": "Robotics exposes students to other disciplines and how coding interacts with them.",
+    "type": "supports",
+    "strength": 0.9
+  },
+  {
+    "from_id": "A13",
+    "to_id": "A10",
+    "from_text": "Pre-college schooling should expose students to creating hands-on.",
+    "to_text": "A robotics club has significant advantages even for students interested in coding.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A13",
+    "to_id": "A14",
+    "from_text": "Pre-college schooling should expose students to creating hands-on.",
+    "to_text": "The development of using hands and body to make something is important.",
+    "type": "supports",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A13",
+    "to_id": "A15",
+    "from_text": "Pre-college schooling should expose students to creating hands-on.",
+    "to_text": "Robotics, 3D printing, and similar activities are not a substitute for learning how materials like wood, paint, or metal behave under human direction.",
+    "type": "attacks",
+    "strength": 0.5
   },
   {
     "from_id": "A14",
-    "to_id": "A4",
-    "from_text": "Java serves as the industry standard for enterprise-grade systems.",
-    "to_text": "No need exists to learn languages beyond Java or C# solely for employment.",
+    "to_id": "A10",
+    "from_text": "The development of using hands and body to make something is important.",
+    "to_text": "A robotics club has significant advantages even for students interested in coding.",
     "type": "supports",
-    "strength": 0.8,
-    "explanation": "A14 states Java is the industry standard, supporting the idea that one might not need to learn other languages for employment."
+    "strength": 0.6
   },
   {
     "from_id": "A14",
-    "to_id": "A6",
-    "from_text": "Java serves as the industry standard for enterprise-grade systems.",
-    "to_text": "The reliability and extensive resources in the Java and C# ecosystems outweigh their disadvantages.",
+    "to_id": "A13",
+    "from_text": "The development of using hands and body to make something is important.",
+    "to_text": "Pre-college schooling should expose students to creating hands-on.",
     "type": "supports",
-    "strength": 0.8,
-    "explanation": "A14 states Java is the industry standard, which supports the idea that its ecosystem has reliability and extensive resources."
+    "strength": 0.8
   },
   {
     "from_id": "A14",
     "to_id": "A15",
-    "from_text": "Java serves as the industry standard for enterprise-grade systems.",
-    "to_text": "Employment opportunities for Java developers are abundant.",
-    "type": "supports",
-    "strength": 0.9,
-    "explanation": "A14 states Java is the industry standard, directly supporting the claim of abundant employment opportunities for Java developers."
+    "from_text": "The development of using hands and body to make something is important.",
+    "to_text": "Robotics, 3D printing, and similar activities are not a substitute for learning how materials like wood, paint, or metal behave under human direction.",
+    "type": "attacks",
+    "strength": 0.5
   },
   {
     "from_id": "A15",
-    "to_id": "A4",
-    "from_text": "Employment opportunities for Java developers are abundant.",
-    "to_text": "No need exists to learn languages beyond Java or C# solely for employment.",
-    "type": "supports",
-    "strength": 0.8,
-    "explanation": "A15 states abundant employment opportunities for Java developers, supporting the idea that one might not need to learn other languages for employment."
-  },
-  {
-    "from_id": "A18",
-    "to_id": "A4",
-    "from_text": "C#, Python, JavaScript, and Java have sustained high marketability for years.",
-    "to_text": "No need exists to learn languages beyond Java or C# solely for employment.",
-    "type": "supports",
-    "strength": 0.7,
-    "explanation": "A18 lists Java and C# as having sustained high marketability, supporting the idea that learning other languages might not be necessary for employment."
-  },
-  {
-    "from_id": "A18",
-    "to_id": "A6",
-    "from_text": "C#, Python, JavaScript, and Java have sustained high marketability for years.",
-    "to_text": "The reliability and extensive resources in the Java and C# ecosystems outweigh their disadvantages.",
-    "type": "supports",
-    "strength": 0.7,
-    "explanation": "A18 states Java and C# have sustained high marketability, which supports the idea that their ecosystems are reliable and have extensive resources."
-  },
-  {
-    "from_id": "A18",
-    "to_id": "A15",
-    "from_text": "C#, Python, JavaScript, and Java have sustained high marketability for years.",
-    "to_text": "Employment opportunities for Java developers are abundant.",
-    "type": "supports",
-    "strength": 0.8,
-    "explanation": "A18 states Java has sustained high marketability, supporting the claim of abundant employment opportunities for Java developers."
-  },
-  {
-    "from_id": "A19",
-    "to_id": "A9",
-    "from_text": "Go sees less widespread use than C#, Python, JavaScript, or Java.",
-    "to_text": "No compelling reason exists to use Golang over Java.",
-    "type": "supports",
-    "strength": 0.7,
-    "explanation": "A19 states Go sees less widespread use than Java, which supports the idea that there's no compelling reason to use Golang over Java."
-  },
-  {
-    "from_id": "A19",
     "to_id": "A10",
-    "from_text": "Go sees less widespread use than C#, Python, JavaScript, or Java.",
-    "to_text": "Few Golang job openings exist due to lack of advantages over Java.",
+    "from_text": "Robotics, 3D printing, and similar activities are not a substitute for learning how materials like wood, paint, or metal behave under human direction.",
+    "to_text": "A robotics club has significant advantages even for students interested in coding.",
+    "type": "attacks",
+    "strength": 0.5
+  },
+  {
+    "from_id": "A15",
+    "to_id": "A13",
+    "from_text": "Robotics, 3D printing, and similar activities are not a substitute for learning how materials like wood, paint, or metal behave under human direction.",
+    "to_text": "Pre-college schooling should expose students to creating hands-on.",
+    "type": "attacks",
+    "strength": 0.5
+  },
+  {
+    "from_id": "A15",
+    "to_id": "A14",
+    "from_text": "Robotics, 3D printing, and similar activities are not a substitute for learning how materials like wood, paint, or metal behave under human direction.",
+    "to_text": "The development of using hands and body to make something is important.",
+    "type": "attacks",
+    "strength": 0.5
+  },
+  {
+    "from_id": "A16",
+    "to_id": "A30",
+    "from_text": "A highly focused club like a computer club at the high school level may not benefit students.",
+    "to_text": "A computer club is unlikely to attract many students.",
     "type": "supports",
-    "strength": 0.8,
-    "explanation": "A19 states Go sees less widespread use than Java, which supports the claim of few Golang job openings."
+    "strength": 0.8
+  },
+  {
+    "from_id": "A17",
+    "to_id": "A16",
+    "from_text": "Students tend to lose interest in computing when they perceive it as primarily mathematics.",
+    "to_text": "A highly focused club like a computer club at the high school level may not benefit students.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A17",
+    "to_id": "A30",
+    "from_text": "Students tend to lose interest in computing when they perceive it as primarily mathematics.",
+    "to_text": "A computer club is unlikely to attract many students.",
+    "type": "supports",
+    "strength": 0.5
+  },
+  {
+    "from_id": "A18",
+    "to_id": "A19",
+    "from_text": "Computer Science and coding are not the same thing, though they do overlap.",
+    "to_text": "Programming is not a method used to solve algorithms; it can limit the ability to develop algorithms.",
+    "type": "supports",
+    "strength": 0.4
+  },
+  {
+    "from_id": "A18",
+    "to_id": "A20",
+    "from_text": "Computer Science and coding are not the same thing, though they do overlap.",
+    "to_text": "Programming in computer science is a means to an end, similar to using symbols in mathematics.",
+    "type": "supports",
+    "strength": 0.4
+  },
+  {
+    "from_id": "A18",
+    "to_id": "A21",
+    "from_text": "Computer Science and coding are not the same thing, though they do overlap.",
+    "to_text": "Algorithms often have to change to fit the capabilities of programming languages.",
+    "type": "supports",
+    "strength": 0.4
+  },
+  {
+    "from_id": "A19",
+    "to_id": "A20",
+    "from_text": "Programming is not a method used to solve algorithms; it can limit the ability to develop algorithms.",
+    "to_text": "Programming in computer science is a means to an end, similar to using symbols in mathematics.",
+    "type": "attacks",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A19",
+    "to_id": "A21",
+    "from_text": "Programming is not a method used to solve algorithms; it can limit the ability to develop algorithms.",
+    "to_text": "Algorithms often have to change to fit the capabilities of programming languages.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A20",
+    "to_id": "A19",
+    "from_text": "Programming in computer science is a means to an end, similar to using symbols in mathematics.",
+    "to_text": "Programming is not a method used to solve algorithms; it can limit the ability to develop algorithms.",
+    "type": "attacks",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A20",
+    "to_id": "A21",
+    "from_text": "Programming in computer science is a means to an end, similar to using symbols in mathematics.",
+    "to_text": "Algorithms often have to change to fit the capabilities of programming languages.",
+    "type": "supports",
+    "strength": 0.5
+  },
+  {
+    "from_id": "A21",
+    "to_id": "A19",
+    "from_text": "Algorithms often have to change to fit the capabilities of programming languages.",
+    "to_text": "Programming is not a method used to solve algorithms; it can limit the ability to develop algorithms.",
+    "type": "supports",
+    "strength": 0.7
   },
   {
     "from_id": "A22",
-    "to_id": "A21",
-    "from_text": "LINQ represents a standout feature of C#.",
-    "to_text": "C# matches the capabilities of other backend languages.",
+    "to_id": "A16",
+    "from_text": "Starting a coding club in high school is a good idea.",
+    "to_text": "A highly focused club like a computer club at the high school level may not benefit students.",
+    "type": "attacks",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A22",
+    "to_id": "A30",
+    "from_text": "Starting a coding club in high school is a good idea.",
+    "to_text": "A computer club is unlikely to attract many students.",
+    "type": "attacks",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A23",
+    "to_id": "A22",
+    "from_text": "Web development is a recommended starting point for a computer science club.",
+    "to_text": "Starting a coding club in high school is a good idea.",
     "type": "supports",
-    "strength": 0.7,
-    "explanation": "A22 highlights a specific feature of C# (LINQ) that contributes to its capabilities as a backend language, supporting the general claim in A21."
+    "strength": 0.7
   },
   {
     "from_id": "A24",
-    "to_id": "A23",
-    "from_text": "Go supports superior service-level functionality compared to Node.js or PHP.",
-    "to_text": "Go's execution model exceeds the completeness of Node.js or PHP.",
+    "to_id": "A22",
+    "from_text": "Most people who join a computer science club will want to make games.",
+    "to_text": "Starting a coding club in high school is a good idea.",
     "type": "supports",
-    "strength": 0.7,
-    "explanation": "A24 provides a specific example (superior service-level functionality) that supports the broader claim in A23 about Go's execution model exceeding others."
+    "strength": 0.6
+  },
+  {
+    "from_id": "A24",
+    "to_id": "A25",
+    "from_text": "Most people who join a computer science club will want to make games.",
+    "to_text": "Godot is highly recommended for game development due to its ease of use for 2D games.",
+    "type": "supports",
+    "strength": 0.7
   },
   {
     "from_id": "A25",
-    "to_id": "A23",
-    "from_text": "Go modular systems offer high performance and reliability.",
-    "to_text": "Go's execution model exceeds the completeness of Node.js or PHP.",
+    "to_id": "A24",
+    "from_text": "Godot is highly recommended for game development due to its ease of use for 2D games.",
+    "to_text": "Most people who join a computer science club will want to make games.",
     "type": "supports",
-    "strength": 0.6,
-    "explanation": "A25 describes positive attributes of Go's modular systems (high performance and reliability) which contribute to its overall execution model being superior."
+    "strength": 0.7
+  },
+  {
+    "from_id": "A26",
+    "to_id": "A23",
+    "from_text": "Creating a portfolio site while learning web development is a good approach.",
+    "to_text": "Web development is a recommended starting point for a computer science club.",
+    "type": "supports",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A27",
+    "to_id": "A26",
+    "from_text": "Connecting a website to the internet is not a necessary step for learning but can be beneficial for college or job applications.",
+    "to_text": "Creating a portfolio site while learning web development is a good approach.",
+    "type": "supports",
+    "strength": 0.6
   },
   {
     "from_id": "A28",
-    "to_id": "A26",
-    "from_text": "MVC constitutes the most practiced design pattern.",
-    "to_text": "MVC implementation in Go requires improvement.",
+    "to_id": "A22",
+    "from_text": "Setting up a Java environment in a computer lab can be challenging.",
+    "to_text": "Starting a coding club in high school is a good idea.",
+    "type": "attacks",
+    "strength": 0.4
+  },
+  {
+    "from_id": "A29",
+    "to_id": "A22",
+    "from_text": "A competition-based club can attract a decent amount of students.",
+    "to_text": "Starting a coding club in high school is a good idea.",
     "type": "supports",
-    "strength": 0.6,
-    "explanation": "A28 establishes the importance of MVC, which makes the need for its improvement in Go (A26) a more significant point."
+    "strength": 0.6
+  },
+  {
+    "from_id": "A29",
+    "to_id": "A30",
+    "from_text": "A competition-based club can attract a decent amount of students.",
+    "to_text": "A computer club is unlikely to attract many students.",
+    "type": "attacks",
+    "strength": 0.6
   },
   {
     "from_id": "A30",
-    "to_id": "A29",
-    "from_text": "Go combines simplicity with high power.",
-    "to_text": "Go delivers developer experience benefits despite needing custom functionality.",
+    "to_id": "A16",
+    "from_text": "A computer club is unlikely to attract many students.",
+    "to_text": "A highly focused club like a computer club at the high school level may not benefit students.",
     "type": "supports",
-    "strength": 0.6,
-    "explanation": "A30 states that Go combines simplicity with high power, which aligns with and supports the idea that Go offers developer experience benefits."
-  },
-  {
-    "from_id": "A33",
-    "to_id": "A31",
-    "from_text": "Binary compilation enhances tool portability and deployability.",
-    "to_text": "Strongly typed languages producing binaries are preferable for backend work.",
-    "type": "supports",
-    "strength": 0.8,
-    "explanation": "A33 explains why binary compilation is beneficial (portability and deployability), which supports the preference for strongly typed languages producing binaries (A31)."
+    "strength": 0.8
   },
   {
     "from_id": "A31",
-    "to_id": "A32",
-    "from_text": "Strongly typed languages producing binaries are preferable for backend work.",
-    "to_text": "JavaScript and Python lack appeal for backend development.",
+    "to_id": "A33",
+    "from_text": "Hardware is expensive for the average student, which makes a computer club difficult to succeed unless in an affluent region.",
+    "to_text": "A club with a broader focus would attract more students and greater public support.",
     "type": "supports",
-    "strength": 0.6,
-    "explanation": "A31 states a preference for strongly typed languages producing binaries, which implicitly attacks JavaScript and Python (often not strongly typed or compiled to binaries for backend) by suggesting they lack appeal."
+    "strength": 0.4
+  },
+  {
+    "from_id": "A31",
+    "to_id": "A34",
+    "from_text": "Hardware is expensive for the average student, which makes a computer club difficult to succeed unless in an affluent region.",
+    "to_text": "Focusing solely on 3D printing is too narrow of a niche for a club.",
+    "type": "supports",
+    "strength": 0.3
+  },
+  {
+    "from_id": "A31",
+    "to_id": "A44",
+    "from_text": "Hardware is expensive for the average student, which makes a computer club difficult to succeed unless in an affluent region.",
+    "to_text": "The very idea of a computer club separates people.",
+    "type": "supports",
+    "strength": 0.3
+  },
+  {
+    "from_id": "A32",
+    "to_id": "A33",
+    "from_text": "Students would benefit from a modern shop class or club that exposes them to various technologies involved in making things.",
+    "to_text": "A club with a broader focus would attract more students and greater public support.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A32",
+    "to_id": "A34",
+    "from_text": "Students would benefit from a modern shop class or club that exposes them to various technologies involved in making things.",
+    "to_text": "Focusing solely on 3D printing is too narrow of a niche for a club.",
+    "type": "attacks",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A32",
+    "to_id": "A35",
+    "from_text": "Students would benefit from a modern shop class or club that exposes them to various technologies involved in making things.",
+    "to_text": "The absence of shop-type classes or clubs in schools is detrimental.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A32",
+    "to_id": "A36",
+    "from_text": "Students would benefit from a modern shop class or club that exposes them to various technologies involved in making things.",
+    "to_text": "Young people entering engineering and support fields often lack hands-on experience beyond what they learned in school.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A32",
+    "to_id": "A37",
+    "from_text": "Students would benefit from a modern shop class or club that exposes them to various technologies involved in making things.",
+    "to_text": "Computer science graduates may lack understanding of how machines work or how to create physical objects.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A32",
+    "to_id": "A38",
+    "from_text": "Students would benefit from a modern shop class or club that exposes them to various technologies involved in making things.",
+    "to_text": "Narrowly focused clubs do high school students a disservice by not providing a well-rounded education.",
+    "type": "attacks",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A32",
+    "to_id": "A39",
+    "from_text": "Students would benefit from a modern shop class or club that exposes them to various technologies involved in making things.",
+    "to_text": "A lack of exposure to new things leads to less capable individuals after graduation.",
+    "type": "attacks",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A32",
+    "to_id": "A40",
+    "from_text": "Students would benefit from a modern shop class or club that exposes them to various technologies involved in making things.",
+    "to_text": "Classes like art and shop are important for brain development and connecting academic subjects to the real world.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A33",
+    "to_id": "A34",
+    "from_text": "A club with a broader focus would attract more students and greater public support.",
+    "to_text": "Focusing solely on 3D printing is too narrow of a niche for a club.",
+    "type": "attacks",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A33",
+    "to_id": "A38",
+    "from_text": "A club with a broader focus would attract more students and greater public support.",
+    "to_text": "Narrowly focused clubs do high school students a disservice by not providing a well-rounded education.",
+    "type": "attacks",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A33",
+    "to_id": "A41",
+    "from_text": "A club with a broader focus would attract more students and greater public support.",
+    "to_text": "The idea of separating people based on different interests for a club is flawed.",
+    "type": "attacks",
+    "strength": 0.5
+  },
+  {
+    "from_id": "A33",
+    "to_id": "A44",
+    "from_text": "A club with a broader focus would attract more students and greater public support.",
+    "to_text": "The very idea of a computer club separates people.",
+    "type": "attacks",
+    "strength": 0.5
+  },
+  {
+    "from_id": "A33",
+    "to_id": "A45",
+    "from_text": "A club with a broader focus would attract more students and greater public support.",
+    "to_text": "A robotics club brings together people with varying interests.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A34",
+    "to_id": "A38",
+    "from_text": "Focusing solely on 3D printing is too narrow of a niche for a club.",
+    "to_text": "Narrowly focused clubs do high school students a disservice by not providing a well-rounded education.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A34",
+    "to_id": "A41",
+    "from_text": "Focusing solely on 3D printing is too narrow of a niche for a club.",
+    "to_text": "The idea of separating people based on different interests for a club is flawed.",
+    "type": "supports",
+    "strength": 0.5
+  },
+  {
+    "from_id": "A34",
+    "to_id": "A44",
+    "from_text": "Focusing solely on 3D printing is too narrow of a niche for a club.",
+    "to_text": "The very idea of a computer club separates people.",
+    "type": "supports",
+    "strength": 0.5
   },
   {
     "from_id": "A35",
-    "to_id": "A34",
-    "from_text": "Kestrel is lightweight, fast, and easy to work with.",
-    "to_text": "The .NET ecosystem is good.",
-    "type": "supports",
-    "strength": 0.7,
-    "explanation": "A35 provides a specific example (Kestrel) of a good component within the .NET ecosystem, supporting the general claim that the .NET ecosystem is good."
-  },
-  {
-    "from_id": "A37",
     "to_id": "A36",
-    "from_text": "LINQ is an excellent feature.",
-    "to_text": "C# is as capable as a backend language as JavaScript, Python, and Go.",
+    "from_text": "The absence of shop-type classes or clubs in schools is detrimental.",
+    "to_text": "Young people entering engineering and support fields often lack hands-on experience beyond what they learned in school.",
     "type": "supports",
-    "strength": 0.7,
-    "explanation": "A37 highlights LINQ as an excellent feature, which contributes to C#'s capability as a backend language, supporting the claim in A36."
+    "strength": 0.7
+  },
+  {
+    "from_id": "A35",
+    "to_id": "A37",
+    "from_text": "The absence of shop-type classes or clubs in schools is detrimental.",
+    "to_text": "Computer science graduates may lack understanding of how machines work or how to create physical objects.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A35",
+    "to_id": "A39",
+    "from_text": "The absence of shop-type classes or clubs in schools is detrimental.",
+    "to_text": "A lack of exposure to new things leads to less capable individuals after graduation.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A35",
+    "to_id": "A40",
+    "from_text": "The absence of shop-type classes or clubs in schools is detrimental.",
+    "to_text": "Classes like art and shop are important for brain development and connecting academic subjects to the real world.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A36",
+    "to_id": "A32",
+    "from_text": "Young people entering engineering and support fields often lack hands-on experience beyond what they learned in school.",
+    "to_text": "Students would benefit from a modern shop class or club that exposes them to various technologies involved in making things.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A36",
+    "to_id": "A35",
+    "from_text": "Young people entering engineering and support fields often lack hands-on experience beyond what they learned in school.",
+    "to_text": "The absence of shop-type classes or clubs in schools is detrimental.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A36",
+    "to_id": "A39",
+    "from_text": "Young people entering engineering and support fields often lack hands-on experience beyond what they learned in school.",
+    "to_text": "A lack of exposure to new things leads to less capable individuals after graduation.",
+    "type": "supports",
+    "strength": 0.6
   },
   {
     "from_id": "A37",
-    "to_id": "A38",
-    "from_text": "LINQ is an excellent feature.",
-    "to_text": "C# is good.",
+    "to_id": "A32",
+    "from_text": "Computer science graduates may lack understanding of how machines work or how to create physical objects.",
+    "to_text": "Students would benefit from a modern shop class or club that exposes them to various technologies involved in making things.",
     "type": "supports",
-    "strength": 0.7,
-    "explanation": "A37 highlights LINQ as an excellent feature, which supports the general statement that C# is good."
+    "strength": 0.6
+  },
+  {
+    "from_id": "A37",
+    "to_id": "A35",
+    "from_text": "Computer science graduates may lack understanding of how machines work or how to create physical objects.",
+    "to_text": "The absence of shop-type classes or clubs in schools is detrimental.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A37",
+    "to_id": "A39",
+    "from_text": "Computer science graduates may lack understanding of how machines work or how to create physical objects.",
+    "to_text": "A lack of exposure to new things leads to less capable individuals after graduation.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A38",
+    "to_id": "A32",
+    "from_text": "Narrowly focused clubs do high school students a disservice by not providing a well-rounded education.",
+    "to_text": "Students would benefit from a modern shop class or club that exposes them to various technologies involved in making things.",
+    "type": "attacks",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A38",
+    "to_id": "A33",
+    "from_text": "Narrowly focused clubs do high school students a disservice by not providing a well-rounded education.",
+    "to_text": "A club with a broader focus would attract more students and greater public support.",
+    "type": "attacks",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A38",
+    "to_id": "A34",
+    "from_text": "Narrowly focused clubs do high school students a disservice by not providing a well-rounded education.",
+    "to_text": "Focusing solely on 3D printing is too narrow of a niche for a club.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A38",
+    "to_id": "A39",
+    "from_text": "Narrowly focused clubs do high school students a disservice by not providing a well-rounded education.",
+    "to_text": "A lack of exposure to new things leads to less capable individuals after graduation.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A39",
+    "to_id": "A32",
+    "from_text": "A lack of exposure to new things leads to less capable individuals after graduation.",
+    "to_text": "Students would benefit from a modern shop class or club that exposes them to various technologies involved in making things.",
+    "type": "attacks",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A39",
+    "to_id": "A35",
+    "from_text": "A lack of exposure to new things leads to less capable individuals after graduation.",
+    "to_text": "The absence of shop-type classes or clubs in schools is detrimental.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A39",
+    "to_id": "A36",
+    "from_text": "A lack of exposure to new things leads to less capable individuals after graduation.",
+    "to_text": "Young people entering engineering and support fields often lack hands-on experience beyond what they learned in school.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A39",
+    "to_id": "A37",
+    "from_text": "A lack of exposure to new things leads to less capable individuals after graduation.",
+    "to_text": "Computer science graduates may lack understanding of how machines work or how to create physical objects.",
+    "type": "supports",
+    "strength": 0.6
   },
   {
     "from_id": "A39",
     "to_id": "A38",
-    "from_text": "C# encourages developers to write overly complex code to appear intelligent.",
-    "to_text": "C# is good.",
-    "type": "attacks",
-    "strength": 0.8,
-    "explanation": "A39 points out a negative aspect of C# (encourages overly complex code), which attacks the general positive statement that C# is good."
+    "from_text": "A lack of exposure to new things leads to less capable individuals after graduation.",
+    "to_text": "Narrowly focused clubs do high school students a disservice by not providing a well-rounded education.",
+    "type": "supports",
+    "strength": 0.6
   },
   {
     "from_id": "A40",
-    "to_id": "A39",
-    "from_text": "Go's simplicity makes it easier to maintain in the long run.",
-    "to_text": "C# encourages developers to write overly complex code to appear intelligent.",
+    "to_id": "A32",
+    "from_text": "Classes like art and shop are important for brain development and connecting academic subjects to the real world.",
+    "to_text": "Students would benefit from a modern shop class or club that exposes them to various technologies involved in making things.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A40",
+    "to_id": "A35",
+    "from_text": "Classes like art and shop are important for brain development and connecting academic subjects to the real world.",
+    "to_text": "The absence of shop-type classes or clubs in schools is detrimental.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A41",
+    "to_id": "A33",
+    "from_text": "The idea of separating people based on different interests for a club is flawed.",
+    "to_text": "A club with a broader focus would attract more students and greater public support.",
     "type": "attacks",
-    "strength": 0.6,
-    "explanation": "A40 suggests that Go's simplicity makes it easier to maintain, implicitly contrasting with the complexity issue raised about C# in A39."
+    "strength": 0.5
+  },
+  {
+    "from_id": "A41",
+    "to_id": "A34",
+    "from_text": "The idea of separating people based on different interests for a club is flawed.",
+    "to_text": "Focusing solely on 3D printing is too narrow of a niche for a club.",
+    "type": "supports",
+    "strength": 0.5
+  },
+  {
+    "from_id": "A41",
+    "to_id": "A44",
+    "from_text": "The idea of separating people based on different interests for a club is flawed.",
+    "to_text": "The very idea of a computer club separates people.",
+    "type": "supports",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A41",
+    "to_id": "A45",
+    "from_text": "The idea of separating people based on different interests for a club is flawed.",
+    "to_text": "A robotics club brings together people with varying interests.",
+    "type": "attacks",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A42",
+    "to_id": "A32",
+    "from_text": "Building arcade cabinets with Raspberry Pi can be a good introduction to programming and provide a tangible reward.",
+    "to_text": "Students would benefit from a modern shop class or club that exposes them to various technologies involved in making things.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A42",
+    "to_id": "A35",
+    "from_text": "Building arcade cabinets with Raspberry Pi can be a good introduction to programming and provide a tangible reward.",
+    "to_text": "The absence of shop-type classes or clubs in schools is detrimental.",
+    "type": "attacks",
+    "strength": 0.5
+  },
+  {
+    "from_id": "A42",
+    "to_id": "A43",
+    "from_text": "Building arcade cabinets with Raspberry Pi can be a good introduction to programming and provide a tangible reward.",
+    "to_text": "Creating a gaming system with Raspberry Pi allows learning hardware and software while bringing people together with common interests.",
+    "type": "supports",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A43",
+    "to_id": "A32",
+    "from_text": "Creating a gaming system with Raspberry Pi allows learning hardware and software while bringing people together with common interests.",
+    "to_text": "Students would benefit from a modern shop class or club that exposes them to various technologies involved in making things.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A43",
+    "to_id": "A33",
+    "from_text": "Creating a gaming system with Raspberry Pi allows learning hardware and software while bringing people together with common interests.",
+    "to_text": "A club with a broader focus would attract more students and greater public support.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A43",
+    "to_id": "A35",
+    "from_text": "Creating a gaming system with Raspberry Pi allows learning hardware and software while bringing people together with common interests.",
+    "to_text": "The absence of shop-type classes or clubs in schools is detrimental.",
+    "type": "attacks",
+    "strength": 0.6
   },
   {
     "from_id": "A43",
     "to_id": "A42",
-    "from_text": "Multiple layers of MVC abstraction provide little benefit.",
-    "to_text": "A major downside of C# is developers' tendency to overuse enterprise design patterns.",
+    "from_text": "Creating a gaming system with Raspberry Pi allows learning hardware and software while bringing people together with common interests.",
+    "to_text": "Building arcade cabinets with Raspberry Pi can be a good introduction to programming and provide a tangible reward.",
     "type": "supports",
-    "strength": 0.6,
-    "explanation": "A43 suggests that MVC abstraction provides little benefit, which supports the idea that overusing enterprise design patterns (like MVC) is a downside."
+    "strength": 0.8
+  },
+  {
+    "from_id": "A43",
+    "to_id": "A44",
+    "from_text": "Creating a gaming system with Raspberry Pi allows learning hardware and software while bringing people together with common interests.",
+    "to_text": "The very idea of a computer club separates people.",
+    "type": "attacks",
+    "strength": 0.6
   },
   {
     "from_id": "A44",
-    "to_id": "A42",
-    "from_text": "The MVC pattern is not required in .NET.",
-    "to_text": "A major downside of C# is developers' tendency to overuse enterprise design patterns.",
+    "to_id": "A31",
+    "from_text": "The very idea of a computer club separates people.",
+    "to_text": "Hardware is expensive for the average student, which makes a computer club difficult to succeed unless in an affluent region.",
+    "type": "supports",
+    "strength": 0.3
+  },
+  {
+    "from_id": "A44",
+    "to_id": "A33",
+    "from_text": "The very idea of a computer club separates people.",
+    "to_text": "A club with a broader focus would attract more students and greater public support.",
     "type": "attacks",
-    "strength": 0.4,
-    "explanation": "A44 states that MVC is not required in .NET, which could imply that the 'overuse' mentioned in A42 is a choice, not an inherent flaw of C# or .NET."
+    "strength": 0.5
   },
   {
-    "from_id": "A48",
-    "to_id": "A50",
-    "from_text": "Go developers earn 1.3 to 1.4 times more than Python developers.",
-    "to_text": "Go is preferable to Python for backend development.",
+    "from_id": "A44",
+    "to_id": "A34",
+    "from_text": "The very idea of a computer club separates people.",
+    "to_text": "Focusing solely on 3D printing is too narrow of a niche for a club.",
     "type": "supports",
-    "strength": 0.7,
-    "explanation": "Higher earnings for Go developers (A48) suggest a better career outlook, supporting the preference for Go over Python (A50)."
+    "strength": 0.5
   },
   {
-    "from_id": "A49",
-    "to_id": "A50",
-    "from_text": "Go developers are more likely to find good jobs after leaving their current company.",
-    "to_text": "Go is preferable to Python for backend development.",
+    "from_id": "A44",
+    "to_id": "A41",
+    "from_text": "The very idea of a computer club separates people.",
+    "to_text": "The idea of separating people based on different interests for a club is flawed.",
     "type": "supports",
-    "strength": 0.7,
-    "explanation": "Better job prospects after leaving a company (A49) indicate a stronger job market for Go, supporting the preference for Go over Python (A50)."
+    "strength": 0.8
   },
   {
-    "from_id": "A51",
-    "to_id": "A50",
-    "from_text": "Go is a robust backend language.",
-    "to_text": "Go is preferable to Python for backend development.",
+    "from_id": "A44",
+    "to_id": "A43",
+    "from_text": "The very idea of a computer club separates people.",
+    "to_text": "Creating a gaming system with Raspberry Pi allows learning hardware and software while bringing people together with common interests.",
+    "type": "attacks",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A44",
+    "to_id": "A45",
+    "from_text": "The very idea of a computer club separates people.",
+    "to_text": "A robotics club brings together people with varying interests.",
+    "type": "attacks",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A45",
+    "to_id": "A33",
+    "from_text": "A robotics club brings together people with varying interests.",
+    "to_text": "A club with a broader focus would attract more students and greater public support.",
     "type": "supports",
-    "strength": 0.8,
-    "explanation": "A51 states Go is a robust backend language, which directly supports the claim in A50 that Go is preferable to Python for backend development."
+    "strength": 0.7
+  },
+  {
+    "from_id": "A45",
+    "to_id": "A34",
+    "from_text": "A robotics club brings together people with varying interests.",
+    "to_text": "Focusing solely on 3D printing is too narrow of a niche for a club.",
+    "type": "attacks",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A45",
+    "to_id": "A38",
+    "from_text": "A robotics club brings together people with varying interests.",
+    "to_text": "Narrowly focused clubs do high school students a disservice by not providing a well-rounded education.",
+    "type": "attacks",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A45",
+    "to_id": "A41",
+    "from_text": "A robotics club brings together people with varying interests.",
+    "to_text": "The idea of separating people based on different interests for a club is flawed.",
+    "type": "attacks",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A45",
+    "to_id": "A44",
+    "from_text": "A robotics club brings together people with varying interests.",
+    "to_text": "The very idea of a computer club separates people.",
+    "type": "attacks",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A46",
+    "to_id": "A47",
+    "from_text": "Raspberry Pi and similar cards have problems in public schools, including cost issues.",
+    "to_text": "A robotics club offers opportunities for donations.",
+    "type": "attacks",
+    "strength": 0.6
   },
   {
     "from_id": "A48",
     "to_id": "A49",
-    "from_text": "Go developers earn 1.3 to 1.4 times more than Python developers.",
-    "to_text": "Go developers are more likely to find good jobs after leaving their current company.",
-    "type": "supports",
-    "strength": 0.6,
-    "explanation": "Higher earnings (A48) often correlate with better job opportunities and demand, supporting the idea of finding good jobs after leaving (A49)."
+    "from_text": "Creating physical objects like arcade gaming cabinets develops multiple skills beyond computer science.",
+    "to_text": "It is detrimental to pigeonhole students early in their primary school careers.",
+    "type": "attacks",
+    "strength": 0.6
   },
   {
     "from_id": "A48",
-    "to_id": "A54",
-    "from_text": "Go developers earn 1.3 to 1.4 times more than Python developers.",
-    "to_text": "Go offers great long-term opportunities.",
+    "to_id": "A51",
+    "from_text": "Creating physical objects like arcade gaming cabinets develops multiple skills beyond computer science.",
+    "to_text": "Students need more diversity in mandatory classes.",
     "type": "supports",
-    "strength": 0.7,
-    "explanation": "Higher earnings for Go developers (A48) contribute to the idea of great long-term opportunities (A54)."
+    "strength": 0.6
   },
   {
     "from_id": "A49",
-    "to_id": "A54",
-    "from_text": "Go developers are more likely to find good jobs after leaving their current company.",
-    "to_text": "Go offers great long-term opportunities.",
+    "to_id": "A50",
+    "from_text": "It is detrimental to pigeonhole students early in their primary school careers.",
+    "to_text": "Schools have gotten worse at exposing students to various possibilities.",
     "type": "supports",
-    "strength": 0.8,
-    "explanation": "Being more likely to find good jobs (A49) directly supports the claim of great long-term opportunities (A54)."
+    "strength": 0.6
+  },
+  {
+    "from_id": "A49",
+    "to_id": "A51",
+    "from_text": "It is detrimental to pigeonhole students early in their primary school careers.",
+    "to_text": "Students need more diversity in mandatory classes.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A50",
+    "to_id": "A51",
+    "from_text": "Schools have gotten worse at exposing students to various possibilities.",
+    "to_text": "Students need more diversity in mandatory classes.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A51",
+    "to_id": "A48",
+    "from_text": "Students need more diversity in mandatory classes.",
+    "to_text": "Creating physical objects like arcade gaming cabinets develops multiple skills beyond computer science.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A52",
+    "to_id": "A49",
+    "from_text": "Early computer science education is beneficial because future technology will be driven by today's students.",
+    "to_text": "It is detrimental to pigeonhole students early in their primary school careers.",
+    "type": "attacks",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A52",
+    "to_id": "A50",
+    "from_text": "Early computer science education is beneficial because future technology will be driven by today's students.",
+    "to_text": "Schools have gotten worse at exposing students to various possibilities.",
+    "type": "attacks",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A52",
+    "to_id": "A51",
+    "from_text": "Early computer science education is beneficial because future technology will be driven by today's students.",
+    "to_text": "Students need more diversity in mandatory classes.",
+    "type": "attacks",
+    "strength": 0.6
   },
   {
     "from_id": "A53",
-    "to_id": "A54",
-    "from_text": "Go provides a harder entry to the job market.",
-    "to_text": "Go offers great long-term opportunities.",
+    "to_id": "A49",
+    "from_text": "Everyone interacts with computers daily, making computer science education practical.",
+    "to_text": "It is detrimental to pigeonhole students early in their primary school careers.",
     "type": "attacks",
-    "strength": 0.7,
-    "explanation": "A harder entry to the job market (A53) contradicts the idea of great long-term opportunities (A54)."
+    "strength": 0.6
+  },
+  {
+    "from_id": "A53",
+    "to_id": "A50",
+    "from_text": "Everyone interacts with computers daily, making computer science education practical.",
+    "to_text": "Schools have gotten worse at exposing students to various possibilities.",
+    "type": "attacks",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A53",
+    "to_id": "A51",
+    "from_text": "Everyone interacts with computers daily, making computer science education practical.",
+    "to_text": "Students need more diversity in mandatory classes.",
+    "type": "attacks",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A54",
+    "to_id": "A49",
+    "from_text": "Most colleges require an introductory computer science class, making early exposure practical for students.",
+    "to_text": "It is detrimental to pigeonhole students early in their primary school careers.",
+    "type": "attacks",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A54",
+    "to_id": "A50",
+    "from_text": "Most colleges require an introductory computer science class, making early exposure practical for students.",
+    "to_text": "Schools have gotten worse at exposing students to various possibilities.",
+    "type": "attacks",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A54",
+    "to_id": "A51",
+    "from_text": "Most colleges require an introductory computer science class, making early exposure practical for students.",
+    "to_text": "Students need more diversity in mandatory classes.",
+    "type": "attacks",
+    "strength": 0.6
   },
   {
     "from_id": "A55",
-    "to_id": "A53",
-    "from_text": "Python has many job openings.",
-    "to_text": "Go provides a harder entry to the job market.",
-    "type": "attacks",
-    "strength": 0.5,
-    "explanation": "Many job openings for Python (A55) suggests an easier entry to the job market for Python, indirectly attacking the idea that Go has a harder entry (A53) by comparison."
+    "to_id": "A48",
+    "from_text": "Many engineering and mathematic disciplines are involved in robotics.",
+    "to_text": "Creating physical objects like arcade gaming cabinets develops multiple skills beyond computer science.",
+    "type": "supports",
+    "strength": 0.7
   },
   {
     "from_id": "A56",
-    "to_id": "A53",
-    "from_text": "Python is highly requested in the job market.",
-    "to_text": "Go provides a harder entry to the job market.",
+    "to_id": "A55",
+    "from_text": "Students are more likely to be interested in building and programming their own device that plays games than in learning engineering and mathematics.",
+    "to_text": "Many engineering and mathematic disciplines are involved in robotics.",
     "type": "attacks",
-    "strength": 0.6,
-    "explanation": "Python being highly requested (A56) implies an easier job market entry for Python, indirectly attacking the claim that Go has a harder entry (A53) by comparison."
-  },
-  {
-    "from_id": "A55",
-    "to_id": "A50",
-    "from_text": "Python has many job openings.",
-    "to_text": "Go is preferable to Python for backend development.",
-    "type": "attacks",
-    "strength": 0.6,
-    "explanation": "Many job openings for Python (A55) suggest Python is a strong contender, attacking the idea that Go is preferable for backend development (A50)."
+    "strength": 0.6
   },
   {
     "from_id": "A56",
-    "to_id": "A50",
-    "from_text": "Python is highly requested in the job market.",
-    "to_text": "Go is preferable to Python for backend development.",
-    "type": "attacks",
-    "strength": 0.7,
-    "explanation": "Python being highly requested (A56) suggests its strong market position, attacking the idea that Go is preferable for backend development (A50)."
+    "to_id": "A57",
+    "from_text": "Students are more likely to be interested in building and programming their own device that plays games than in learning engineering and mathematics.",
+    "to_text": "It is important to adapt to students' interests rather than force them into traditional learning methods.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A56",
+    "to_id": "A58",
+    "from_text": "Students are more likely to be interested in building and programming their own device that plays games than in learning engineering and mathematics.",
+    "to_text": "Injecting educational ideas and philosophies into activities students enjoy is more effective.",
+    "type": "supports",
+    "strength": 0.7
   },
   {
     "from_id": "A57",
-    "to_id": "A50",
-    "from_text": "Python is very easy to master.",
-    "to_text": "Go is preferable to Python for backend development.",
-    "type": "attacks",
-    "strength": 0.5,
-    "explanation": "Python being easy to master (A57) makes it an attractive option, attacking the claim that Go is preferable for backend development (A50)."
+    "to_id": "A56",
+    "from_text": "It is important to adapt to students' interests rather than force them into traditional learning methods.",
+    "to_text": "Students are more likely to be interested in building and programming their own device that plays games than in learning engineering and mathematics.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A57",
+    "to_id": "A58",
+    "from_text": "It is important to adapt to students' interests rather than force them into traditional learning methods.",
+    "to_text": "Injecting educational ideas and philosophies into activities students enjoy is more effective.",
+    "type": "supports",
+    "strength": 0.8
   },
   {
     "from_id": "A58",
-    "to_id": "A60",
-    "from_text": "FastAPI provides abstractions similar to those in Spring and ASP.NET MVC.",
-    "to_text": "Mastering Python with FastAPI equips developers with 80% of the capabilities of Java and .NET developers.",
+    "to_id": "A56",
+    "from_text": "Injecting educational ideas and philosophies into activities students enjoy is more effective.",
+    "to_text": "Students are more likely to be interested in building and programming their own device that plays games than in learning engineering and mathematics.",
     "type": "supports",
-    "strength": 0.7,
-    "explanation": "FastAPI providing similar abstractions to Spring and ASP.NET MVC (A58) supports the idea that mastering Python with FastAPI can provide similar capabilities to Java and .NET developers (A60)."
+    "strength": 0.7
   },
   {
-    "from_id": "A57",
-    "to_id": "A60",
-    "from_text": "Python is very easy to master.",
-    "to_text": "Mastering Python with FastAPI equips developers with 80% of the capabilities of Java and .NET developers.",
+    "from_id": "A58",
+    "to_id": "A57",
+    "from_text": "Injecting educational ideas and philosophies into activities students enjoy is more effective.",
+    "to_text": "It is important to adapt to students' interests rather than force them into traditional learning methods.",
     "type": "supports",
-    "strength": 0.5,
-    "explanation": "Python being easy to master (A57) makes the 'mastering Python with FastAPI' part of A60 more achievable and thus strengthens the overall claim."
+    "strength": 0.8
   },
   {
     "from_id": "A59",
-    "to_id": "A60",
-    "from_text": "Django is a hodgepodge of weirdness due to its long history.",
-    "to_text": "Mastering Python with FastAPI equips developers with 80% of the capabilities of Java and .NET developers.",
+    "to_id": "A56",
+    "from_text": "Robocode is a fun way to start programming, especially for those familiar with Java.",
+    "to_text": "Students are more likely to be interested in building and programming their own device that plays games than in learning engineering and mathematics.",
     "type": "supports",
-    "strength": 0.4,
-    "explanation": "By criticizing Django (A59), the speaker implicitly promotes FastAPI as a better alternative within the Python ecosystem, thus supporting the idea that mastering Python with FastAPI (A60) is a valuable path."
+    "strength": 0.6
   },
   {
-    "from_id": "A65",
-    "to_id": "A64",
-    "from_text": "Statically typed functional languages are enjoyable.",
-    "to_text": "Scala is an impressive language with effective effects systems.",
+    "from_id": "A59",
+    "to_id": "A58",
+    "from_text": "Robocode is a fun way to start programming, especially for those familiar with Java.",
+    "to_text": "Injecting educational ideas and philosophies into activities students enjoy is more effective.",
     "type": "supports",
-    "strength": 0.7,
-    "explanation": "A65 states that statically typed functional languages are enjoyable, which supports A64's positive assessment of Scala as an impressive language with effective effects systems, as Scala is a statically typed functional language."
+    "strength": 0.6
   },
   {
-    "from_id": "A66",
-    "to_id": "A64",
-    "from_text": "Scala running on the JVM provides access to Java libraries as an advantage.",
-    "to_text": "Scala is an impressive language with effective effects systems.",
+    "from_id": "A1",
+    "to_id": "A22",
+    "from_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "to_text": "Starting a coding club in high school is a good idea.",
     "type": "supports",
-    "strength": 0.8,
-    "explanation": "A66 provides a specific advantage of Scala (access to Java libraries), which supports the general positive statement about Scala in A64."
+    "strength": 0.6
   },
   {
-    "from_id": "A67",
-    "to_id": "A64",
-    "from_text": "Scala is dying and has been for years.",
-    "to_text": "Scala is an impressive language with effective effects systems.",
+    "from_id": "A1",
+    "to_id": "A53",
+    "from_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "to_text": "Everyone interacts with computers daily, making computer science education practical.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A8",
+    "to_id": "A1",
+    "from_text": "Most robotics programs are funded by local companies, so out-of-pocket expenses are not a concern.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "type": "supports",
+    "strength": 0.4
+  },
+  {
+    "from_id": "A15",
+    "to_id": "A36",
+    "from_text": "Robotics, 3D printing, and similar activities are not a substitute for learning how materials like wood, paint, or metal behave under human direction.",
+    "to_text": "Young people entering engineering and support fields often lack hands-on experience beyond what they learned in school.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A15",
+    "to_id": "A1",
+    "from_text": "Robotics, 3D printing, and similar activities are not a substitute for learning how materials like wood, paint, or metal behave under human direction.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
     "type": "attacks",
-    "strength": 0.9,
-    "explanation": "A67 claims Scala is dying, directly contradicting the positive sentiment about Scala in A64."
+    "strength": 0.5
   },
   {
-    "from_id": "A68",
-    "to_id": "A64",
-    "from_text": "Scala, as 'Java with extra steps', was never going to succeed long term.",
-    "to_text": "Scala is an impressive language with effective effects systems.",
+    "from_id": "A15",
+    "to_id": "A22",
+    "from_text": "Robotics, 3D printing, and similar activities are not a substitute for learning how materials like wood, paint, or metal behave under human direction.",
+    "to_text": "Starting a coding club in high school is a good idea.",
     "type": "attacks",
-    "strength": 0.8,
-    "explanation": "A68 suggests Scala was never going to succeed long term, which attacks the idea that Scala is an impressive language."
+    "strength": 0.3
   },
   {
-    "from_id": "A70",
-    "to_id": "A64",
-    "from_text": "It is difficult to find or train Scala engineers nowadays.",
-    "to_text": "Scala is an impressive language with effective effects systems.",
+    "from_id": "A22",
+    "to_id": "A1",
+    "from_text": "Starting a coding club in high school is a good idea.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A22",
+    "to_id": "A53",
+    "from_text": "Starting a coding club in high school is a good idea.",
+    "to_text": "Everyone interacts with computers daily, making computer science education practical.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A29",
+    "to_id": "A1",
+    "from_text": "A competition-based club can attract a decent amount of students.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "type": "supports",
+    "strength": 0.5
+  },
+  {
+    "from_id": "A36",
+    "to_id": "A15",
+    "from_text": "Young people entering engineering and support fields often lack hands-on experience beyond what they learned in school.",
+    "to_text": "Robotics, 3D printing, and similar activities are not a substitute for learning how materials like wood, paint, or metal behave under human direction.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A36",
+    "to_id": "A50",
+    "from_text": "Young people entering engineering and support fields often lack hands-on experience beyond what they learned in school.",
+    "to_text": "Schools have gotten worse at exposing students to various possibilities.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A43",
+    "to_id": "A1",
+    "from_text": "Creating a gaming system with Raspberry Pi allows learning hardware and software while bringing people together with common interests.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A43",
+    "to_id": "A22",
+    "from_text": "Creating a gaming system with Raspberry Pi allows learning hardware and software while bringing people together with common interests.",
+    "to_text": "Starting a coding club in high school is a good idea.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A43",
+    "to_id": "A53",
+    "from_text": "Creating a gaming system with Raspberry Pi allows learning hardware and software while bringing people together with common interests.",
+    "to_text": "Everyone interacts with computers daily, making computer science education practical.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A50",
+    "to_id": "A36",
+    "from_text": "Schools have gotten worse at exposing students to various possibilities.",
+    "to_text": "Young people entering engineering and support fields often lack hands-on experience beyond what they learned in school.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A50",
+    "to_id": "A1",
+    "from_text": "Schools have gotten worse at exposing students to various possibilities.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "type": "supports",
+    "strength": 0.4
+  },
+  {
+    "from_id": "A50",
+    "to_id": "A22",
+    "from_text": "Schools have gotten worse at exposing students to various possibilities.",
+    "to_text": "Starting a coding club in high school is a good idea.",
+    "type": "supports",
+    "strength": 0.4
+  },
+  {
+    "from_id": "A58",
+    "to_id": "A1",
+    "from_text": "Injecting educational ideas and philosophies into activities students enjoy is more effective.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "type": "supports",
+    "strength": 0.5
+  },
+  {
+    "from_id": "A58",
+    "to_id": "A22",
+    "from_text": "Injecting educational ideas and philosophies into activities students enjoy is more effective.",
+    "to_text": "Starting a coding club in high school is a good idea.",
+    "type": "supports",
+    "strength": 0.5
+  },
+  {
+    "from_id": "A58",
+    "to_id": "A43",
+    "from_text": "Injecting educational ideas and philosophies into activities students enjoy is more effective.",
+    "to_text": "Creating a gaming system with Raspberry Pi allows learning hardware and software while bringing people together with common interests.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A53",
+    "to_id": "A1",
+    "from_text": "Everyone interacts with computers daily, making computer science education practical.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A53",
+    "to_id": "A22",
+    "from_text": "Everyone interacts with computers daily, making computer science education practical.",
+    "to_text": "Starting a coding club in high school is a good idea.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A53",
+    "to_id": "A43",
+    "from_text": "Everyone interacts with computers daily, making computer science education practical.",
+    "to_text": "Creating a gaming system with Raspberry Pi allows learning hardware and software while bringing people together with common interests.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A4",
+    "to_id": "A22",
+    "from_text": "It is advisable to stick with programming for a computer science club, as it can be done easily on laptops.",
+    "to_text": "Starting a coding club in high school is a good idea.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A4",
+    "to_id": "A43",
+    "from_text": "It is advisable to stick with programming for a computer science club, as it can be done easily on laptops.",
+    "to_text": "Creating a gaming system with Raspberry Pi allows learning hardware and software while bringing people together with common interests.",
     "type": "attacks",
-    "strength": 0.7,
-    "explanation": "A70 points out the difficulty in finding or training Scala engineers, which is a practical drawback that attacks the overall impressiveness of the language."
+    "strength": 0.4
   },
   {
-    "from_id": "A71",
-    "to_id": "A64",
-    "from_text": "Scala is very tough to master.",
-    "to_text": "Scala is an impressive language with effective effects systems.",
-    "type": "attacks",
-    "strength": 0.7,
-    "explanation": "A71 states Scala is very tough to master, which is a negative aspect that attacks the general positive impression of the language in A64."
-  },
-  {
-    "from_id": "A72",
-    "to_id": "A64",
-    "from_text": "Scala is an amazing language.",
-    "to_text": "Scala is an impressive language with effective effects systems.",
+    "from_id": "A55",
+    "to_id": "A1",
+    "from_text": "Many engineering and mathematic disciplines are involved in robotics.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
     "type": "supports",
-    "strength": 0.9,
-    "explanation": "A72 directly states Scala is an amazing language, reinforcing the positive sentiment of A64."
+    "strength": 0.7
   },
   {
-    "from_id": "A73",
-    "to_id": "A64",
-    "from_text": "The market for Scala is tough and barely alive.",
-    "to_text": "Scala is an impressive language with effective effects systems.",
-    "type": "attacks",
-    "strength": 0.8,
-    "explanation": "A73 claims the market for Scala is tough and barely alive, which attacks the positive assessment of Scala in A64."
-  },
-  {
-    "from_id": "A74",
-    "to_id": "A64",
-    "from_text": "Java or Go are preferable choices over Scala.",
-    "to_text": "Scala is an impressive language with effective effects systems.",
-    "type": "attacks",
-    "strength": 0.7,
-    "explanation": "A74 suggests Java or Go are preferable choices over Scala, which implicitly attacks the impressiveness of Scala."
-  },
-  {
-    "from_id": "A78",
-    "to_id": "A64",
-    "from_text": "Scala is a dead language.",
-    "to_text": "Scala is an impressive language with effective effects systems.",
-    "type": "attacks",
-    "strength": 0.9,
-    "explanation": "A78 directly states Scala is a dead language, which strongly attacks the positive assessment of Scala in A64."
-  },
-  {
-    "from_id": "A79",
-    "to_id": "A64",
-    "from_text": "Kotlin has surpassed Scala long ago.",
-    "to_text": "Scala is an impressive language with effective effects systems.",
-    "type": "attacks",
-    "strength": 0.7,
-    "explanation": "A79 states Kotlin has surpassed Scala, implying Scala is no longer as impressive or relevant, thus attacking A64."
-  },
-  {
-    "from_id": "A80",
-    "to_id": "A64",
-    "from_text": "Scala is dying.",
-    "to_text": "Scala is an impressive language with effective effects systems.",
-    "type": "attacks",
-    "strength": 0.9,
-    "explanation": "A80 states Scala is dying, directly contradicting the positive sentiment about Scala in A64."
-  },
-  {
-    "from_id": "A68",
-    "to_id": "A67",
-    "from_text": "Scala, as 'Java with extra steps', was never going to succeed long term.",
-    "to_text": "Scala is dying and has been for years.",
+    "from_id": "A55",
+    "to_id": "A36",
+    "from_text": "Many engineering and mathematic disciplines are involved in robotics.",
+    "to_text": "Young people entering engineering and support fields often lack hands-on experience beyond what they learned in school.",
     "type": "supports",
-    "strength": 0.7,
-    "explanation": "A68 provides a reason ('Java with extra steps' never going to succeed long term) for why Scala might be dying, supporting A67's claim."
-  },
-  {
-    "from_id": "A70",
-    "to_id": "A67",
-    "from_text": "It is difficult to find or train Scala engineers nowadays.",
-    "to_text": "Scala is dying and has been for years.",
-    "type": "supports",
-    "strength": 0.7,
-    "explanation": "A70 mentions the difficulty in finding Scala engineers, which is a symptom of a dying language, supporting A67."
-  },
-  {
-    "from_id": "A73",
-    "to_id": "A67",
-    "from_text": "The market for Scala is tough and barely alive.",
-    "to_text": "Scala is dying and has been for years.",
-    "type": "supports",
-    "strength": 0.9,
-    "explanation": "A73 states the market for Scala is tough and barely alive, which directly supports the claim that Scala is dying."
-  },
-  {
-    "from_id": "A78",
-    "to_id": "A67",
-    "from_text": "Scala is a dead language.",
-    "to_text": "Scala is dying and has been for years.",
-    "type": "supports",
-    "strength": 0.9,
-    "explanation": "A78 states Scala is a dead language, which is a stronger version of 'dying' and thus supports A67."
-  },
-  {
-    "from_id": "A79",
-    "to_id": "A67",
-    "from_text": "Kotlin has surpassed Scala long ago.",
-    "to_text": "Scala is dying and has been for years.",
-    "type": "supports",
-    "strength": 0.7,
-    "explanation": "A79 states Kotlin has surpassed Scala, implying a decline in Scala's relevance, which supports the idea that Scala is dying."
-  },
-  {
-    "from_id": "A80",
-    "to_id": "A67",
-    "from_text": "Scala is dying.",
-    "to_text": "Scala is dying and has been for years.",
-    "type": "supports",
-    "strength": 0.9,
-    "explanation": "A80 directly reiterates that Scala is dying, supporting A67."
-  },
-  {
-    "from_id": "A68",
-    "to_id": "A70",
-    "from_text": "Scala, as 'Java with extra steps', was never going to succeed long term.",
-    "to_text": "It is difficult to find or train Scala engineers nowadays.",
-    "type": "supports",
-    "strength": 0.6,
-    "explanation": "A68 suggests Scala was never going to succeed long term, which could contribute to the difficulty in finding or training engineers (A70)."
-  },
-  {
-    "from_id": "A71",
-    "to_id": "A70",
-    "from_text": "Scala is very tough to master.",
-    "to_text": "It is difficult to find or train Scala engineers nowadays.",
-    "type": "supports",
-    "strength": 0.8,
-    "explanation": "A71 states Scala is very tough to master, which directly explains why it would be difficult to find or train Scala engineers (A70)."
-  },
-  {
-    "from_id": "A73",
-    "to_id": "A70",
-    "from_text": "The market for Scala is tough and barely alive.",
-    "to_text": "It is difficult to find or train Scala engineers nowadays.",
-    "type": "supports",
-    "strength": 0.8,
-    "explanation": "A73 states the market for Scala is tough and barely alive, which would naturally lead to difficulty in finding or training engineers (A70)."
-  },
-  {
-    "from_id": "A78",
-    "to_id": "A70",
-    "from_text": "Scala is a dead language.",
-    "to_text": "It is difficult to find or train Scala engineers nowadays.",
-    "type": "supports",
-    "strength": 0.8,
-    "explanation": "A78 states Scala is a dead language, which would make it very difficult to find or train engineers (A70)."
-  },
-  {
-    "from_id": "A79",
-    "to_id": "A70",
-    "from_text": "Kotlin has surpassed Scala long ago.",
-    "to_text": "It is difficult to find or train Scala engineers nowadays.",
-    "type": "supports",
-    "strength": 0.7,
-    "explanation": "A79 states Kotlin has surpassed Scala, implying a decline in demand for Scala, which would make it harder to find or train Scala engineers (A70)."
-  },
-  {
-    "from_id": "A80",
-    "to_id": "A70",
-    "from_text": "Scala is dying.",
-    "to_text": "It is difficult to find or train Scala engineers nowadays.",
-    "type": "supports",
-    "strength": 0.8,
-    "explanation": "A80 states Scala is dying, which would naturally lead to difficulty in finding or training engineers (A70)."
-  },
-  {
-    "from_id": "A69",
-    "to_id": "A71",
-    "from_text": "Stack traces in monad chains are ugly and messy because every line is a new function.",
-    "to_text": "Scala is very tough to master.",
-    "type": "supports",
-    "strength": 0.7,
-    "explanation": "A69 describes a specific technical difficulty (ugly stack traces in monad chains) that contributes to Scala being tough to master (A71)."
-  },
-  {
-    "from_id": "A73",
-    "to_id": "A72",
-    "from_text": "The market for Scala is tough and barely alive.",
-    "to_text": "Scala is an amazing language.",
-    "type": "attacks",
-    "strength": 0.8,
-    "explanation": "A73 claims the market for Scala is tough and barely alive, which attacks the idea that Scala is an amazing language."
-  },
-  {
-    "from_id": "A74",
-    "to_id": "A72",
-    "from_text": "Java or Go are preferable choices over Scala.",
-    "to_text": "Scala is an amazing language.",
-    "type": "attacks",
-    "strength": 0.7,
-    "explanation": "A74 suggests Java or Go are preferable choices over Scala, which implicitly attacks the idea that Scala is an amazing language."
-  },
-  {
-    "from_id": "A78",
-    "to_id": "A72",
-    "from_text": "Scala is a dead language.",
-    "to_text": "Scala is an amazing language.",
-    "type": "attacks",
-    "strength": 0.9,
-    "explanation": "A78 directly states Scala is a dead language, which strongly attacks the idea that Scala is an amazing language."
-  },
-  {
-    "from_id": "A79",
-    "to_id": "A72",
-    "from_text": "Kotlin has surpassed Scala long ago.",
-    "to_text": "Scala is an amazing language.",
-    "type": "attacks",
-    "strength": 0.7,
-    "explanation": "A79 states Kotlin has surpassed Scala, implying Scala is no longer as amazing or relevant, thus attacking A72."
-  },
-  {
-    "from_id": "A80",
-    "to_id": "A72",
-    "from_text": "Scala is dying.",
-    "to_text": "Scala is an amazing language.",
-    "type": "attacks",
-    "strength": 0.9,
-    "explanation": "A80 states Scala is dying, directly contradicting the positive sentiment about Scala in A72."
-  },
-  {
-    "from_id": "A74",
-    "to_id": "A73",
-    "from_text": "Java or Go are preferable choices over Scala.",
-    "to_text": "The market for Scala is tough and barely alive.",
-    "type": "supports",
-    "strength": 0.7,
-    "explanation": "A74 suggests preferring Java or Go over Scala, which implies a weak market for Scala, supporting A73."
-  },
-  {
-    "from_id": "A78",
-    "to_id": "A73",
-    "from_text": "Scala is a dead language.",
-    "to_text": "The market for Scala is tough and barely alive.",
-    "type": "supports",
-    "strength": 0.9,
-    "explanation": "A78 states Scala is a dead language, which strongly supports the claim that its market is tough and barely alive."
-  },
-  {
-    "from_id": "A79",
-    "to_id": "A73",
-    "from_text": "Kotlin has surpassed Scala long ago.",
-    "to_text": "The market for Scala is tough and barely alive.",
-    "type": "supports",
-    "strength": 0.7,
-    "explanation": "A79 states Kotlin has surpassed Scala, implying a decline in Scala's market, supporting A73."
-  },
-  {
-    "from_id": "A80",
-    "to_id": "A73",
-    "from_text": "Scala is dying.",
-    "to_text": "The market for Scala is tough and barely alive.",
-    "type": "supports",
-    "strength": 0.9,
-    "explanation": "A80 states Scala is dying, which directly supports the claim that its market is tough and barely alive."
-  },
-  {
-    "from_id": "A76",
-    "to_id": "A75",
-    "from_text": "Go's type system is overly simple.",
-    "to_text": "Go is a cool language.",
-    "type": "attacks",
-    "strength": 0.7,
-    "explanation": "A76 states Go's type system is overly simple, which is a criticism that attacks the idea of Go being a 'cool language'."
-  },
-  {
-    "from_id": "A77",
-    "to_id": "A74",
-    "from_text": "Java or Kotlin are preferable choices.",
-    "to_text": "Java or Go are preferable choices over Scala.",
-    "type": "supports",
-    "strength": 0.6,
-    "explanation": "A77 suggests Java or Kotlin are preferable choices, which aligns with the sentiment of preferring other languages over Scala, as stated in A74."
-  },
-  {
-    "from_id": "A79",
-    "to_id": "A78",
-    "from_text": "Kotlin has surpassed Scala long ago.",
-    "to_text": "Scala is a dead language.",
-    "type": "supports",
-    "strength": 0.7,
-    "explanation": "A79 states Kotlin has surpassed Scala, which implies Scala's decline and supports the idea that it is a dead language."
-  },
-  {
-    "from_id": "A80",
-    "to_id": "A78",
-    "from_text": "Scala is dying.",
-    "to_text": "Scala is a dead language.",
-    "type": "supports",
-    "strength": 0.8,
-    "explanation": "A80 states Scala is dying, which is a precursor to being a dead language, thus supporting A78."
-  },
-  {
-    "from_id": "A79",
-    "to_id": "A80",
-    "from_text": "Kotlin has surpassed Scala long ago.",
-    "to_text": "Scala is dying.",
-    "type": "supports",
-    "strength": 0.7,
-    "explanation": "A79 states Kotlin has surpassed Scala, which is evidence of Scala's decline and supports the claim that Scala is dying."
-  },
-  {
-    "from_id": "A82",
-    "to_id": "A81",
-    "from_text": "Kotlin is preferable to Scala.",
-    "to_text": "The decline of Scala is sad.",
-    "type": "supports",
-    "strength": 0.7,
-    "explanation": "If Kotlin is preferable to Scala, it supports the idea that Scala's decline is sad, as it implies a better alternative exists."
-  },
-  {
-    "from_id": "A85",
-    "to_id": "A84",
-    "from_text": "Go enables implementation of low-level understanding without headaches.",
-    "to_text": "C provides pure low-level understanding.",
-    "type": "attacks",
-    "strength": 0.6,
-    "explanation": "A85 suggests a way to achieve low-level understanding 'without headaches', implying C's approach might involve headaches, thus attacking C's pure low-level understanding as a sole benefit."
-  },
-  {
-    "from_id": "A91",
-    "to_id": "A90",
-    "from_text": "Golang compiles very fast.",
-    "to_text": "Golang is the best backend option.",
-    "type": "supports",
-    "strength": 0.7,
-    "explanation": "Fast compilation is a positive attribute for a backend option, supporting the claim that Golang is the best."
-  },
-  {
-    "from_id": "A92",
-    "to_id": "A90",
-    "from_text": "Golang has very good frameworks ranging from small and fast to robust ones.",
-    "to_text": "Golang is the best backend option.",
-    "type": "supports",
-    "strength": 0.7,
-    "explanation": "Good frameworks are a positive attribute for a backend option, supporting the claim that Golang is the best."
-  },
-  {
-    "from_id": "A93",
-    "to_id": "A90",
-    "from_text": "Golang's concurrency model handles huge volumes of requests better than alternatives.",
-    "to_text": "Golang is the best backend option.",
-    "type": "supports",
-    "strength": 0.8,
-    "explanation": "Superior concurrency handling is a strong advantage for a backend option, supporting the claim that Golang is the best."
-  },
-  {
-    "from_id": "A94",
-    "to_id": "A90",
-    "from_text": "Golang binaries are easy to run instantly or containerize with Docker.",
-    "to_text": "Golang is the best backend option.",
-    "type": "supports",
-    "strength": 0.7,
-    "explanation": "Ease of deployment (running or containerizing) is a practical advantage for a backend option, supporting the claim that Golang is the best."
-  },
-  {
-    "from_id": "A95",
-    "to_id": "A90",
-    "from_text": "Golang is the easiest and fastest language to learn.",
-    "to_text": "Golang is the best backend option.",
-    "type": "supports",
-    "strength": 0.6,
-    "explanation": "Being easy and fast to learn is a benefit that supports Golang as a good, potentially best, backend option."
-  },
-  {
-    "from_id": "A96",
-    "to_id": "A90",
-    "from_text": "Golang's explicit error handling is valuable.",
-    "to_text": "Golang is the best backend option.",
-    "type": "supports",
-    "strength": 0.6,
-    "explanation": "Valuable explicit error handling is a positive feature for a backend language, supporting the claim that Golang is the best."
-  },
-  {
-    "from_id": "A97",
-    "to_id": "A90",
-    "from_text": "Golang's plain design makes maintenance easier.",
-    "to_text": "Golang is the best backend option.",
-    "type": "supports",
-    "strength": 0.7,
-    "explanation": "Easier maintenance due to plain design is a strong advantage for a backend option, supporting the claim that Golang is the best."
-  },
-  {
-    "from_id": "A98",
-    "to_id": "A90",
-    "from_text": "Golang code is easy to read and build without fluff.",
-    "to_text": "Golang is the best backend option.",
-    "type": "supports",
-    "strength": 0.7,
-    "explanation": "Easy to read and build code without fluff is a positive attribute for a backend option, supporting the claim that Golang is the best."
-  },
-  {
-    "from_id": "A97",
-    "to_id": "A98",
-    "from_text": "Golang's plain design makes maintenance easier.",
-    "to_text": "Golang code is easy to read and build without fluff.",
-    "type": "supports",
-    "strength": 0.7,
-    "explanation": "The plain design (A97) contributes to code being easy to read and build without fluff (A98)."
-  },
-  {
-    "from_id": "A100",
-    "to_id": "A99",
-    "from_text": "Plain working code is preferable to complex code.",
-    "to_text": "Excessive abstractions in frontend languages complicate understanding.",
-    "type": "attacks",
-    "strength": 0.8,
-    "explanation": "A100 states a preference for plain working code over complex code, which directly attacks the idea that excessive abstractions (complexity) are acceptable."
-  },
-  {
-    "from_id": "A98",
-    "to_id": "A99",
-    "from_text": "Golang code is easy to read and build without fluff.",
-    "to_text": "Excessive abstractions in frontend languages complicate understanding.",
-    "type": "attacks",
-    "strength": 0.6,
-    "explanation": "A98 praises Golang code for being 'without fluff', which implicitly attacks 'excessive abstractions' mentioned in A99."
-  },
-  {
-    "from_id": "A97",
-    "to_id": "A99",
-    "from_text": "Golang's plain design makes maintenance easier.",
-    "to_text": "Excessive abstractions in frontend languages complicate understanding.",
-    "type": "attacks",
-    "strength": 0.6,
-    "explanation": "A97 praises Golang's 'plain design' for easier maintenance, which implicitly attacks 'excessive abstractions' mentioned in A99 as they complicate understanding."
-  },
-  {
-    "from_id": "A102",
-    "to_id": "A101",
-    "from_text": "The Laravel community is highly active.",
-    "to_text": "Laravel is fun and interesting to learn.",
-    "type": "supports",
-    "strength": 0.7,
-    "explanation": "An active community often makes a technology more enjoyable and easier to learn due to readily available help and resources."
-  },
-  {
-    "from_id": "A103",
-    "to_id": "A101",
-    "from_text": "Laravel is highly efficient for building MVPs and iterating on projects.",
-    "to_text": "Laravel is fun and interesting to learn.",
-    "type": "supports",
-    "strength": 0.6,
-    "explanation": "Efficiency in building MVPs and iterating on projects can make a framework more fun and interesting for developers who value rapid development."
+    "strength": 0.5
   }
 ]

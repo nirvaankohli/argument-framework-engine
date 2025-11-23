@@ -1,0 +1,447 @@
+{
+  "thread_id": "1p21idn",
+  "subreddit": "Backend",
+  "title": "For experienced backend engineers:",
+  "utterances": [
+    {
+      "id": "U1",
+      "speaker_id": null,
+      "parent_id": null,
+      "author": "[deleted]",
+      "text": "For experienced backend engineers:\n\n  \nIf you had to start your backend career from zero today \u2014 but kept your current mindset and experience \u2014 which language would you choose and what roadmap would you follow to land your first job as fast as possible?  \nPlease share the \u201cwhy\u201d, not just the language name.",
+      "depth": 0
+    },
+    {
+      "id": "U2",
+      "speaker_id": "S1",
+      "parent_id": "U1",
+      "author": "Itchy-Phase",
+      "text": "Marketability always changes, but C#, Python, JS, and Java have been very marketable for a long time (USA, other countries vary). So start with one of those. If you don\u2019t like dynamic typing, try C# or Java.\n\nGo is also good, but not as widely used as the others I mentioned. Good companies/teams won\u2019t care as much what language you know as long as you\u2019re willing/excited to learn whatever language they use. \n\nI\u2019ve been a .Net dev for 10 years, dabbling in JS, Python, and Go here and there. C# just makes sense for me, and is just as capable as a backend language as all the rest. LINQ is also a killer feature, so I miss not having it in every other language.",
+      "depth": 1
+    },
+    {
+      "id": "U3",
+      "speaker_id": "S2",
+      "parent_id": "U1",
+      "author": "aphantasus",
+      "text": "Java, because that's the language used here all over the place by companies. I would finish a CS degree, because that's what this decaying economy here wants (titles! no title, you no good!). Maybe jumping on the \"AI\" bandwagon early just to cash in on the hype.",
+      "depth": 1
+    },
+    {
+      "id": "U4",
+      "speaker_id": "S3",
+      "parent_id": "U3",
+      "author": "Horikoshi",
+      "text": "Upvoting this. There's no real need to learn anything other than Java / C# if your only goal is to get a job. Now.. things like Kotlin do technically make your life a little better, but it's not by any huge margin. The reliability and ocean of knowledge / know-hows that are already present in the Java / C# ecosystem vastly outweighs whatever cons those languages have.\n\nAs for roadmap, I would *not* start with system architecture as that's unlikely to mean anything to juniors with &lt; 3 YoE. I'd learn by really understanding some coding patterns and principles like REST, 4 tiered architecture, DDD / Hex, separation of concerns, proper error handling, basic RESTful principles etc. Once I'm comfy with all that and can write a complex CRUD app on my own, then I'd probably start diving into some patterns on AWS along with YAML managers like terraform, argoCD etc.\n\nEdit: I see a lot of people recommending Golang. I would agree that Golang is significantly easier, however there's no real reason to use it over Java. That's why the job openings for it are so small.",
+      "depth": 2
+    },
+    {
+      "id": "U5",
+      "speaker_id": "S2",
+      "parent_id": "U4",
+      "author": "aphantasus",
+      "text": "&gt; I would agree that Golang is significantly easier, however there's no real reason to use it over Java\n\nAlso these jobs are as silly as the rest are. You need to have already long-year knowledge in Golang to get into them.\n\nI would certainly code Java at this point, the thing is they all demand 5+ years experience to even get the foot into the door. I wrote years ago a little Java for technical college and university, but then spent years with Ruby.\n\nHow am I supposed to \"jump ships\"? The industry is totally bonkers.",
+      "depth": 3
+    },
+    {
+      "id": "U6",
+      "speaker_id": "S4",
+      "parent_id": "U4",
+      "author": "pharmechanics101",
+      "text": "You\u2019re right. Especially because Java is industry standard to build enterprise grade systems, employment opportunities are abundant and you can even start solving a real world problem with your IDE and your logic. Java is hands down one of the most powerful languages and once you understand the concept you can write any other language or run time just different syntax\u2019s",
+      "depth": 3
+    },
+    {
+      "id": "U7",
+      "speaker_id": "S5",
+      "parent_id": "U1",
+      "author": "titpetric",
+      "text": "Go, because it's model is more complete than node or php where you have VM execution ; yet, somehow allows me to do more with the app itself on a service level, modular systems in go are really performant and reliable, the only thing I need to improve (for myself and others) is MVC. I don't need two runtimes, which I suppose is the pitfall of every language as soon as the front end brings in the node stack. I want the people to move to go, and MVC is possibly the most practiced pattern of all patterns. DX gains to be had, but you have to roll your own functionality, great by me, good luck trying to get me to write a CVE \ud83e\udd23",
+      "depth": 1
+    },
+    {
+      "id": "U8",
+      "speaker_id": "S6",
+      "parent_id": "U7",
+      "author": "rcls0053",
+      "text": "Go also because it's simple af while being super powerful",
+      "depth": 2
+    },
+    {
+      "id": "U9",
+      "speaker_id": "S7",
+      "parent_id": "U8",
+      "author": "Tysonzero",
+      "text": "It\u2019s like the least expensive language in existence tho.",
+      "depth": 3
+    },
+    {
+      "id": "U10",
+      "speaker_id": "S8",
+      "parent_id": "U7",
+      "author": "glenn_ganges",
+      "text": "I do Go full time and I agree.\n\nI\u2019m also heavily biased towards strongly typed languages which produce a binary. I never understood the appeal of using JS or Python for backend.\n\nThe binary especially means my tools are very portable and deployable. I try to practice the 12 Factor App philosophy so a lot of what ends up in production starts as a command line tool. From there it\u2019s trivial to integrate into the CI system. The packages of the tools typically get imported into the runtime deployment where they are further expanded.",
+      "depth": 2
+    },
+    {
+      "id": "U11",
+      "speaker_id": "S9",
+      "parent_id": "U7",
+      "author": "PhotographPretty862",
+      "text": "I really like working with go but I think the market is pretty niche for it\u200b",
+      "depth": 2
+    },
+    {
+      "id": "U12",
+      "speaker_id": "S5",
+      "parent_id": "U11",
+      "author": "titpetric",
+      "text": "I'm trying to widen MVC use with https://github.com/titpetric/vuego",
+      "depth": 3
+    },
+    {
+      "id": "U13",
+      "speaker_id": "S10",
+      "parent_id": "U1",
+      "author": "Easy-Management-1106",
+      "text": ".NET\nThe ecosystem is really nice, and Kestrel is quite lightweight and fast, while being easy to work with.",
+      "depth": 1
+    },
+    {
+      "id": "U14",
+      "speaker_id": "S1",
+      "parent_id": "U13",
+      "author": "Itchy-Phase",
+      "text": "I\u2019ve been a .Net dev for 10 years, dabbling in JS, Python, and Go here and there. C# just makes sense for me, and is just as capable as a backend language as all the rest. LINQ is also a killer feature, so I miss not having it in every other language.",
+      "depth": 2
+    },
+    {
+      "id": "U15",
+      "speaker_id": "S8",
+      "parent_id": "U14",
+      "author": "glenn_ganges",
+      "text": "C# has LINQ built in which is nice, but doesn\u2019t every language have an equivalent library? \n\nPersonally I think C# is good but it lets big brain devs try and look smart by writing fancy stuff. I like go specifically because of how plain it is. It\u2019s easier to maintain in the long run, which was the literal intent of its development.",
+      "depth": 3
+    },
+    {
+      "id": "U16",
+      "speaker_id": "S11",
+      "parent_id": "U15",
+      "author": "DaRKoN_",
+      "text": "Yes the real down side of C# is how complex devs love to make things by shovelling every enterprise design pattern they have read a blog post on into their app.  Something I've been railing against but it's an uphill battle.",
+      "depth": 4
+    },
+    {
+      "id": "U17",
+      "speaker_id": "S1",
+      "parent_id": "U16",
+      "author": "Itchy-Phase",
+      "text": "You could make that argument for any general purpose, object oriented language. C# isn\u2019t special in that regard.",
+      "depth": 5
+    },
+    {
+      "id": "U18",
+      "speaker_id": "S12",
+      "parent_id": "U13",
+      "author": "Akimotoh",
+      "text": "Yeah your 7 layers of MVC abstraction help so much \ud83d\ude44",
+      "depth": 2
+    },
+    {
+      "id": "U19",
+      "speaker_id": "S10",
+      "parent_id": "U18",
+      "author": "Easy-Management-1106",
+      "text": "You dont have to use MVC pattern with .NET",
+      "depth": 3
+    },
+    {
+      "id": "U20",
+      "speaker_id": "S13",
+      "parent_id": "U1",
+      "author": "mukeshsri369",
+      "text": "Java. The evergreen nd most stable ecosystem.",
+      "depth": 1
+    },
+    {
+      "id": "U21",
+      "speaker_id": "S14",
+      "parent_id": "U1",
+      "author": "Most_Scholar_5992",
+      "text": "everything you need: [https://eminent-croissant-92f.notion.site/Study-Plan-1e85855731e08034bdc5c6958620c595](https://eminent-croissant-92f.notion.site/Study-Plan-1e85855731e08034bdc5c6958620c595)",
+      "depth": 1
+    },
+    {
+      "id": "U22",
+      "speaker_id": "S15",
+      "parent_id": "U21",
+      "author": "Fair_Blueberry_9237",
+      "text": "Thank you, this is great \ud83d\ude4f",
+      "depth": 2
+    },
+    {
+      "id": "U23",
+      "speaker_id": "S16",
+      "parent_id": "U1",
+      "author": "SamWest98",
+      "text": "I'd do the same thing building shit with tools I find interesting to solve problems I find interesting. I like Typescript for backend but after enough exposure you can build in whatever",
+      "depth": 1
+    },
+    {
+      "id": "U24",
+      "speaker_id": "S17",
+      "parent_id": "U1",
+      "author": "dbudyak",
+      "text": "Go",
+      "depth": 1
+    },
+    {
+      "id": "U25",
+      "speaker_id": "S18",
+      "parent_id": "U1",
+      "author": "intenseLight1",
+      "text": "I am a python developer. I would also choose go. There are many technical reasons and i think it is fun to write applications with it. \n\nHowever for me biggest reason is: go developers gets paid more, like 1.3 or 1.4 times of python developers. Also more likely to find good jobs if something bad happens with your current company.",
+      "depth": 1
+    },
+    {
+      "id": "U26",
+      "speaker_id": "S19",
+      "parent_id": "U1",
+      "author": "fastlaunchapidev",
+      "text": "I am using python and typescript but I would probably start with go.\n\nHaven't picked it up but seems like a robust backend language.",
+      "depth": 1
+    },
+    {
+      "id": "U27",
+      "speaker_id": null,
+      "parent_id": "U26",
+      "author": "[deleted]",
+      "text": "**Thanks!**  \n**From your experience using Python and TypeScript, which one do you see getting more demand in real job markets?**  \n**And do you think Go is a good choice for someone trying to get their** ***first*** **backend job, or is it better after some experience?**",
+      "depth": 2
+    },
+    {
+      "id": "U28",
+      "speaker_id": "S19",
+      "parent_id": "U27",
+      "author": "fastlaunchapidev",
+      "text": "I like python coming from ml and data, and typescript doesn't hurt because I think you should always aim to understand full stack development.\n\nGo is probably a harder entry to the job market but long term great opportunities. \n\nI see a lot of python job openings but you will probably be fine with all of these languages.",
+      "depth": 3
+    },
+    {
+      "id": "U29",
+      "speaker_id": "S20",
+      "parent_id": "U1",
+      "author": "Politex99",
+      "text": "I feel I made the right choice language wise. Python. Highly requested and I feel confident on everything. Even multithreading and multiprocessing. I regret not focusing on ML earlier. I started to study back in 2017 but then for some reason I stopped and did not pickup since.",
+      "depth": 1
+    },
+    {
+      "id": "U30",
+      "speaker_id": "S21",
+      "parent_id": "U1",
+      "author": "CardboardJ",
+      "text": "If I had to re-learn it from scratch and land a job as quickly as possible, it'd be Python with FastAPI and Postgres.\n\nReason being is that Python is very easy to master and FastApi has all the same abstractions you'd get from Spring/AspMvc. Django is also prevalent but it can be a hodge podge of weirdness since it's been around for so long.\n\nBasically Python/FastApi because if you master that, you also get 80% of what java and .net devs do along with it.",
+      "depth": 1
+    },
+    {
+      "id": "U31",
+      "speaker_id": "S22",
+      "parent_id": "U1",
+      "author": "Historical_Emu_3032",
+      "text": "I would have spent more time in java or c++ web was exciting when I was younger, but backend and low level is more appealing now I'm older.",
+      "depth": 1
+    },
+    {
+      "id": "U32",
+      "speaker_id": "S23",
+      "parent_id": "U1",
+      "author": "HolidayWallaby",
+      "text": "Typescript for same FE as BE. Or scala",
+      "depth": 1
+    },
+    {
+      "id": "U33",
+      "speaker_id": "S24",
+      "parent_id": "U1",
+      "author": "o0alvin0o",
+      "text": "Java for job. Rust for all dev tool and hobby project",
+      "depth": 1
+    },
+    {
+      "id": "U34",
+      "speaker_id": "S25",
+      "parent_id": "U33",
+      "author": "TheoryShort7304",
+      "text": "Perfect answer among all.\n\nSame I do.",
+      "depth": 2
+    },
+    {
+      "id": "U35",
+      "speaker_id": "S26",
+      "parent_id": "U1",
+      "author": "Lunchboxsushi",
+      "text": "Honestly I would have started a business earlier in my career, but that also means knowing what I know now which wouldn't be possible.",
+      "depth": 1
+    },
+    {
+      "id": "U36",
+      "speaker_id": "S27",
+      "parent_id": "U1",
+      "author": "MinMaxDev",
+      "text": "I know this would be whack, but I would choose Scala. I\u2019ve been learning Scala lately and learning the ZIO stack and am very very impressed with the language and the effects systems. I really enjoy statically typed functional languages and it has the advantage of running on the JVM so you have access to Java\u2019s libraries",
+      "depth": 1
+    },
+    {
+      "id": "U37",
+      "speaker_id": "S28",
+      "parent_id": "U36",
+      "author": "Anonymous_Coder_1234",
+      "text": "I come from the Scala world. It is dying. Has been for years.",
+      "depth": 2
+    },
+    {
+      "id": "U38",
+      "speaker_id": "S8",
+      "parent_id": "U37",
+      "author": "glenn_ganges",
+      "text": "IMO \u201cJava with extra steps\u201d was never going to work out long term.",
+      "depth": 3
+    },
+    {
+      "id": "U39",
+      "speaker_id": "S28",
+      "parent_id": "U38",
+      "author": "Anonymous_Coder_1234",
+      "text": "Monads seem like a good idea. Then an exception gets thrown and you see the stack trace. Every line in the Monad chain is a new function, so the stack trace goes up every single line of code. It's really ugly and messy.",
+      "depth": 4
+    },
+    {
+      "id": "U40",
+      "speaker_id": "S27",
+      "parent_id": "U37",
+      "author": "MinMaxDev",
+      "text": "Yea quite unfortunate. There is a big ecommerce platform in my country who has a few services written in Scala and are going to convert it to Java because its difficult to find Scala engineers nowadays or to train someone in Scala",
+      "depth": 3
+    },
+    {
+      "id": "U41",
+      "speaker_id": "S28",
+      "parent_id": "U40",
+      "author": "Anonymous_Coder_1234",
+      "text": "Scala is a very tough language to master.",
+      "depth": 4
+    },
+    {
+      "id": "U42",
+      "speaker_id": "S29",
+      "parent_id": "U36",
+      "author": "Entire-Cable-9984",
+      "text": "I currently work with Scala, this is an amazing language but the market is tough for Scala (barely alive). If I can choose, I would choose Java or Go over Scala",
+      "depth": 2
+    },
+    {
+      "id": "U43",
+      "speaker_id": "S27",
+      "parent_id": "U42",
+      "author": "MinMaxDev",
+      "text": "Yea I used go for a while and it is a cool language, I just don\u2019t like its rather simple type system. I think I would go with Java or Kotlin",
+      "depth": 3
+    },
+    {
+      "id": "U44",
+      "speaker_id": "S30",
+      "parent_id": "U36",
+      "author": "AdOrnery1043",
+      "text": "So you would start your career learning a dead language and trying to find a job in it ? Amazing advice ;) Kotlin ate Scalas lunch long time ago.",
+      "depth": 2
+    },
+    {
+      "id": "U45",
+      "speaker_id": "S27",
+      "parent_id": "U44",
+      "author": "MinMaxDev",
+      "text": "This wasn\u2019t advice, the thread was just hypothetical. Though I know scala is dying, which is quite sad imo, I do agree I would go with Kotlin.",
+      "depth": 3
+    },
+    {
+      "id": "U46",
+      "speaker_id": "S31",
+      "parent_id": "U36",
+      "author": "Broad_Shoulder_749",
+      "text": "This man knows FP",
+      "depth": 2
+    },
+    {
+      "id": "U47",
+      "speaker_id": "S32",
+      "parent_id": "U1",
+      "author": "noiseboy87",
+      "text": "C, and Go. C for the pure low level understanding, Go to be able to implement that understanding without the headaches and have a much more broad hireability.",
+      "depth": 1
+    },
+    {
+      "id": "U48",
+      "speaker_id": "S33",
+      "parent_id": "U1",
+      "author": "Solid_Mongoose_3269",
+      "text": "Probably Rust or Go, since AI is the big bubble right now",
+      "depth": 1
+    },
+    {
+      "id": "U49",
+      "speaker_id": "S34",
+      "parent_id": "U48",
+      "author": "harrylaou",
+      "text": "Scala Developer in the last 13 years. Before that some java. \nI am very fond of typescript. Tbf I have not  dived deep enough to know all its problems. But coming from a functional programming background, I like the language ergonomics and the job prospects for TS/ node backends look good.",
+      "depth": 2
+    },
+    {
+      "id": "U50",
+      "speaker_id": "S35",
+      "parent_id": "U1",
+      "author": "Conscious-Fee7844",
+      "text": "Golang. 100% By far the best back end option with all that it provides. Not saying it does things better than others.. every language can do this. However, Go is insanely fast to compile, it has some very good frameworks from small/fast to robust/big Spring boot like ones. I use Chi personally, but several others are good. The threading and ability to handle huge volumes of requests is second to none that I've found. The binaries that you can run instantly or wrap up in Docker containers. \n\nThe onboarding/speed to learn go is next to none. I don't care how many people try to sell you on Typescript and its the same language as front end, or python, etc. Go is the easiest/fastest language to learn with its 25 keywords and mostly 1 way to do things (loops, conditions, etc). \n\n\"But the error handling is so verbose\". Yes.. it is.. and with IDE code completion, hot keys to fill in complete error structures.. or.. AI today.. it's stupid easy to implement and often its valuable to have the details of error handling right there. I remember thinking try/catch was so great in Java.. until I got bit, time and again with errors not handled, not catching the right errors or doing a catch all and forgetting or not able to figure out why some issue was continuing to happen only to ignore the error I really needed to drill in on. I rather like the error handling.",
+      "depth": 1
+    },
+    {
+      "id": "U51",
+      "speaker_id": "S8",
+      "parent_id": "U50",
+      "author": "glenn_ganges",
+      "text": "I think the best thing about Go that people don\u2019t get right away (or ever) is that it is so plain it makes maintenance easier. It\u2019s so easy to read and build, without much fluff, that when dozens to hundreds of people work over many years it always remains easy to just get working.\n\nAt my company we use Go for backend and C# for front. The front end guys are always writing this stuff that you have to figure out for two hours, endless abstractions, fancy one liners, and so on.\n\nGo by comparison just doesn\u2019t lend towards that style and in some cases fights it. In the end it\u2019s just easy to work with.\n\nCode is not an asset, it\u2019s a liability. Plain code that works is the best option outside of deleting code, which is the best kind of coding.",
+      "depth": 2
+    },
+    {
+      "id": "U52",
+      "speaker_id": "S36",
+      "parent_id": "U1",
+      "author": "xoStardustt",
+      "text": "C++",
+      "depth": 1
+    },
+    {
+      "id": "U53",
+      "speaker_id": "S37",
+      "parent_id": "U1",
+      "author": "jjd_yo",
+      "text": "PHP and Laravel. I was a HTML/CSS/JS purist for a long time (only one more abstraction bro!), but Laravel was genuinely fun and interesting to learn. The community around it is wildly active as well. Incredibly efficient at getting MVPs as well as iterating to have bang-on projects.",
+      "depth": 1
+    },
+    {
+      "id": "U54",
+      "speaker_id": "S38",
+      "parent_id": "U1",
+      "author": "Dry-Inflation-8975",
+      "text": "Rust because it has less memory issue in prouduction.",
+      "depth": 1
+    },
+    {
+      "id": "U55",
+      "speaker_id": "S39",
+      "parent_id": "U54",
+      "author": "frothymonk",
+      "text": "Why is this stated like a hard truth? \n\nDon\u2019t you also have more opportunities to create even worse memory problems in Rust too?\n\n(Genuine question btw)",
+      "depth": 2
+    }
+  ]
+}
