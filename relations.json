@@ -2,1361 +2,1241 @@
   {
     "from_id": "A1",
     "to_id": "A2",
-    "from_text": "Disrespectful behavior from opponents is a common occurrence in Public Forum debate.",
-    "to_text": "Judges are aware of disrespectful behavior during debates.",
+    "from_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "to_text": "Robotics clubs provide structure for educators without extensive experience.",
     "type": "supports",
     "strength": 0.6
   },
   {
     "from_id": "A1",
     "to_id": "A3",
-    "from_text": "Disrespectful behavior from opponents is a common occurrence in Public Forum debate.",
-    "to_text": "Judges may mention disrespectful behavior on the ballot, even if the disrespectful opponent wins.",
-    "type": "supports",
+    "from_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "to_text": "Robotics clubs require hardware or funding for hardware, which can be difficult for high school students to acquire.",
+    "type": "attacks",
     "strength": 0.5
   },
   {
     "from_id": "A1",
-    "to_id": "A5",
-    "from_text": "Disrespectful behavior from opponents is a common occurrence in Public Forum debate.",
-    "to_text": "Judges will notice and penalize disrespectful behavior from opponents.",
-    "type": "supports",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A1",
-    "to_id": "A8",
-    "from_text": "Disrespectful behavior from opponents is a common occurrence in Public Forum debate.",
-    "to_text": "Calling out an opponent's disrespectful behavior during a debate can appear petty.",
-    "type": "supports",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A1",
-    "to_id": "A11",
-    "from_text": "Disrespectful behavior from opponents is a common occurrence in Public Forum debate.",
-    "to_text": "It is not strategic to respond to disrespectful behavior with similar tactics.",
-    "type": "supports",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A1",
-    "to_id": "A12",
-    "from_text": "Disrespectful behavior from opponents is a common occurrence in Public Forum debate.",
-    "to_text": "Authentic respect and demonstration of excellence and integrity can be advantageous when opponents behave rudely.",
-    "type": "supports",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A1",
-    "to_id": "A13",
-    "from_text": "Disrespectful behavior from opponents is a common occurrence in Public Forum debate.",
-    "to_text": "Judges will almost always penalize disrespectful opponents and show more leniency towards respectful debaters.",
-    "type": "supports",
+    "to_id": "A4",
+    "from_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "to_text": "It is advisable to stick with programming for a computer science club, as it can be done easily on laptops.",
+    "type": "attacks",
     "strength": 0.5
   },
   {
-    "from_id": "A2",
-    "to_id": "A3",
-    "from_text": "Judges are aware of disrespectful behavior during debates.",
-    "to_text": "Judges may mention disrespectful behavior on the ballot, even if the disrespectful opponent wins.",
+    "from_id": "A1",
+    "to_id": "A9",
+    "from_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "to_text": "Robotics programs are an effective way to introduce students to computer science and engineering.",
     "type": "supports",
     "strength": 0.8
   },
   {
-    "from_id": "A2",
-    "to_id": "A5",
-    "from_text": "Judges are aware of disrespectful behavior during debates.",
-    "to_text": "Judges will notice and penalize disrespectful behavior from opponents.",
-    "type": "supports",
-    "strength": 0.7
-  },
-  {
-    "from_id": "A2",
-    "to_id": "A13",
-    "from_text": "Judges are aware of disrespectful behavior during debates.",
-    "to_text": "Judges will almost always penalize disrespectful opponents and show more leniency towards respectful debaters.",
-    "type": "supports",
-    "strength": 0.7
-  },
-  {
-    "from_id": "A3",
-    "to_id": "A5",
-    "from_text": "Judges may mention disrespectful behavior on the ballot, even if the disrespectful opponent wins.",
-    "to_text": "Judges will notice and penalize disrespectful behavior from opponents.",
-    "type": "supports",
-    "strength": 0.7
-  },
-  {
-    "from_id": "A3",
-    "to_id": "A13",
-    "from_text": "Judges may mention disrespectful behavior on the ballot, even if the disrespectful opponent wins.",
-    "to_text": "Judges will almost always penalize disrespectful opponents and show more leniency towards respectful debaters.",
-    "type": "supports",
-    "strength": 0.7
-  },
-  {
-    "from_id": "A4",
-    "to_id": "A11",
-    "from_text": "Etiquette is essential to prevent debates from devolving into shouting matches.",
-    "to_text": "It is not strategic to respond to disrespectful behavior with similar tactics.",
-    "type": "supports",
-    "strength": 0.5
-  },
-  {
-    "from_id": "A4",
-    "to_id": "A12",
-    "from_text": "Etiquette is essential to prevent debates from devolving into shouting matches.",
-    "to_text": "Authentic respect and demonstration of excellence and integrity can be advantageous when opponents behave rudely.",
-    "type": "supports",
-    "strength": 0.5
-  },
-  {
-    "from_id": "A5",
-    "to_id": "A3",
-    "from_text": "Judges will notice and penalize disrespectful behavior from opponents.",
-    "to_text": "Judges may mention disrespectful behavior on the ballot, even if the disrespectful opponent wins.",
-    "type": "supports",
-    "strength": 0.7
-  },
-  {
-    "from_id": "A5",
-    "to_id": "A13",
-    "from_text": "Judges will notice and penalize disrespectful behavior from opponents.",
-    "to_text": "Judges will almost always penalize disrespectful opponents and show more leniency towards respectful debaters.",
-    "type": "supports",
-    "strength": 0.8
-  },
-  {
-    "from_id": "A6",
-    "to_id": "A8",
-    "from_text": "Complaining about opponents' ill-discipline to gain a win is generally not viewed positively.",
-    "to_text": "Calling out an opponent's disrespectful behavior during a debate can appear petty.",
-    "type": "supports",
-    "strength": 0.7
-  },
-  {
-    "from_id": "A6",
+    "from_id": "A1",
     "to_id": "A10",
-    "from_text": "Complaining about opponents' ill-discipline to gain a win is generally not viewed positively.",
-    "to_text": "Judges do not appreciate petty behavior from debaters.",
+    "from_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "to_text": "A robotics club has significant advantages even for students interested in coding.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A2",
+    "to_id": "A1",
+    "from_text": "Robotics clubs provide structure for educators without extensive experience.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A3",
+    "to_id": "A1",
+    "from_text": "Robotics clubs require hardware or funding for hardware, which can be difficult for high school students to acquire.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "type": "attacks",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A3",
+    "to_id": "A4",
+    "from_text": "Robotics clubs require hardware or funding for hardware, which can be difficult for high school students to acquire.",
+    "to_text": "It is advisable to stick with programming for a computer science club, as it can be done easily on laptops.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A3",
+    "to_id": "A5",
+    "from_text": "Robotics clubs require hardware or funding for hardware, which can be difficult for high school students to acquire.",
+    "to_text": "Gaining knowledge on the hardware side is a main challenge in robotics clubs.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A3",
+    "to_id": "A8",
+    "from_text": "Robotics clubs require hardware or funding for hardware, which can be difficult for high school students to acquire.",
+    "to_text": "Most robotics programs are funded by local companies, so out-of-pocket expenses are not a concern.",
+    "type": "attacks",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A4",
+    "to_id": "A1",
+    "from_text": "It is advisable to stick with programming for a computer science club, as it can be done easily on laptops.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "type": "attacks",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A4",
+    "to_id": "A3",
+    "from_text": "It is advisable to stick with programming for a computer science club, as it can be done easily on laptops.",
+    "to_text": "Robotics clubs require hardware or funding for hardware, which can be difficult for high school students to acquire.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A4",
+    "to_id": "A10",
+    "from_text": "It is advisable to stick with programming for a computer science club, as it can be done easily on laptops.",
+    "to_text": "A robotics club has significant advantages even for students interested in coding.",
+    "type": "attacks",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A5",
+    "to_id": "A3",
+    "from_text": "Gaining knowledge on the hardware side is a main challenge in robotics clubs.",
+    "to_text": "Robotics clubs require hardware or funding for hardware, which can be difficult for high school students to acquire.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A5",
+    "to_id": "A6",
+    "from_text": "Gaining knowledge on the hardware side is a main challenge in robotics clubs.",
+    "to_text": "Robotics is very focused on hardware.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A5",
+    "to_id": "A7",
+    "from_text": "Gaining knowledge on the hardware side is a main challenge in robotics clubs.",
+    "to_text": "Software is not the paramount focus of robotics.",
     "type": "supports",
     "strength": 0.6
   },
   {
     "from_id": "A6",
-    "to_id": "A11",
-    "from_text": "Complaining about opponents' ill-discipline to gain a win is generally not viewed positively.",
-    "to_text": "It is not strategic to respond to disrespectful behavior with similar tactics.",
+    "to_id": "A5",
+    "from_text": "Robotics is very focused on hardware.",
+    "to_text": "Gaining knowledge on the hardware side is a main challenge in robotics clubs.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A6",
+    "to_id": "A7",
+    "from_text": "Robotics is very focused on hardware.",
+    "to_text": "Software is not the paramount focus of robotics.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A7",
+    "to_id": "A5",
+    "from_text": "Software is not the paramount focus of robotics.",
+    "to_text": "Gaining knowledge on the hardware side is a main challenge in robotics clubs.",
     "type": "supports",
     "strength": 0.6
   },
   {
     "from_id": "A7",
-    "to_id": "A15",
-    "from_text": "Many teams use confident body language as a strategic tactic.",
-    "to_text": "It is generally better to err on the side of aggression in debate.",
-    "type": "supports",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A8",
     "to_id": "A6",
-    "from_text": "Calling out an opponent's disrespectful behavior during a debate can appear petty.",
-    "to_text": "Complaining about opponents' ill-discipline to gain a win is generally not viewed positively.",
+    "from_text": "Software is not the paramount focus of robotics.",
+    "to_text": "Robotics is very focused on hardware.",
     "type": "supports",
     "strength": 0.7
   },
   {
-    "from_id": "A8",
+    "from_id": "A7",
     "to_id": "A10",
-    "from_text": "Calling out an opponent's disrespectful behavior during a debate can appear petty.",
-    "to_text": "Judges do not appreciate petty behavior from debaters.",
-    "type": "supports",
-    "strength": 0.7
-  },
-  {
-    "from_id": "A8",
-    "to_id": "A11",
-    "from_text": "Calling out an opponent's disrespectful behavior during a debate can appear petty.",
-    "to_text": "It is not strategic to respond to disrespectful behavior with similar tactics.",
-    "type": "supports",
-    "strength": 0.7
-  },
-  {
-    "from_id": "A9",
-    "to_id": "A6",
-    "from_text": "Speculating on the reasons for an opponent's dropped point, especially if it involves insults, is not a productive strategy.",
-    "to_text": "Complaining about opponents' ill-discipline to gain a win is generally not viewed positively.",
-    "type": "supports",
-    "strength": 0.5
-  },
-  {
-    "from_id": "A9",
-    "to_id": "A10",
-    "from_text": "Speculating on the reasons for an opponent's dropped point, especially if it involves insults, is not a productive strategy.",
-    "to_text": "Judges do not appreciate petty behavior from debaters.",
-    "type": "supports",
-    "strength": 0.5
-  },
-  {
-    "from_id": "A9",
-    "to_id": "A11",
-    "from_text": "Speculating on the reasons for an opponent's dropped point, especially if it involves insults, is not a productive strategy.",
-    "to_text": "It is not strategic to respond to disrespectful behavior with similar tactics.",
-    "type": "supports",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A10",
-    "to_id": "A6",
-    "from_text": "Judges do not appreciate petty behavior from debaters.",
-    "to_text": "Complaining about opponents' ill-discipline to gain a win is generally not viewed positively.",
-    "type": "supports",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A10",
-    "to_id": "A8",
-    "from_text": "Judges do not appreciate petty behavior from debaters.",
-    "to_text": "Calling out an opponent's disrespectful behavior during a debate can appear petty.",
-    "type": "supports",
-    "strength": 0.7
-  },
-  {
-    "from_id": "A10",
-    "to_id": "A9",
-    "from_text": "Judges do not appreciate petty behavior from debaters.",
-    "to_text": "Speculating on the reasons for an opponent's dropped point, especially if it involves insults, is not a productive strategy.",
-    "type": "supports",
-    "strength": 0.5
-  },
-  {
-    "from_id": "A10",
-    "to_id": "A11",
-    "from_text": "Judges do not appreciate petty behavior from debaters.",
-    "to_text": "It is not strategic to respond to disrespectful behavior with similar tactics.",
-    "type": "supports",
-    "strength": 0.7
-  },
-  {
-    "from_id": "A11",
-    "to_id": "A6",
-    "from_text": "It is not strategic to respond to disrespectful behavior with similar tactics.",
-    "to_text": "Complaining about opponents' ill-discipline to gain a win is generally not viewed positively.",
-    "type": "supports",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A11",
-    "to_id": "A8",
-    "from_text": "It is not strategic to respond to disrespectful behavior with similar tactics.",
-    "to_text": "Calling out an opponent's disrespectful behavior during a debate can appear petty.",
-    "type": "supports",
-    "strength": 0.7
-  },
-  {
-    "from_id": "A11",
-    "to_id": "A9",
-    "from_text": "It is not strategic to respond to disrespectful behavior with similar tactics.",
-    "to_text": "Speculating on the reasons for an opponent's dropped point, especially if it involves insults, is not a productive strategy.",
-    "type": "supports",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A11",
-    "to_id": "A10",
-    "from_text": "It is not strategic to respond to disrespectful behavior with similar tactics.",
-    "to_text": "Judges do not appreciate petty behavior from debaters.",
-    "type": "supports",
-    "strength": 0.7
-  },
-  {
-    "from_id": "A12",
-    "to_id": "A11",
-    "from_text": "Authentic respect and demonstration of excellence and integrity can be advantageous when opponents behave rudely.",
-    "to_text": "It is not strategic to respond to disrespectful behavior with similar tactics.",
+    "from_text": "Software is not the paramount focus of robotics.",
+    "to_text": "A robotics club has significant advantages even for students interested in coding.",
     "type": "attacks",
-    "strength": 0.6
+    "strength": 0.4
   },
   {
-    "from_id": "A12",
-    "to_id": "A15",
-    "from_text": "Authentic respect and demonstration of excellence and integrity can be advantageous when opponents behave rudely.",
-    "to_text": "It is generally better to err on the side of aggression in debate.",
-    "type": "attacks",
-    "strength": 0.7
-  },
-  {
-    "from_id": "A13",
-    "to_id": "A2",
-    "from_text": "Judges will almost always penalize disrespectful opponents and show more leniency towards respectful debaters.",
-    "to_text": "Judges are aware of disrespectful behavior during debates.",
-    "type": "supports",
-    "strength": 0.7
-  },
-  {
-    "from_id": "A13",
+    "from_id": "A8",
     "to_id": "A3",
-    "from_text": "Judges will almost always penalize disrespectful opponents and show more leniency towards respectful debaters.",
-    "to_text": "Judges may mention disrespectful behavior on the ballot, even if the disrespectful opponent wins.",
-    "type": "supports",
-    "strength": 0.7
+    "from_text": "Most robotics programs are funded by local companies, so out-of-pocket expenses are not a concern.",
+    "to_text": "Robotics clubs require hardware or funding for hardware, which can be difficult for high school students to acquire.",
+    "type": "attacks",
+    "strength": 0.8
   },
   {
-    "from_id": "A13",
-    "to_id": "A5",
-    "from_text": "Judges will almost always penalize disrespectful opponents and show more leniency towards respectful debaters.",
-    "to_text": "Judges will notice and penalize disrespectful behavior from opponents.",
+    "from_id": "A9",
+    "to_id": "A1",
+    "from_text": "Robotics programs are an effective way to introduce students to computer science and engineering.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
     "type": "supports",
     "strength": 0.8
+  },
+  {
+    "from_id": "A9",
+    "to_id": "A10",
+    "from_text": "Robotics programs are an effective way to introduce students to computer science and engineering.",
+    "to_text": "A robotics club has significant advantages even for students interested in coding.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A10",
+    "to_id": "A1",
+    "from_text": "A robotics club has significant advantages even for students interested in coding.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A10",
+    "to_id": "A4",
+    "from_text": "A robotics club has significant advantages even for students interested in coding.",
+    "to_text": "It is advisable to stick with programming for a computer science club, as it can be done easily on laptops.",
+    "type": "attacks",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A10",
+    "to_id": "A7",
+    "from_text": "A robotics club has significant advantages even for students interested in coding.",
+    "to_text": "Software is not the paramount focus of robotics.",
+    "type": "attacks",
+    "strength": 0.4
+  },
+  {
+    "from_id": "A10",
+    "to_id": "A9",
+    "from_text": "A robotics club has significant advantages even for students interested in coding.",
+    "to_text": "Robotics programs are an effective way to introduce students to computer science and engineering.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A10",
+    "to_id": "A11",
+    "from_text": "A robotics club has significant advantages even for students interested in coding.",
+    "to_text": "Robotics exposes students to other disciplines and how coding interacts with them.",
+    "type": "supports",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A10",
+    "to_id": "A12",
+    "from_text": "A robotics club has significant advantages even for students interested in coding.",
+    "to_text": "Robotics opens up students to electronics, mechanics, and their interoperation with coding.",
+    "type": "supports",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A11",
+    "to_id": "A10",
+    "from_text": "Robotics exposes students to other disciplines and how coding interacts with them.",
+    "to_text": "A robotics club has significant advantages even for students interested in coding.",
+    "type": "supports",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A11",
+    "to_id": "A12",
+    "from_text": "Robotics exposes students to other disciplines and how coding interacts with them.",
+    "to_text": "Robotics opens up students to electronics, mechanics, and their interoperation with coding.",
+    "type": "supports",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A12",
+    "to_id": "A10",
+    "from_text": "Robotics opens up students to electronics, mechanics, and their interoperation with coding.",
+    "to_text": "A robotics club has significant advantages even for students interested in coding.",
+    "type": "supports",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A12",
+    "to_id": "A11",
+    "from_text": "Robotics opens up students to electronics, mechanics, and their interoperation with coding.",
+    "to_text": "Robotics exposes students to other disciplines and how coding interacts with them.",
+    "type": "supports",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A13",
+    "to_id": "A10",
+    "from_text": "Pre-college schooling should expose students to creating hands-on.",
+    "to_text": "A robotics club has significant advantages even for students interested in coding.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A13",
+    "to_id": "A14",
+    "from_text": "Pre-college schooling should expose students to creating hands-on.",
+    "to_text": "The development of using hands and body to make something is important.",
+    "type": "supports",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A13",
+    "to_id": "A15",
+    "from_text": "Pre-college schooling should expose students to creating hands-on.",
+    "to_text": "Robotics, 3D printing, and similar activities are not a substitute for learning how materials like wood, paint, or metal behave under human direction.",
+    "type": "attacks",
+    "strength": 0.5
   },
   {
     "from_id": "A14",
     "to_id": "A13",
-    "from_text": "The effectiveness of directly addressing an opponent's disrespectful behavior can depend on the judge.",
-    "to_text": "Judges will almost always penalize disrespectful opponents and show more leniency towards respectful debaters.",
-    "type": "attacks",
-    "strength": 0.6
+    "from_text": "The development of using hands and body to make something is important.",
+    "to_text": "Pre-college schooling should expose students to creating hands-on.",
+    "type": "supports",
+    "strength": 0.8
   },
   {
     "from_id": "A14",
-    "to_id": "A5",
-    "from_text": "The effectiveness of directly addressing an opponent's disrespectful behavior can depend on the judge.",
-    "to_text": "Judges will notice and penalize disrespectful behavior from opponents.",
+    "to_id": "A15",
+    "from_text": "The development of using hands and body to make something is important.",
+    "to_text": "Robotics, 3D printing, and similar activities are not a substitute for learning how materials like wood, paint, or metal behave under human direction.",
     "type": "attacks",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A15",
-    "to_id": "A12",
-    "from_text": "It is generally better to err on the side of aggression in debate.",
-    "to_text": "Authentic respect and demonstration of excellence and integrity can be advantageous when opponents behave rudely.",
-    "type": "attacks",
-    "strength": 0.7
-  },
-  {
-    "from_id": "A16",
-    "to_id": "A17",
-    "from_text": "Debate often features over-confident and disrespectful individuals.",
-    "to_text": "Developing the ability to care less about disrespectful behavior is a valuable skill in debate and life.",
-    "type": "supports",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A16",
-    "to_id": "A18",
-    "from_text": "Debate often features over-confident and disrespectful individuals.",
-    "to_text": "Judges likely observe disrespectful behavior and may comment on it in their ballots.",
-    "type": "supports",
-    "strength": 0.7
-  },
-  {
-    "from_id": "A16",
-    "to_id": "A19",
-    "from_text": "Debate often features over-confident and disrespectful individuals.",
-    "to_text": "Coaches often communicate with each other about student behavior.",
-    "type": "supports",
     "strength": 0.5
   },
   {
-    "from_id": "A16",
-    "to_id": "A20",
-    "from_text": "Debate often features over-confident and disrespectful individuals.",
-    "to_text": "Reporting disrespectful behavior to a coach can lead to the coach addressing the issue with their student.",
-    "type": "supports",
-    "strength": 0.6
+    "from_id": "A15",
+    "to_id": "A10",
+    "from_text": "Robotics, 3D printing, and similar activities are not a substitute for learning how materials like wood, paint, or metal behave under human direction.",
+    "to_text": "A robotics club has significant advantages even for students interested in coding.",
+    "type": "attacks",
+    "strength": 0.4
   },
   {
-    "from_id": "A16",
-    "to_id": "A21",
-    "from_text": "Debate often features over-confident and disrespectful individuals.",
-    "to_text": "Tournaments are unlikely to change results or disqualify competitors for the described disrespectful behavior.",
-    "type": "supports",
+    "from_id": "A15",
+    "to_id": "A13",
+    "from_text": "Robotics, 3D printing, and similar activities are not a substitute for learning how materials like wood, paint, or metal behave under human direction.",
+    "to_text": "Pre-college schooling should expose students to creating hands-on.",
+    "type": "attacks",
+    "strength": 0.5
+  },
+  {
+    "from_id": "A15",
+    "to_id": "A14",
+    "from_text": "Robotics, 3D printing, and similar activities are not a substitute for learning how materials like wood, paint, or metal behave under human direction.",
+    "to_text": "The development of using hands and body to make something is important.",
+    "type": "attacks",
     "strength": 0.5
   },
   {
     "from_id": "A16",
     "to_id": "A22",
-    "from_text": "Debate often features over-confident and disrespectful individuals.",
-    "to_text": "Judges should observe disrespectful behavior and address it in their ballot for coaches to act upon.",
-    "type": "supports",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A16",
-    "to_id": "A23",
-    "from_text": "Debate often features over-confident and disrespectful individuals.",
-    "to_text": "Egregious disrespectful behavior, such as mocking disabilities or personal characteristics, warrants being addressed during the round.",
-    "type": "supports",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A16",
-    "to_id": "A24",
-    "from_text": "Debate often features over-confident and disrespectful individuals.",
-    "to_text": "For less severe disrespectful behavior, it is best to remain composed and focus on one's own performance.",
-    "type": "supports",
-    "strength": 0.5
-  },
-  {
-    "from_id": "A16",
-    "to_id": "A25",
-    "from_text": "Debate often features over-confident and disrespectful individuals.",
-    "to_text": "It is advisable to address an opponent's inappropriate behavior during the debate, rather than waiting until afterward.",
-    "type": "supports",
-    "strength": 0.5
-  },
-  {
-    "from_id": "A16",
-    "to_id": "A26",
-    "from_text": "Debate often features over-confident and disrespectful individuals.",
-    "to_text": "A judge might penalize an opposing team for their behavior if a strong argument is made about it.",
-    "type": "supports",
-    "strength": 0.5
-  },
-  {
-    "from_id": "A16",
-    "to_id": "A27",
-    "from_text": "Debate often features over-confident and disrespectful individuals.",
-    "to_text": "A judge would find it difficult to police eye-rolling effectively.",
-    "type": "supports",
-    "strength": 0.4
-  },
-  {
-    "from_id": "A16",
-    "to_id": "A28",
-    "from_text": "Debate often features over-confident and disrespectful individuals.",
-    "to_text": "Laughing and interrupting a speech would be viewed very unfavorably by a judge.",
-    "type": "supports",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A16",
-    "to_id": "A29",
-    "from_text": "Debate often features over-confident and disrespectful individuals.",
-    "to_text": "Judges should comment on ballots detailing disrespectful behavior and may reduce speaker points for blatant disrespect.",
-    "type": "supports",
-    "strength": 0.6
+    "from_text": "A highly focused club like a computer club at the high school level may not benefit students.",
+    "to_text": "Starting a coding club in high school is a good idea.",
+    "type": "attacks",
+    "strength": 0.8
   },
   {
     "from_id": "A16",
     "to_id": "A30",
-    "from_text": "Debate often features over-confident and disrespectful individuals.",
-    "to_text": "Laughing and rude behavior during a debate is uncomfortable for judges.",
-    "type": "supports",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A17",
-    "to_id": "A24",
-    "from_text": "Developing the ability to care less about disrespectful behavior is a valuable skill in debate and life.",
-    "to_text": "For less severe disrespectful behavior, it is best to remain composed and focus on one's own performance.",
+    "from_text": "A highly focused club like a computer club at the high school level may not benefit students.",
+    "to_text": "A computer club is unlikely to attract many students.",
     "type": "supports",
     "strength": 0.7
   },
   {
     "from_id": "A17",
-    "to_id": "A25",
-    "from_text": "Developing the ability to care less about disrespectful behavior is a valuable skill in debate and life.",
-    "to_text": "It is advisable to address an opponent's inappropriate behavior during the debate, rather than waiting until afterward.",
-    "type": "attacks",
-    "strength": 0.6
+    "to_id": "A16",
+    "from_text": "Students tend to lose interest in computing when they perceive it as primarily mathematics.",
+    "to_text": "A highly focused club like a computer club at the high school level may not benefit students.",
+    "type": "supports",
+    "strength": 0.4
   },
   {
     "from_id": "A17",
     "to_id": "A22",
-    "from_text": "Developing the ability to care less about disrespectful behavior is a valuable skill in debate and life.",
-    "to_text": "Judges should observe disrespectful behavior and address it in their ballot for coaches to act upon.",
+    "from_text": "Students tend to lose interest in computing when they perceive it as primarily mathematics.",
+    "to_text": "Starting a coding club in high school is a good idea.",
     "type": "attacks",
-    "strength": 0.5
+    "strength": 0.4
   },
   {
     "from_id": "A18",
-    "to_id": "A22",
-    "from_text": "Judges likely observe disrespectful behavior and may comment on it in their ballots.",
-    "to_text": "Judges should observe disrespectful behavior and address it in their ballot for coaches to act upon.",
-    "type": "supports",
-    "strength": 0.8
+    "to_id": "A19",
+    "from_text": "Computer Science and coding are not the same thing, though they do overlap.",
+    "to_text": "Programming is not a method used to solve algorithms; it can limit the ability to develop algorithms.",
+    "type": "attacks",
+    "strength": 0.6
   },
   {
     "from_id": "A18",
-    "to_id": "A29",
-    "from_text": "Judges likely observe disrespectful behavior and may comment on it in their ballots.",
-    "to_text": "Judges should comment on ballots detailing disrespectful behavior and may reduce speaker points for blatant disrespect.",
+    "to_id": "A20",
+    "from_text": "Computer Science and coding are not the same thing, though they do overlap.",
+    "to_text": "Programming in computer science is a means to an end, similar to using symbols in mathematics.",
     "type": "supports",
-    "strength": 0.8
+    "strength": 0.6
   },
   {
     "from_id": "A19",
     "to_id": "A20",
-    "from_text": "Coaches often communicate with each other about student behavior.",
-    "to_text": "Reporting disrespectful behavior to a coach can lead to the coach addressing the issue with their student.",
+    "from_text": "Programming is not a method used to solve algorithms; it can limit the ability to develop algorithms.",
+    "to_text": "Programming in computer science is a means to an end, similar to using symbols in mathematics.",
+    "type": "attacks",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A19",
+    "to_id": "A21",
+    "from_text": "Programming is not a method used to solve algorithms; it can limit the ability to develop algorithms.",
+    "to_text": "Algorithms often have to change to fit the capabilities of programming languages.",
     "type": "supports",
     "strength": 0.7
   },
   {
     "from_id": "A20",
-    "to_id": "A22",
-    "from_text": "Reporting disrespectful behavior to a coach can lead to the coach addressing the issue with their student.",
-    "to_text": "Judges should observe disrespectful behavior and address it in their ballot for coaches to act upon.",
+    "to_id": "A19",
+    "from_text": "Programming in computer science is a means to an end, similar to using symbols in mathematics.",
+    "to_text": "Programming is not a method used to solve algorithms; it can limit the ability to develop algorithms.",
+    "type": "attacks",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A21",
+    "to_id": "A19",
+    "from_text": "Algorithms often have to change to fit the capabilities of programming languages.",
+    "to_text": "Programming is not a method used to solve algorithms; it can limit the ability to develop algorithms.",
     "type": "supports",
-    "strength": 0.4
-  },
-  {
-    "from_id": "A21",
-    "to_id": "A23",
-    "from_text": "Tournaments are unlikely to change results or disqualify competitors for the described disrespectful behavior.",
-    "to_text": "Egregious disrespectful behavior, such as mocking disabilities or personal characteristics, warrants being addressed during the round.",
-    "type": "attacks",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A21",
-    "to_id": "A25",
-    "from_text": "Tournaments are unlikely to change results or disqualify competitors for the described disrespectful behavior.",
-    "to_text": "It is advisable to address an opponent's inappropriate behavior during the debate, rather than waiting until afterward.",
-    "type": "attacks",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A21",
-    "to_id": "A26",
-    "from_text": "Tournaments are unlikely to change results or disqualify competitors for the described disrespectful behavior.",
-    "to_text": "A judge might penalize an opposing team for their behavior if a strong argument is made about it.",
-    "type": "attacks",
     "strength": 0.7
   },
   {
     "from_id": "A22",
-    "to_id": "A29",
-    "from_text": "Judges should observe disrespectful behavior and address it in their ballot for coaches to act upon.",
-    "to_text": "Judges should comment on ballots detailing disrespectful behavior and may reduce speaker points for blatant disrespect.",
-    "type": "supports",
-    "strength": 0.9
+    "to_id": "A16",
+    "from_text": "Starting a coding club in high school is a good idea.",
+    "to_text": "A highly focused club like a computer club at the high school level may not benefit students.",
+    "type": "attacks",
+    "strength": 0.8
   },
   {
-    "from_id": "A23",
+    "from_id": "A22",
+    "to_id": "A17",
+    "from_text": "Starting a coding club in high school is a good idea.",
+    "to_text": "Students tend to lose interest in computing when they perceive it as primarily mathematics.",
+    "type": "supports",
+    "strength": 0.3
+  },
+  {
+    "from_id": "A22",
+    "to_id": "A23",
+    "from_text": "Starting a coding club in high school is a good idea.",
+    "to_text": "Web development is a recommended starting point for a computer science club.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A22",
     "to_id": "A24",
-    "from_text": "Egregious disrespectful behavior, such as mocking disabilities or personal characteristics, warrants being addressed during the round.",
-    "to_text": "For less severe disrespectful behavior, it is best to remain composed and focus on one's own performance.",
+    "from_text": "Starting a coding club in high school is a good idea.",
+    "to_text": "Most people who join a computer science club will want to make games.",
+    "type": "supports",
+    "strength": 0.5
+  },
+  {
+    "from_id": "A22",
+    "to_id": "A26",
+    "from_text": "Starting a coding club in high school is a good idea.",
+    "to_text": "Creating a portfolio site while learning web development is a good approach.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A22",
+    "to_id": "A29",
+    "from_text": "Starting a coding club in high school is a good idea.",
+    "to_text": "A competition-based club can attract a decent amount of students.",
+    "type": "supports",
+    "strength": 0.4
+  },
+  {
+    "from_id": "A22",
+    "to_id": "A30",
+    "from_text": "Starting a coding club in high school is a good idea.",
+    "to_text": "A computer club is unlikely to attract many students.",
     "type": "attacks",
     "strength": 0.8
   },
   {
     "from_id": "A23",
-    "to_id": "A25",
-    "from_text": "Egregious disrespectful behavior, such as mocking disabilities or personal characteristics, warrants being addressed during the round.",
-    "to_text": "It is advisable to address an opponent's inappropriate behavior during the debate, rather than waiting until afterward.",
-    "type": "supports",
-    "strength": 0.8
-  },
-  {
-    "from_id": "A23",
-    "to_id": "A26",
-    "from_text": "Egregious disrespectful behavior, such as mocking disabilities or personal characteristics, warrants being addressed during the round.",
-    "to_text": "A judge might penalize an opposing team for their behavior if a strong argument is made about it.",
+    "to_id": "A22",
+    "from_text": "Web development is a recommended starting point for a computer science club.",
+    "to_text": "Starting a coding club in high school is a good idea.",
     "type": "supports",
     "strength": 0.7
   },
   {
     "from_id": "A23",
-    "to_id": "A28",
-    "from_text": "Egregious disrespectful behavior, such as mocking disabilities or personal characteristics, warrants being addressed during the round.",
-    "to_text": "Laughing and interrupting a speech would be viewed very unfavorably by a judge.",
+    "to_id": "A26",
+    "from_text": "Web development is a recommended starting point for a computer science club.",
+    "to_text": "Creating a portfolio site while learning web development is a good approach.",
     "type": "supports",
-    "strength": 0.6
+    "strength": 0.8
+  },
+  {
+    "from_id": "A24",
+    "to_id": "A22",
+    "from_text": "Most people who join a computer science club will want to make games.",
+    "to_text": "Starting a coding club in high school is a good idea.",
+    "type": "supports",
+    "strength": 0.5
   },
   {
     "from_id": "A24",
     "to_id": "A25",
-    "from_text": "For less severe disrespectful behavior, it is best to remain composed and focus on one's own performance.",
-    "to_text": "It is advisable to address an opponent's inappropriate behavior during the debate, rather than waiting until afterward.",
-    "type": "attacks",
-    "strength": 0.8
-  },
-  {
-    "from_id": "A24",
-    "to_id": "A26",
-    "from_text": "For less severe disrespectful behavior, it is best to remain composed and focus on one's own performance.",
-    "to_text": "A judge might penalize an opposing team for their behavior if a strong argument is made about it.",
-    "type": "attacks",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A25",
-    "to_id": "A26",
-    "from_text": "It is advisable to address an opponent's inappropriate behavior during the debate, rather than waiting until afterward.",
-    "to_text": "A judge might penalize an opposing team for their behavior if a strong argument is made about it.",
+    "from_text": "Most people who join a computer science club will want to make games.",
+    "to_text": "Godot is highly recommended for game development due to its ease of use for 2D games.",
     "type": "supports",
     "strength": 0.8
   },
   {
     "from_id": "A25",
+    "to_id": "A24",
+    "from_text": "Godot is highly recommended for game development due to its ease of use for 2D games.",
+    "to_text": "Most people who join a computer science club will want to make games.",
+    "type": "supports",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A26",
+    "to_id": "A22",
+    "from_text": "Creating a portfolio site while learning web development is a good approach.",
+    "to_text": "Starting a coding club in high school is a good idea.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A26",
+    "to_id": "A23",
+    "from_text": "Creating a portfolio site while learning web development is a good approach.",
+    "to_text": "Web development is a recommended starting point for a computer science club.",
+    "type": "supports",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A26",
     "to_id": "A27",
-    "from_text": "It is advisable to address an opponent's inappropriate behavior during the debate, rather than waiting until afterward.",
-    "to_text": "A judge would find it difficult to police eye-rolling effectively.",
+    "from_text": "Creating a portfolio site while learning web development is a good approach.",
+    "to_text": "Connecting a website to the internet is not a necessary step for learning but can be beneficial for college or job applications.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A27",
+    "to_id": "A26",
+    "from_text": "Connecting a website to the internet is not a necessary step for learning but can be beneficial for college or job applications.",
+    "to_text": "Creating a portfolio site while learning web development is a good approach.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A28",
+    "to_id": "A22",
+    "from_text": "Setting up a Java environment in a computer lab can be challenging.",
+    "to_text": "Starting a coding club in high school is a good idea.",
+    "type": "attacks",
+    "strength": 0.3
+  },
+  {
+    "from_id": "A29",
+    "to_id": "A16",
+    "from_text": "A competition-based club can attract a decent amount of students.",
+    "to_text": "A highly focused club like a computer club at the high school level may not benefit students.",
     "type": "attacks",
     "strength": 0.5
   },
   {
-    "from_id": "A25",
-    "to_id": "A28",
-    "from_text": "It is advisable to address an opponent's inappropriate behavior during the debate, rather than waiting until afterward.",
-    "to_text": "Laughing and interrupting a speech would be viewed very unfavorably by a judge.",
+    "from_id": "A29",
+    "to_id": "A22",
+    "from_text": "A competition-based club can attract a decent amount of students.",
+    "to_text": "Starting a coding club in high school is a good idea.",
     "type": "supports",
-    "strength": 0.7
-  },
-  {
-    "from_id": "A26",
-    "to_id": "A29",
-    "from_text": "A judge might penalize an opposing team for their behavior if a strong argument is made about it.",
-    "to_text": "Judges should comment on ballots detailing disrespectful behavior and may reduce speaker points for blatant disrespect.",
-    "type": "supports",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A27",
-    "to_id": "A28",
-    "from_text": "A judge would find it difficult to police eye-rolling effectively.",
-    "to_text": "Laughing and interrupting a speech would be viewed very unfavorably by a judge.",
-    "type": "attacks",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A28",
-    "to_id": "A29",
-    "from_text": "Laughing and interrupting a speech would be viewed very unfavorably by a judge.",
-    "to_text": "Judges should comment on ballots detailing disrespectful behavior and may reduce speaker points for blatant disrespect.",
-    "type": "supports",
-    "strength": 0.7
-  },
-  {
-    "from_id": "A28",
-    "to_id": "A30",
-    "from_text": "Laughing and interrupting a speech would be viewed very unfavorably by a judge.",
-    "to_text": "Laughing and rude behavior during a debate is uncomfortable for judges.",
-    "type": "supports",
-    "strength": 0.9
+    "strength": 0.4
   },
   {
     "from_id": "A29",
     "to_id": "A30",
-    "from_text": "Judges should comment on ballots detailing disrespectful behavior and may reduce speaker points for blatant disrespect.",
-    "to_text": "Laughing and rude behavior during a debate is uncomfortable for judges.",
+    "from_text": "A competition-based club can attract a decent amount of students.",
+    "to_text": "A computer club is unlikely to attract many students.",
+    "type": "attacks",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A30",
+    "to_id": "A16",
+    "from_text": "A computer club is unlikely to attract many students.",
+    "to_text": "A highly focused club like a computer club at the high school level may not benefit students.",
     "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A30",
+    "to_id": "A22",
+    "from_text": "A computer club is unlikely to attract many students.",
+    "to_text": "Starting a coding club in high school is a good idea.",
+    "type": "attacks",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A30",
+    "to_id": "A29",
+    "from_text": "A computer club is unlikely to attract many students.",
+    "to_text": "A competition-based club can attract a decent amount of students.",
+    "type": "attacks",
     "strength": 0.6
   },
   {
     "from_id": "A31",
     "to_id": "A32",
-    "from_text": "Disruptive behavior during a debate warrants intervention between speeches.",
-    "to_text": "Debaters should focus on their arguments rather than engaging in rude behavior.",
-    "type": "supports",
-    "strength": 0.7
+    "from_text": "Hardware is expensive for the average student, which makes a computer club difficult to succeed unless in an affluent region.",
+    "to_text": "Students would benefit from a modern shop class or club that exposes them to various technologies involved in making things.",
+    "type": "attacks",
+    "strength": 0.4
   },
   {
     "from_id": "A31",
-    "to_id": "A33",
-    "from_text": "Disruptive behavior during a debate warrants intervention between speeches.",
-    "to_text": "Mediocre debaters are often the ones who exhibit rude behavior.",
-    "type": "supports",
+    "to_id": "A42",
+    "from_text": "Hardware is expensive for the average student, which makes a computer club difficult to succeed unless in an affluent region.",
+    "to_text": "Building arcade cabinets with Raspberry Pi can be a good introduction to programming and provide a tangible reward.",
+    "type": "attacks",
     "strength": 0.5
   },
   {
     "from_id": "A31",
-    "to_id": "A38",
-    "from_text": "Disruptive behavior during a debate warrants intervention between speeches.",
-    "to_text": "Personal attacks in a speech should be addressed by telling the opponent off and informing the judge of the ineffectiveness of such tactics.",
-    "type": "supports",
-    "strength": 0.6
+    "to_id": "A43",
+    "from_text": "Hardware is expensive for the average student, which makes a computer club difficult to succeed unless in an affluent region.",
+    "to_text": "Creating a gaming system with Raspberry Pi allows learning hardware and software while bringing people together with common interests.",
+    "type": "attacks",
+    "strength": 0.5
   },
   {
-    "from_id": "A31",
-    "to_id": "A44",
-    "from_text": "Disruptive behavior during a debate warrants intervention between speeches.",
-    "to_text": "Pointing out mistakes on the line-by-line and refuting rude behavior as not being an argument are effective tactics.",
+    "from_id": "A32",
+    "to_id": "A33",
+    "from_text": "Students would benefit from a modern shop class or club that exposes them to various technologies involved in making things.",
+    "to_text": "A club with a broader focus would attract more students and greater public support.",
     "type": "supports",
-    "strength": 0.6
+    "strength": 0.7
   },
   {
-    "from_id": "A31",
-    "to_id": "A45",
-    "from_text": "Disruptive behavior during a debate warrants intervention between speeches.",
-    "to_text": "A coach should be asked to protest to tabroom regarding opponent behavior.",
+    "from_id": "A32",
+    "to_id": "A34",
+    "from_text": "Students would benefit from a modern shop class or club that exposes them to various technologies involved in making things.",
+    "to_text": "Focusing solely on 3D printing is too narrow of a niche for a club.",
+    "type": "attacks",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A32",
+    "to_id": "A35",
+    "from_text": "Students would benefit from a modern shop class or club that exposes them to various technologies involved in making things.",
+    "to_text": "The absence of shop-type classes or clubs in schools is detrimental.",
     "type": "supports",
     "strength": 0.8
   },
   {
     "from_id": "A32",
-    "to_id": "A31",
-    "from_text": "Debaters should focus on their arguments rather than engaging in rude behavior.",
-    "to_text": "Disruptive behavior during a debate warrants intervention between speeches.",
+    "to_id": "A36",
+    "from_text": "Students would benefit from a modern shop class or club that exposes them to various technologies involved in making things.",
+    "to_text": "Young people entering engineering and support fields often lack hands-on experience beyond what they learned in school.",
     "type": "supports",
     "strength": 0.7
-  },
-  {
-    "from_id": "A32",
-    "to_id": "A33",
-    "from_text": "Debaters should focus on their arguments rather than engaging in rude behavior.",
-    "to_text": "Mediocre debaters are often the ones who exhibit rude behavior.",
-    "type": "supports",
-    "strength": 0.6
   },
   {
     "from_id": "A32",
     "to_id": "A37",
-    "from_text": "Debaters should focus on their arguments rather than engaging in rude behavior.",
-    "to_text": "Debaters should maintain kindness regardless of their opponents' behavior.",
+    "from_text": "Students would benefit from a modern shop class or club that exposes them to various technologies involved in making things.",
+    "to_text": "Computer science graduates may lack understanding of how machines work or how to create physical objects.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A32",
+    "to_id": "A38",
+    "from_text": "Students would benefit from a modern shop class or club that exposes them to various technologies involved in making things.",
+    "to_text": "Narrowly focused clubs do high school students a disservice by not providing a well-rounded education.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A32",
+    "to_id": "A39",
+    "from_text": "Students would benefit from a modern shop class or club that exposes them to various technologies involved in making things.",
+    "to_text": "A lack of exposure to new things leads to less capable individuals after graduation.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A32",
+    "to_id": "A40",
+    "from_text": "Students would benefit from a modern shop class or club that exposes them to various technologies involved in making things.",
+    "to_text": "Classes like art and shop are important for brain development and connecting academic subjects to the real world.",
     "type": "supports",
     "strength": 0.8
   },
   {
     "from_id": "A32",
-    "to_id": "A39",
-    "from_text": "Debaters should focus on their arguments rather than engaging in rude behavior.",
-    "to_text": "Learning to deliver arguments clearly despite opponents' attempts to distract is a valuable skill.",
-    "type": "supports",
-    "strength": 0.7
-  },
-  {
-    "from_id": "A32",
-    "to_id": "A41",
-    "from_text": "Debaters should focus on their arguments rather than engaging in rude behavior.",
-    "to_text": "Teams that resort to disrespectful behavior often do so out of concern for their own position.",
-    "type": "supports",
-    "strength": 0.5
-  },
-  {
-    "from_id": "A32",
     "to_id": "A42",
-    "from_text": "Debaters should focus on their arguments rather than engaging in rude behavior.",
-    "to_text": "Opponents' attempts to put a debater off can be interpreted as a compliment, indicating their concern about the debater's arguments.",
+    "from_text": "Students would benefit from a modern shop class or club that exposes them to various technologies involved in making things.",
+    "to_text": "Building arcade cabinets with Raspberry Pi can be a good introduction to programming and provide a tangible reward.",
     "type": "supports",
-    "strength": 0.5
+    "strength": 0.6
   },
   {
-    "from_id": "A33",
-    "to_id": "A32",
-    "from_text": "Mediocre debaters are often the ones who exhibit rude behavior.",
-    "to_text": "Debaters should focus on their arguments rather than engaging in rude behavior.",
+    "from_id": "A32",
+    "to_id": "A43",
+    "from_text": "Students would benefit from a modern shop class or club that exposes them to various technologies involved in making things.",
+    "to_text": "Creating a gaming system with Raspberry Pi allows learning hardware and software while bringing people together with common interests.",
     "type": "supports",
     "strength": 0.6
   },
   {
     "from_id": "A33",
-    "to_id": "A41",
-    "from_text": "Mediocre debaters are often the ones who exhibit rude behavior.",
-    "to_text": "Teams that resort to disrespectful behavior often do so out of concern for their own position.",
+    "to_id": "A34",
+    "from_text": "A club with a broader focus would attract more students and greater public support.",
+    "to_text": "Focusing solely on 3D printing is too narrow of a niche for a club.",
+    "type": "attacks",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A33",
+    "to_id": "A38",
+    "from_text": "A club with a broader focus would attract more students and greater public support.",
+    "to_text": "Narrowly focused clubs do high school students a disservice by not providing a well-rounded education.",
     "type": "supports",
     "strength": 0.7
   },
   {
     "from_id": "A33",
-    "to_id": "A42",
-    "from_text": "Mediocre debaters are often the ones who exhibit rude behavior.",
-    "to_text": "Opponents' attempts to put a debater off can be interpreted as a compliment, indicating their concern about the debater's arguments.",
+    "to_id": "A41",
+    "from_text": "A club with a broader focus would attract more students and greater public support.",
+    "to_text": "The idea of separating people based on different interests for a club is flawed.",
+    "type": "attacks",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A33",
+    "to_id": "A44",
+    "from_text": "A club with a broader focus would attract more students and greater public support.",
+    "to_text": "The very idea of a computer club separates people.",
+    "type": "attacks",
+    "strength": 0.5
+  },
+  {
+    "from_id": "A33",
+    "to_id": "A45",
+    "from_text": "A club with a broader focus would attract more students and greater public support.",
+    "to_text": "A robotics club brings together people with varying interests.",
+    "type": "supports",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A34",
+    "to_id": "A38",
+    "from_text": "Focusing solely on 3D printing is too narrow of a niche for a club.",
+    "to_text": "Narrowly focused clubs do high school students a disservice by not providing a well-rounded education.",
+    "type": "supports",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A34",
+    "to_id": "A39",
+    "from_text": "Focusing solely on 3D printing is too narrow of a niche for a club.",
+    "to_text": "A lack of exposure to new things leads to less capable individuals after graduation.",
     "type": "supports",
     "strength": 0.6
   },
   {
     "from_id": "A34",
-    "to_id": "A35",
-    "from_text": "Highly intelligent individuals can agree with opponents and then force them into self-contradiction.",
-    "to_text": "Making people who believe they are always right contradict themselves is an effective strategy.",
-    "type": "supports",
-    "strength": 0.8
+    "to_id": "A45",
+    "from_text": "Focusing solely on 3D printing is too narrow of a niche for a club.",
+    "to_text": "A robotics club brings together people with varying interests.",
+    "type": "attacks",
+    "strength": 0.7
   },
   {
-    "from_id": "A34",
+    "from_id": "A35",
     "to_id": "A36",
-    "from_text": "Highly intelligent individuals can agree with opponents and then force them into self-contradiction.",
-    "to_text": "Using logical and coherent questions related to an opponent's flawed argument can generate contradictions.",
+    "from_text": "The absence of shop-type classes or clubs in schools is detrimental.",
+    "to_text": "Young people entering engineering and support fields often lack hands-on experience beyond what they learned in school.",
     "type": "supports",
     "strength": 0.7
   },
   {
     "from_id": "A35",
-    "to_id": "A34",
-    "from_text": "Making people who believe they are always right contradict themselves is an effective strategy.",
-    "to_text": "Highly intelligent individuals can agree with opponents and then force them into self-contradiction.",
+    "to_id": "A37",
+    "from_text": "The absence of shop-type classes or clubs in schools is detrimental.",
+    "to_text": "Computer science graduates may lack understanding of how machines work or how to create physical objects.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A35",
+    "to_id": "A39",
+    "from_text": "The absence of shop-type classes or clubs in schools is detrimental.",
+    "to_text": "A lack of exposure to new things leads to less capable individuals after graduation.",
     "type": "supports",
     "strength": 0.8
   },
   {
     "from_id": "A35",
-    "to_id": "A36",
-    "from_text": "Making people who believe they are always right contradict themselves is an effective strategy.",
-    "to_text": "Using logical and coherent questions related to an opponent's flawed argument can generate contradictions.",
-    "type": "supports",
-    "strength": 0.7
-  },
-  {
-    "from_id": "A36",
-    "to_id": "A34",
-    "from_text": "Using logical and coherent questions related to an opponent's flawed argument can generate contradictions.",
-    "to_text": "Highly intelligent individuals can agree with opponents and then force them into self-contradiction.",
-    "type": "supports",
-    "strength": 0.7
-  },
-  {
-    "from_id": "A36",
-    "to_id": "A35",
-    "from_text": "Using logical and coherent questions related to an opponent's flawed argument can generate contradictions.",
-    "to_text": "Making people who believe they are always right contradict themselves is an effective strategy.",
-    "type": "supports",
-    "strength": 0.7
-  },
-  {
-    "from_id": "A37",
-    "to_id": "A32",
-    "from_text": "Debaters should maintain kindness regardless of their opponents' behavior.",
-    "to_text": "Debaters should focus on their arguments rather than engaging in rude behavior.",
+    "to_id": "A40",
+    "from_text": "The absence of shop-type classes or clubs in schools is detrimental.",
+    "to_text": "Classes like art and shop are important for brain development and connecting academic subjects to the real world.",
     "type": "supports",
     "strength": 0.8
+  },
+  {
+    "from_id": "A36",
+    "to_id": "A37",
+    "from_text": "Young people entering engineering and support fields often lack hands-on experience beyond what they learned in school.",
+    "to_text": "Computer science graduates may lack understanding of how machines work or how to create physical objects.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A36",
+    "to_id": "A39",
+    "from_text": "Young people entering engineering and support fields often lack hands-on experience beyond what they learned in school.",
+    "to_text": "A lack of exposure to new things leads to less capable individuals after graduation.",
+    "type": "supports",
+    "strength": 0.7
   },
   {
     "from_id": "A37",
     "to_id": "A39",
-    "from_text": "Debaters should maintain kindness regardless of their opponents' behavior.",
-    "to_text": "Learning to deliver arguments clearly despite opponents' attempts to distract is a valuable skill.",
+    "from_text": "Computer science graduates may lack understanding of how machines work or how to create physical objects.",
+    "to_text": "A lack of exposure to new things leads to less capable individuals after graduation.",
     "type": "supports",
     "strength": 0.7
   },
   {
-    "from_id": "A37",
-    "to_id": "A40",
-    "from_text": "Debaters should maintain kindness regardless of their opponents' behavior.",
-    "to_text": "Composure under pressure, such as recovering after blanking during a rebuttal, is a positive trait in a debater.",
+    "from_id": "A38",
+    "to_id": "A39",
+    "from_text": "Narrowly focused clubs do high school students a disservice by not providing a well-rounded education.",
+    "to_text": "A lack of exposure to new things leads to less capable individuals after graduation.",
     "type": "supports",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A37",
-    "to_id": "A41",
-    "from_text": "Debaters should maintain kindness regardless of their opponents' behavior.",
-    "to_text": "Teams that resort to disrespectful behavior often do so out of concern for their own position.",
-    "type": "attacks",
-    "strength": 0.4
-  },
-  {
-    "from_id": "A37",
-    "to_id": "A43",
-    "from_text": "Debaters should maintain kindness regardless of their opponents' behavior.",
-    "to_text": "Debaters should match the energy of competent opponents.",
-    "type": "attacks",
-    "strength": 0.6
+    "strength": 0.8
   },
   {
     "from_id": "A38",
-    "to_id": "A31",
-    "from_text": "Personal attacks in a speech should be addressed by telling the opponent off and informing the judge of the ineffectiveness of such tactics.",
-    "to_text": "Disruptive behavior during a debate warrants intervention between speeches.",
+    "to_id": "A41",
+    "from_text": "Narrowly focused clubs do high school students a disservice by not providing a well-rounded education.",
+    "to_text": "The idea of separating people based on different interests for a club is flawed.",
     "type": "supports",
     "strength": 0.6
   },
   {
     "from_id": "A38",
     "to_id": "A44",
-    "from_text": "Personal attacks in a speech should be addressed by telling the opponent off and informing the judge of the ineffectiveness of such tactics.",
-    "to_text": "Pointing out mistakes on the line-by-line and refuting rude behavior as not being an argument are effective tactics.",
+    "from_text": "Narrowly focused clubs do high school students a disservice by not providing a well-rounded education.",
+    "to_text": "The very idea of a computer club separates people.",
     "type": "supports",
-    "strength": 0.7
+    "strength": 0.5
   },
   {
     "from_id": "A38",
     "to_id": "A45",
-    "from_text": "Personal attacks in a speech should be addressed by telling the opponent off and informing the judge of the ineffectiveness of such tactics.",
-    "to_text": "A coach should be asked to protest to tabroom regarding opponent behavior.",
-    "type": "supports",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A39",
-    "to_id": "A32",
-    "from_text": "Learning to deliver arguments clearly despite opponents' attempts to distract is a valuable skill.",
-    "to_text": "Debaters should focus on their arguments rather than engaging in rude behavior.",
-    "type": "supports",
-    "strength": 0.7
-  },
-  {
-    "from_id": "A39",
-    "to_id": "A37",
-    "from_text": "Learning to deliver arguments clearly despite opponents' attempts to distract is a valuable skill.",
-    "to_text": "Debaters should maintain kindness regardless of their opponents' behavior.",
-    "type": "supports",
+    "from_text": "Narrowly focused clubs do high school students a disservice by not providing a well-rounded education.",
+    "to_text": "A robotics club brings together people with varying interests.",
+    "type": "attacks",
     "strength": 0.7
   },
   {
     "from_id": "A39",
     "to_id": "A40",
-    "from_text": "Learning to deliver arguments clearly despite opponents' attempts to distract is a valuable skill.",
-    "to_text": "Composure under pressure, such as recovering after blanking during a rebuttal, is a positive trait in a debater.",
-    "type": "supports",
-    "strength": 0.8
-  },
-  {
-    "from_id": "A39",
-    "to_id": "A42",
-    "from_text": "Learning to deliver arguments clearly despite opponents' attempts to distract is a valuable skill.",
-    "to_text": "Opponents' attempts to put a debater off can be interpreted as a compliment, indicating their concern about the debater's arguments.",
+    "from_text": "A lack of exposure to new things leads to less capable individuals after graduation.",
+    "to_text": "Classes like art and shop are important for brain development and connecting academic subjects to the real world.",
     "type": "supports",
     "strength": 0.6
-  },
-  {
-    "from_id": "A40",
-    "to_id": "A39",
-    "from_text": "Composure under pressure, such as recovering after blanking during a rebuttal, is a positive trait in a debater.",
-    "to_text": "Learning to deliver arguments clearly despite opponents' attempts to distract is a valuable skill.",
-    "type": "supports",
-    "strength": 0.8
   },
   {
     "from_id": "A41",
-    "to_id": "A33",
-    "from_text": "Teams that resort to disrespectful behavior often do so out of concern for their own position.",
-    "to_text": "Mediocre debaters are often the ones who exhibit rude behavior.",
-    "type": "supports",
-    "strength": 0.7
-  },
-  {
-    "from_id": "A41",
-    "to_id": "A42",
-    "from_text": "Teams that resort to disrespectful behavior often do so out of concern for their own position.",
-    "to_text": "Opponents' attempts to put a debater off can be interpreted as a compliment, indicating their concern about the debater's arguments.",
-    "type": "supports",
-    "strength": 0.8
-  },
-  {
-    "from_id": "A42",
-    "to_id": "A33",
-    "from_text": "Opponents' attempts to put a debater off can be interpreted as a compliment, indicating their concern about the debater's arguments.",
-    "to_text": "Mediocre debaters are often the ones who exhibit rude behavior.",
-    "type": "supports",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A42",
-    "to_id": "A39",
-    "from_text": "Opponents' attempts to put a debater off can be interpreted as a compliment, indicating their concern about the debater's arguments.",
-    "to_text": "Learning to deliver arguments clearly despite opponents' attempts to distract is a valuable skill.",
-    "type": "supports",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A42",
-    "to_id": "A41",
-    "from_text": "Opponents' attempts to put a debater off can be interpreted as a compliment, indicating their concern about the debater's arguments.",
-    "to_text": "Teams that resort to disrespectful behavior often do so out of concern for their own position.",
-    "type": "supports",
-    "strength": 0.8
-  },
-  {
-    "from_id": "A43",
-    "to_id": "A37",
-    "from_text": "Debaters should match the energy of competent opponents.",
-    "to_text": "Debaters should maintain kindness regardless of their opponents' behavior.",
-    "type": "attacks",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A43",
     "to_id": "A44",
-    "from_text": "Debaters should match the energy of competent opponents.",
-    "to_text": "Pointing out mistakes on the line-by-line and refuting rude behavior as not being an argument are effective tactics.",
+    "from_text": "The idea of separating people based on different interests for a club is flawed.",
+    "to_text": "The very idea of a computer club separates people.",
     "type": "supports",
-    "strength": 0.5
+    "strength": 0.8
   },
   {
-    "from_id": "A44",
-    "to_id": "A31",
-    "from_text": "Pointing out mistakes on the line-by-line and refuting rude behavior as not being an argument are effective tactics.",
-    "to_text": "Disruptive behavior during a debate warrants intervention between speeches.",
-    "type": "supports",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A44",
-    "to_id": "A38",
-    "from_text": "Pointing out mistakes on the line-by-line and refuting rude behavior as not being an argument are effective tactics.",
-    "to_text": "Personal attacks in a speech should be addressed by telling the opponent off and informing the judge of the ineffectiveness of such tactics.",
-    "type": "supports",
+    "from_id": "A41",
+    "to_id": "A45",
+    "from_text": "The idea of separating people based on different interests for a club is flawed.",
+    "to_text": "A robotics club brings together people with varying interests.",
+    "type": "attacks",
     "strength": 0.7
   },
   {
-    "from_id": "A44",
+    "from_id": "A42",
     "to_id": "A43",
-    "from_text": "Pointing out mistakes on the line-by-line and refuting rude behavior as not being an argument are effective tactics.",
-    "to_text": "Debaters should match the energy of competent opponents.",
-    "type": "supports",
-    "strength": 0.5
-  },
-  {
-    "from_id": "A45",
-    "to_id": "A31",
-    "from_text": "A coach should be asked to protest to tabroom regarding opponent behavior.",
-    "to_text": "Disruptive behavior during a debate warrants intervention between speeches.",
+    "from_text": "Building arcade cabinets with Raspberry Pi can be a good introduction to programming and provide a tangible reward.",
+    "to_text": "Creating a gaming system with Raspberry Pi allows learning hardware and software while bringing people together with common interests.",
     "type": "supports",
     "strength": 0.8
   },
   {
-    "from_id": "A45",
-    "to_id": "A38",
-    "from_text": "A coach should be asked to protest to tabroom regarding opponent behavior.",
-    "to_text": "Personal attacks in a speech should be addressed by telling the opponent off and informing the judge of the ineffectiveness of such tactics.",
+    "from_id": "A42",
+    "to_id": "A45",
+    "from_text": "Building arcade cabinets with Raspberry Pi can be a good introduction to programming and provide a tangible reward.",
+    "to_text": "A robotics club brings together people with varying interests.",
     "type": "supports",
-    "strength": 0.6
+    "strength": 0.5
+  },
+  {
+    "from_id": "A43",
+    "to_id": "A45",
+    "from_text": "Creating a gaming system with Raspberry Pi allows learning hardware and software while bringing people together with common interests.",
+    "to_text": "A robotics club brings together people with varying interests.",
+    "type": "supports",
+    "strength": 0.5
   },
   {
     "from_id": "A46",
     "to_id": "A47",
-    "from_text": "Tabroom cannot overturn a judge's decision or award a win based on perceived rudeness from an opponent.",
-    "to_text": "Coaches or judges may have private conversations with an opposing coach about rude behavior, but not for minor issues like eye-rolling.",
-    "type": "supports",
+    "from_text": "Raspberry Pi and similar cards have problems in public schools, including cost issues.",
+    "to_text": "A robotics club offers opportunities for donations.",
+    "type": "attacks",
     "strength": 0.6
   },
   {
-    "from_id": "A46",
-    "to_id": "A48",
-    "from_text": "Tabroom cannot overturn a judge's decision or award a win based on perceived rudeness from an opponent.",
-    "to_text": "Judges typically do not intervene for minor disrespectful behavior from opponents.",
-    "type": "supports",
-    "strength": 0.5
-  },
-  {
-    "from_id": "A46",
+    "from_id": "A48",
     "to_id": "A49",
-    "from_text": "Tabroom cannot overturn a judge's decision or award a win based on perceived rudeness from an opponent.",
-    "to_text": "Debaters should focus on their own performance rather than being distracted by opponents' behavior.",
-    "type": "supports",
-    "strength": 0.4
-  },
-  {
-    "from_id": "A46",
-    "to_id": "A50",
-    "from_text": "Tabroom cannot overturn a judge's decision or award a win based on perceived rudeness from an opponent.",
-    "to_text": "Tabroom, as the headquarters for a tournament, can investigate rule violations and take actions beyond a judge's authority.",
-    "type": "attacks",
-    "strength": 0.7
-  },
-  {
-    "from_id": "A46",
-    "to_id": "A52",
-    "from_text": "Tabroom cannot overturn a judge's decision or award a win based on perceived rudeness from an opponent.",
-    "to_text": "Tabroom has the authority to adjust speaker points, award forfeits, reassign participants, or disqualify competitors.",
+    "from_text": "Creating physical objects like arcade gaming cabinets develops multiple skills beyond computer science.",
+    "to_text": "It is detrimental to pigeonhole students early in their primary school careers.",
     "type": "attacks",
     "strength": 0.6
   },
   {
-    "from_id": "A46",
-    "to_id": "A53",
-    "from_text": "Tabroom cannot overturn a judge's decision or award a win based on perceived rudeness from an opponent.",
-    "to_text": "For minor behavioral issues, tabroom would likely issue a verbal reprimand or pass the complaint to the offending team's coach.",
-    "type": "attacks",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A47",
-    "to_id": "A46",
-    "from_text": "Coaches or judges may have private conversations with an opposing coach about rude behavior, but not for minor issues like eye-rolling.",
-    "to_text": "Tabroom cannot overturn a judge's decision or award a win based on perceived rudeness from an opponent.",
-    "type": "supports",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A47",
-    "to_id": "A48",
-    "from_text": "Coaches or judges may have private conversations with an opposing coach about rude behavior, but not for minor issues like eye-rolling.",
-    "to_text": "Judges typically do not intervene for minor disrespectful behavior from opponents.",
-    "type": "supports",
-    "strength": 0.7
-  },
-  {
-    "from_id": "A47",
-    "to_id": "A49",
-    "from_text": "Coaches or judges may have private conversations with an opposing coach about rude behavior, but not for minor issues like eye-rolling.",
-    "to_text": "Debaters should focus on their own performance rather than being distracted by opponents' behavior.",
-    "type": "supports",
-    "strength": 0.5
-  },
-  {
-    "from_id": "A47",
-    "to_id": "A50",
-    "from_text": "Coaches or judges may have private conversations with an opposing coach about rude behavior, but not for minor issues like eye-rolling.",
-    "to_text": "Tabroom, as the headquarters for a tournament, can investigate rule violations and take actions beyond a judge's authority.",
-    "type": "attacks",
-    "strength": 0.4
-  },
-  {
-    "from_id": "A47",
+    "from_id": "A48",
     "to_id": "A51",
-    "from_text": "Coaches or judges may have private conversations with an opposing coach about rude behavior, but not for minor issues like eye-rolling.",
-    "to_text": "Competitors should typically direct complaints through their coach to tabroom.",
-    "type": "attacks",
-    "strength": 0.4
-  },
-  {
-    "from_id": "A47",
-    "to_id": "A53",
-    "from_text": "Coaches or judges may have private conversations with an opposing coach about rude behavior, but not for minor issues like eye-rolling.",
-    "to_text": "For minor behavioral issues, tabroom would likely issue a verbal reprimand or pass the complaint to the offending team's coach.",
-    "type": "attacks",
-    "strength": 0.5
-  },
-  {
-    "from_id": "A48",
-    "to_id": "A46",
-    "from_text": "Judges typically do not intervene for minor disrespectful behavior from opponents.",
-    "to_text": "Tabroom cannot overturn a judge's decision or award a win based on perceived rudeness from an opponent.",
-    "type": "supports",
-    "strength": 0.5
-  },
-  {
-    "from_id": "A48",
-    "to_id": "A47",
-    "from_text": "Judges typically do not intervene for minor disrespectful behavior from opponents.",
-    "to_text": "Coaches or judges may have private conversations with an opposing coach about rude behavior, but not for minor issues like eye-rolling.",
+    "from_text": "Creating physical objects like arcade gaming cabinets develops multiple skills beyond computer science.",
+    "to_text": "Students need more diversity in mandatory classes.",
     "type": "supports",
     "strength": 0.7
   },
   {
-    "from_id": "A48",
-    "to_id": "A49",
-    "from_text": "Judges typically do not intervene for minor disrespectful behavior from opponents.",
-    "to_text": "Debaters should focus on their own performance rather than being distracted by opponents' behavior.",
-    "type": "supports",
-    "strength": 0.8
-  },
-  {
-    "from_id": "A48",
+    "from_id": "A49",
     "to_id": "A50",
-    "from_text": "Judges typically do not intervene for minor disrespectful behavior from opponents.",
-    "to_text": "Tabroom, as the headquarters for a tournament, can investigate rule violations and take actions beyond a judge's authority.",
-    "type": "attacks",
-    "strength": 0.4
-  },
-  {
-    "from_id": "A48",
-    "to_id": "A53",
-    "from_text": "Judges typically do not intervene for minor disrespectful behavior from opponents.",
-    "to_text": "For minor behavioral issues, tabroom would likely issue a verbal reprimand or pass the complaint to the offending team's coach.",
-    "type": "attacks",
+    "from_text": "It is detrimental to pigeonhole students early in their primary school careers.",
+    "to_text": "Schools have gotten worse at exposing students to various possibilities.",
+    "type": "supports",
     "strength": 0.6
-  },
-  {
-    "from_id": "A49",
-    "to_id": "A46",
-    "from_text": "Debaters should focus on their own performance rather than being distracted by opponents' behavior.",
-    "to_text": "Tabroom cannot overturn a judge's decision or award a win based on perceived rudeness from an opponent.",
-    "type": "supports",
-    "strength": 0.4
-  },
-  {
-    "from_id": "A49",
-    "to_id": "A47",
-    "from_text": "Debaters should focus on their own performance rather than being distracted by opponents' behavior.",
-    "to_text": "Coaches or judges may have private conversations with an opposing coach about rude behavior, but not for minor issues like eye-rolling.",
-    "type": "supports",
-    "strength": 0.5
-  },
-  {
-    "from_id": "A49",
-    "to_id": "A48",
-    "from_text": "Debaters should focus on their own performance rather than being distracted by opponents' behavior.",
-    "to_text": "Judges typically do not intervene for minor disrespectful behavior from opponents.",
-    "type": "supports",
-    "strength": 0.8
   },
   {
     "from_id": "A49",
     "to_id": "A51",
-    "from_text": "Debaters should focus on their own performance rather than being distracted by opponents' behavior.",
-    "to_text": "Competitors should typically direct complaints through their coach to tabroom.",
-    "type": "attacks",
-    "strength": 0.3
-  },
-  {
-    "from_id": "A49",
-    "to_id": "A53",
-    "from_text": "Debaters should focus on their own performance rather than being distracted by opponents' behavior.",
-    "to_text": "For minor behavioral issues, tabroom would likely issue a verbal reprimand or pass the complaint to the offending team's coach.",
-    "type": "attacks",
-    "strength": 0.3
-  },
-  {
-    "from_id": "A50",
-    "to_id": "A46",
-    "from_text": "Tabroom, as the headquarters for a tournament, can investigate rule violations and take actions beyond a judge's authority.",
-    "to_text": "Tabroom cannot overturn a judge's decision or award a win based on perceived rudeness from an opponent.",
-    "type": "attacks",
+    "from_text": "It is detrimental to pigeonhole students early in their primary school careers.",
+    "to_text": "Students need more diversity in mandatory classes.",
+    "type": "supports",
     "strength": 0.7
-  },
-  {
-    "from_id": "A50",
-    "to_id": "A47",
-    "from_text": "Tabroom, as the headquarters for a tournament, can investigate rule violations and take actions beyond a judge's authority.",
-    "to_text": "Coaches or judges may have private conversations with an opposing coach about rude behavior, but not for minor issues like eye-rolling.",
-    "type": "attacks",
-    "strength": 0.4
-  },
-  {
-    "from_id": "A50",
-    "to_id": "A48",
-    "from_text": "Tabroom, as the headquarters for a tournament, can investigate rule violations and take actions beyond a judge's authority.",
-    "to_text": "Judges typically do not intervene for minor disrespectful behavior from opponents.",
-    "type": "attacks",
-    "strength": 0.4
   },
   {
     "from_id": "A50",
     "to_id": "A51",
-    "from_text": "Tabroom, as the headquarters for a tournament, can investigate rule violations and take actions beyond a judge's authority.",
-    "to_text": "Competitors should typically direct complaints through their coach to tabroom.",
-    "type": "supports",
-    "strength": 0.8
-  },
-  {
-    "from_id": "A50",
-    "to_id": "A52",
-    "from_text": "Tabroom, as the headquarters for a tournament, can investigate rule violations and take actions beyond a judge's authority.",
-    "to_text": "Tabroom has the authority to adjust speaker points, award forfeits, reassign participants, or disqualify competitors.",
-    "type": "supports",
-    "strength": 0.9
-  },
-  {
-    "from_id": "A50",
-    "to_id": "A53",
-    "from_text": "Tabroom, as the headquarters for a tournament, can investigate rule violations and take actions beyond a judge's authority.",
-    "to_text": "For minor behavioral issues, tabroom would likely issue a verbal reprimand or pass the complaint to the offending team's coach.",
-    "type": "supports",
-    "strength": 0.7
-  },
-  {
-    "from_id": "A51",
-    "to_id": "A47",
-    "from_text": "Competitors should typically direct complaints through their coach to tabroom.",
-    "to_text": "Coaches or judges may have private conversations with an opposing coach about rude behavior, but not for minor issues like eye-rolling.",
-    "type": "attacks",
-    "strength": 0.4
-  },
-  {
-    "from_id": "A51",
-    "to_id": "A49",
-    "from_text": "Competitors should typically direct complaints through their coach to tabroom.",
-    "to_text": "Debaters should focus on their own performance rather than being distracted by opponents' behavior.",
-    "type": "attacks",
-    "strength": 0.3
-  },
-  {
-    "from_id": "A51",
-    "to_id": "A50",
-    "from_text": "Competitors should typically direct complaints through their coach to tabroom.",
-    "to_text": "Tabroom, as the headquarters for a tournament, can investigate rule violations and take actions beyond a judge's authority.",
-    "type": "supports",
-    "strength": 0.8
-  },
-  {
-    "from_id": "A51",
-    "to_id": "A52",
-    "from_text": "Competitors should typically direct complaints through their coach to tabroom.",
-    "to_text": "Tabroom has the authority to adjust speaker points, award forfeits, reassign participants, or disqualify competitors.",
-    "type": "supports",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A51",
-    "to_id": "A53",
-    "from_text": "Competitors should typically direct complaints through their coach to tabroom.",
-    "to_text": "For minor behavioral issues, tabroom would likely issue a verbal reprimand or pass the complaint to the offending team's coach.",
+    "from_text": "Schools have gotten worse at exposing students to various possibilities.",
+    "to_text": "Students need more diversity in mandatory classes.",
     "type": "supports",
     "strength": 0.7
   },
   {
     "from_id": "A52",
-    "to_id": "A46",
-    "from_text": "Tabroom has the authority to adjust speaker points, award forfeits, reassign participants, or disqualify competitors.",
-    "to_text": "Tabroom cannot overturn a judge's decision or award a win based on perceived rudeness from an opponent.",
-    "type": "attacks",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A52",
-    "to_id": "A50",
-    "from_text": "Tabroom has the authority to adjust speaker points, award forfeits, reassign participants, or disqualify competitors.",
-    "to_text": "Tabroom, as the headquarters for a tournament, can investigate rule violations and take actions beyond a judge's authority.",
-    "type": "supports",
-    "strength": 0.9
-  },
-  {
-    "from_id": "A52",
-    "to_id": "A51",
-    "from_text": "Tabroom has the authority to adjust speaker points, award forfeits, reassign participants, or disqualify competitors.",
-    "to_text": "Competitors should typically direct complaints through their coach to tabroom.",
-    "type": "supports",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A52",
-    "to_id": "A53",
-    "from_text": "Tabroom has the authority to adjust speaker points, award forfeits, reassign participants, or disqualify competitors.",
-    "to_text": "For minor behavioral issues, tabroom would likely issue a verbal reprimand or pass the complaint to the offending team's coach.",
-    "type": "supports",
-    "strength": 0.7
-  },
-  {
-    "from_id": "A53",
-    "to_id": "A46",
-    "from_text": "For minor behavioral issues, tabroom would likely issue a verbal reprimand or pass the complaint to the offending team's coach.",
-    "to_text": "Tabroom cannot overturn a judge's decision or award a win based on perceived rudeness from an opponent.",
-    "type": "attacks",
-    "strength": 0.6
-  },
-  {
-    "from_id": "A53",
-    "to_id": "A47",
-    "from_text": "For minor behavioral issues, tabroom would likely issue a verbal reprimand or pass the complaint to the offending team's coach.",
-    "to_text": "Coaches or judges may have private conversations with an opposing coach about rude behavior, but not for minor issues like eye-rolling.",
-    "type": "attacks",
-    "strength": 0.5
-  },
-  {
-    "from_id": "A53",
-    "to_id": "A48",
-    "from_text": "For minor behavioral issues, tabroom would likely issue a verbal reprimand or pass the complaint to the offending team's coach.",
-    "to_text": "Judges typically do not intervene for minor disrespectful behavior from opponents.",
+    "to_id": "A49",
+    "from_text": "Early computer science education is beneficial because future technology will be driven by today's students.",
+    "to_text": "It is detrimental to pigeonhole students early in their primary school careers.",
     "type": "attacks",
     "strength": 0.6
   },
   {
     "from_id": "A53",
     "to_id": "A49",
-    "from_text": "For minor behavioral issues, tabroom would likely issue a verbal reprimand or pass the complaint to the offending team's coach.",
-    "to_text": "Debaters should focus on their own performance rather than being distracted by opponents' behavior.",
+    "from_text": "Everyone interacts with computers daily, making computer science education practical.",
+    "to_text": "It is detrimental to pigeonhole students early in their primary school careers.",
     "type": "attacks",
-    "strength": 0.3
+    "strength": 0.6
   },
   {
-    "from_id": "A53",
-    "to_id": "A50",
-    "from_text": "For minor behavioral issues, tabroom would likely issue a verbal reprimand or pass the complaint to the offending team's coach.",
-    "to_text": "Tabroom, as the headquarters for a tournament, can investigate rule violations and take actions beyond a judge's authority.",
+    "from_id": "A54",
+    "to_id": "A49",
+    "from_text": "Most colleges require an introductory computer science class, making early exposure practical for students.",
+    "to_text": "It is detrimental to pigeonhole students early in their primary school careers.",
+    "type": "attacks",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A55",
+    "to_id": "A48",
+    "from_text": "Many engineering and mathematic disciplines are involved in robotics.",
+    "to_text": "Creating physical objects like arcade gaming cabinets develops multiple skills beyond computer science.",
     "type": "supports",
     "strength": 0.7
   },
   {
-    "from_id": "A53",
-    "to_id": "A51",
-    "from_text": "For minor behavioral issues, tabroom would likely issue a verbal reprimand or pass the complaint to the offending team's coach.",
-    "to_text": "Competitors should typically direct complaints through their coach to tabroom.",
+    "from_id": "A56",
+    "to_id": "A55",
+    "from_text": "Students are more likely to be interested in building and programming their own device that plays games than in learning engineering and mathematics.",
+    "to_text": "Many engineering and mathematic disciplines are involved in robotics.",
+    "type": "attacks",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A56",
+    "to_id": "A57",
+    "from_text": "Students are more likely to be interested in building and programming their own device that plays games than in learning engineering and mathematics.",
+    "to_text": "It is important to adapt to students' interests rather than force them into traditional learning methods.",
+    "type": "supports",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A56",
+    "to_id": "A58",
+    "from_text": "Students are more likely to be interested in building and programming their own device that plays games than in learning engineering and mathematics.",
+    "to_text": "Injecting educational ideas and philosophies into activities students enjoy is more effective.",
+    "type": "supports",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A57",
+    "to_id": "A58",
+    "from_text": "It is important to adapt to students' interests rather than force them into traditional learning methods.",
+    "to_text": "Injecting educational ideas and philosophies into activities students enjoy is more effective.",
     "type": "supports",
     "strength": 0.7
   },
   {
-    "from_id": "A53",
-    "to_id": "A52",
-    "from_text": "For minor behavioral issues, tabroom would likely issue a verbal reprimand or pass the complaint to the offending team's coach.",
-    "to_text": "Tabroom has the authority to adjust speaker points, award forfeits, reassign participants, or disqualify competitors.",
+    "from_id": "A59",
+    "to_id": "A56",
+    "from_text": "Robocode is a fun way to start programming, especially for those familiar with Java.",
+    "to_text": "Students are more likely to be interested in building and programming their own device that plays games than in learning engineering and mathematics.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A1",
+    "to_id": "A7",
+    "from_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "to_text": "Software is not the paramount focus of robotics.",
+    "type": "attacks",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A1",
+    "to_id": "A54",
+    "from_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "to_text": "Most colleges require an introductory computer science class, making early exposure practical for students.",
     "type": "supports",
     "strength": 0.7
+  },
+  {
+    "from_id": "A8",
+    "to_id": "A1",
+    "from_text": "Most robotics programs are funded by local companies, so out-of-pocket expenses are not a concern.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A8",
+    "to_id": "A9",
+    "from_text": "Most robotics programs are funded by local companies, so out-of-pocket expenses are not a concern.",
+    "to_text": "Robotics programs are an effective way to introduce students to computer science and engineering.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A15",
+    "to_id": "A1",
+    "from_text": "Robotics, 3D printing, and similar activities are not a substitute for learning how materials like wood, paint, or metal behave under human direction.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "type": "attacks",
+    "strength": 0.5
+  },
+  {
+    "from_id": "A15",
+    "to_id": "A9",
+    "from_text": "Robotics, 3D printing, and similar activities are not a substitute for learning how materials like wood, paint, or metal behave under human direction.",
+    "to_text": "Robotics programs are an effective way to introduce students to computer science and engineering.",
+    "type": "attacks",
+    "strength": 0.5
+  },
+  {
+    "from_id": "A22",
+    "to_id": "A1",
+    "from_text": "Starting a coding club in high school is a good idea.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "type": "supports",
+    "strength": 0.5
+  },
+  {
+    "from_id": "A22",
+    "to_id": "A9",
+    "from_text": "Starting a coding club in high school is a good idea.",
+    "to_text": "Robotics programs are an effective way to introduce students to computer science and engineering.",
+    "type": "supports",
+    "strength": 0.5
+  },
+  {
+    "from_id": "A29",
+    "to_id": "A1",
+    "from_text": "A competition-based club can attract a decent amount of students.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "type": "supports",
+    "strength": 0.4
+  },
+  {
+    "from_id": "A29",
+    "to_id": "A9",
+    "from_text": "A competition-based club can attract a decent amount of students.",
+    "to_text": "Robotics programs are an effective way to introduce students to computer science and engineering.",
+    "type": "supports",
+    "strength": 0.4
+  },
+  {
+    "from_id": "A36",
+    "to_id": "A1",
+    "from_text": "Young people entering engineering and support fields often lack hands-on experience beyond what they learned in school.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A36",
+    "to_id": "A9",
+    "from_text": "Young people entering engineering and support fields often lack hands-on experience beyond what they learned in school.",
+    "to_text": "Robotics programs are an effective way to introduce students to computer science and engineering.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A36",
+    "to_id": "A13",
+    "from_text": "Young people entering engineering and support fields often lack hands-on experience beyond what they learned in school.",
+    "to_text": "Pre-college schooling should expose students to creating hands-on.",
+    "type": "supports",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A43",
+    "to_id": "A1",
+    "from_text": "Creating a gaming system with Raspberry Pi allows learning hardware and software while bringing people together with common interests.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A43",
+    "to_id": "A9",
+    "from_text": "Creating a gaming system with Raspberry Pi allows learning hardware and software while bringing people together with common interests.",
+    "to_text": "Robotics programs are an effective way to introduce students to computer science and engineering.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A43",
+    "to_id": "A22",
+    "from_text": "Creating a gaming system with Raspberry Pi allows learning hardware and software while bringing people together with common interests.",
+    "to_text": "Starting a coding club in high school is a good idea.",
+    "type": "supports",
+    "strength": 0.8
+  },
+  {
+    "from_id": "A50",
+    "to_id": "A1",
+    "from_text": "Schools have gotten worse at exposing students to various possibilities.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "type": "supports",
+    "strength": 0.5
+  },
+  {
+    "from_id": "A50",
+    "to_id": "A9",
+    "from_text": "Schools have gotten worse at exposing students to various possibilities.",
+    "to_text": "Robotics programs are an effective way to introduce students to computer science and engineering.",
+    "type": "supports",
+    "strength": 0.5
+  },
+  {
+    "from_id": "A50",
+    "to_id": "A13",
+    "from_text": "Schools have gotten worse at exposing students to various possibilities.",
+    "to_text": "Pre-college schooling should expose students to creating hands-on.",
+    "type": "supports",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A9",
+    "to_id": "A7",
+    "from_text": "Robotics programs are an effective way to introduce students to computer science and engineering.",
+    "to_text": "Software is not the paramount focus of robotics.",
+    "type": "attacks",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A9",
+    "to_id": "A54",
+    "from_text": "Robotics programs are an effective way to introduce students to computer science and engineering.",
+    "to_text": "Most colleges require an introductory computer science class, making early exposure practical for students.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A54",
+    "to_id": "A1",
+    "from_text": "Most colleges require an introductory computer science class, making early exposure practical for students.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A54",
+    "to_id": "A9",
+    "from_text": "Most colleges require an introductory computer science class, making early exposure practical for students.",
+    "to_text": "Robotics programs are an effective way to introduce students to computer science and engineering.",
+    "type": "supports",
+    "strength": 0.7
+  },
+  {
+    "from_id": "A13",
+    "to_id": "A1",
+    "from_text": "Pre-college schooling should expose students to creating hands-on.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "type": "supports",
+    "strength": 0.5
+  },
+  {
+    "from_id": "A13",
+    "to_id": "A9",
+    "from_text": "Pre-college schooling should expose students to creating hands-on.",
+    "to_text": "Robotics programs are an effective way to introduce students to computer science and engineering.",
+    "type": "supports",
+    "strength": 0.5
+  },
+  {
+    "from_id": "A7",
+    "to_id": "A1",
+    "from_text": "Software is not the paramount focus of robotics.",
+    "to_text": "Robotics clubs are a good avenue for introducing computer science to students.",
+    "type": "attacks",
+    "strength": 0.6
+  },
+  {
+    "from_id": "A7",
+    "to_id": "A9",
+    "from_text": "Software is not the paramount focus of robotics.",
+    "to_text": "Robotics programs are an effective way to introduce students to computer science and engineering.",
+    "type": "attacks",
+    "strength": 0.6
   }
 ]

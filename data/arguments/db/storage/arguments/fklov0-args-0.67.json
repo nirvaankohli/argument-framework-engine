@@ -1,0 +1,702 @@
+{
+  "thread_id": "fklov0",
+  "subreddit": "arguments",
+  "title": "Are zombies human?",
+  "threshold": 0.67,
+  "num_arguments": 99,
+  "arguments": [
+    {
+      "id": "A1",
+      "text": "Zombies are no longer human when they turn.",
+      "utterance_id": "U1",
+      "speaker": "S1",
+      "confidence": 0.99
+    },
+    {
+      "id": "A2",
+      "text": "Zombies do not change much physically, are basically undead humans, and are the same but insane.",
+      "utterance_id": "U1",
+      "speaker": "S1",
+      "confidence": 0.9
+    },
+    {
+      "id": "A3",
+      "text": "A banana does not undergo much change when it rots.",
+      "utterance_id": "U3",
+      "speaker": "S1",
+      "confidence": 0.95
+    },
+    {
+      "id": "A4",
+      "text": "Zombies completely become monsters that crave human flesh.",
+      "utterance_id": "U3",
+      "speaker": "S1",
+      "confidence": 0.98
+    },
+    {
+      "id": "A5",
+      "text": "Zombies are a result of an infection.",
+      "utterance_id": "U4",
+      "speaker": "S2",
+      "confidence": 0.9
+    },
+    {
+      "id": "A6",
+      "text": "No virus has ever been known to turn infected animal species into something else.",
+      "utterance_id": "U4",
+      "speaker": "S2",
+      "confidence": 0.9
+    },
+    {
+      "id": "A7",
+      "text": "Nothing that can take multiple bullets in the chest and still stand should be considered human.",
+      "utterance_id": "U5",
+      "speaker": "S1",
+      "confidence": 0.99
+    },
+    {
+      "id": "A8",
+      "text": "A zombie is a human, just a dead one.",
+      "utterance_id": "U6",
+      "speaker": "S2",
+      "confidence": 0.95
+    },
+    {
+      "id": "A9",
+      "text": "Zombies do not have any working internal organs to lose.",
+      "utterance_id": "U6",
+      "speaker": "S2",
+      "confidence": 0.9
+    },
+    {
+      "id": "A10",
+      "text": "Arguing about zombies is tricky because they are depicted differently in various stories.",
+      "utterance_id": "U6",
+      "speaker": "S2",
+      "confidence": 0.85
+    },
+    {
+      "id": "A11",
+      "text": "Batman is still human because he relies on gadgets and suits, and his iron will, drive, and intelligence carry him.",
+      "utterance_id": "U7",
+      "speaker": "S1",
+      "confidence": 0.98
+    },
+    {
+      "id": "A12",
+      "text": "The Flash, Aquaman, or Starlord are not considered human.",
+      "utterance_id": "U7",
+      "speaker": "S1",
+      "confidence": 0.98
+    },
+    {
+      "id": "A13",
+      "text": "Starlord is not human because his father is an alien god.",
+      "utterance_id": "U9",
+      "speaker": "S1",
+      "confidence": 0.98
+    },
+    {
+      "id": "A14",
+      "text": "Spiderman is a human.",
+      "utterance_id": "U14",
+      "speaker": "S1",
+      "confidence": 0.99
+    },
+    {
+      "id": "A15",
+      "text": "Spiderman's transformation was not as drastic as others.",
+      "utterance_id": "U14",
+      "speaker": "S1",
+      "confidence": 0.95
+    },
+    {
+      "id": "A16",
+      "text": "Spiderman's transformation is similar in scale to The Flash's transformation.",
+      "utterance_id": "U15",
+      "speaker": "S2",
+      "confidence": 0.9
+    },
+    {
+      "id": "A17",
+      "text": "Even if an entity becomes 'something else' evolutionarily speaking, it does not stop being what it was.",
+      "utterance_id": "U16",
+      "speaker": "S3",
+      "confidence": 0.99
+    },
+    {
+      "id": "A18",
+      "text": "The Flash is a metahuman, but he is still a human.",
+      "utterance_id": "U16",
+      "speaker": "S3",
+      "confidence": 0.95
+    },
+    {
+      "id": "A19",
+      "text": "Atlanteans might be a type of alien, but they are likely just metahumans.",
+      "utterance_id": "U16",
+      "speaker": "S3",
+      "confidence": 0.85
+    },
+    {
+      "id": "A20",
+      "text": "Starlord is just a human, and there doesn't seem to be anything special about him.",
+      "utterance_id": "U16",
+      "speaker": "S3",
+      "confidence": 0.9
+    },
+    {
+      "id": "A21",
+      "text": "Starlord's father being an alien does not negate Starlord's humanity if the alien is genetically compatible with humans.",
+      "utterance_id": "U16",
+      "speaker": "S3",
+      "confidence": 0.95
+    },
+    {
+      "id": "A22",
+      "text": "Only a creationist would argue against the law of cladistics.",
+      "utterance_id": "U16",
+      "speaker": "S3",
+      "confidence": 0.8
+    },
+    {
+      "id": "A23",
+      "text": "It goes against all known rules of biology to 'stop being what you are in order to become something else'.",
+      "utterance_id": "U16",
+      "speaker": "S3",
+      "confidence": 0.99
+    },
+    {
+      "id": "A24",
+      "text": "Instead of stopping being what you are, you remain what you are and gain additional adaptations.",
+      "utterance_id": "U16",
+      "speaker": "S3",
+      "confidence": 0.99
+    },
+    {
+      "id": "A25",
+      "text": "Zombies are humans; they are just infected.",
+      "utterance_id": "U16",
+      "speaker": "S3",
+      "confidence": 0.98
+    },
+    {
+      "id": "A26",
+      "text": "The definition of human is not contingent on how many bullets one can withstand.",
+      "utterance_id": "U16",
+      "speaker": "S3",
+      "confidence": 0.95
+    },
+    {
+      "id": "A27",
+      "text": "Birds are, in fact, dinosaurs, because they do not stop being what their ancestors were.",
+      "utterance_id": "U16",
+      "speaker": "S3",
+      "confidence": 0.95
+    },
+    {
+      "id": "A28",
+      "text": "Tadpoles are not fish; they are still frogs in an early phase of their life cycle.",
+      "utterance_id": "U17",
+      "speaker": "S4",
+      "confidence": 0.95
+    },
+    {
+      "id": "A29",
+      "text": "Frog eggs are premature frogs, tadpoles are juvenile frogs, adult frogs are adult frogs, and dead frogs are dead frogs; they are all the same species.",
+      "utterance_id": "U17",
+      "speaker": "S4",
+      "confidence": 0.95
+    },
+    {
+      "id": "A30",
+      "text": "A dead human is a dead human.",
+      "utterance_id": "U17",
+      "speaker": "S4",
+      "confidence": 0.98
+    },
+    {
+      "id": "A31",
+      "text": "A zombie has a relationship with the dead human body, inhabiting part of it like a hermit crab inhabits a part of a dead mollusk.",
+      "utterance_id": "U17",
+      "speaker": "S4",
+      "confidence": 0.9
+    },
+    {
+      "id": "A32",
+      "text": "The hermit crab analogy applies to biological zombies, but not supernatural zombies.",
+      "utterance_id": "U18",
+      "speaker": "S3",
+      "confidence": 0.95
+    },
+    {
+      "id": "A33",
+      "text": "Supernatural zombies do not require explanation.",
+      "utterance_id": "U18",
+      "speaker": "S3",
+      "confidence": 0.85
+    },
+    {
+      "id": "A34",
+      "text": "Supernatural zombies are a weaker premise because they hold up less to investigation.",
+      "utterance_id": "U18",
+      "speaker": "S3",
+      "confidence": 0.85
+    },
+    {
+      "id": "A35",
+      "text": "Bio zombies are still wearing the trappings of their meatbag hosts.",
+      "utterance_id": "U18",
+      "speaker": "S3",
+      "confidence": 0.9
+    },
+    {
+      "id": "A36",
+      "text": "Bio zombies could be considered a hybrid organism due to evolutionary symbiosis.",
+      "utterance_id": "U18",
+      "speaker": "S3",
+      "confidence": 0.8
+    },
+    {
+      "id": "A37",
+      "text": "Zombies still have human qualities because they are still human.",
+      "utterance_id": "U20",
+      "speaker": "S5",
+      "confidence": 0.9
+    },
+    {
+      "id": "A38",
+      "text": "Cannibalism exists.",
+      "utterance_id": "U21",
+      "speaker": "S6",
+      "confidence": 0.99
+    },
+    {
+      "id": "A39",
+      "text": "A rotten banana is still a banana, just rotten.",
+      "utterance_id": "U23",
+      "speaker": "S8",
+      "confidence": 0.9
+    },
+    {
+      "id": "A40",
+      "text": "A dead human is still biologically a human.",
+      "utterance_id": "U23",
+      "speaker": "S8",
+      "confidence": 0.95
+    },
+    {
+      "id": "A41",
+      "text": "A human corpse is not a 'person' per se.",
+      "utterance_id": "U23",
+      "speaker": "S8",
+      "confidence": 0.9
+    },
+    {
+      "id": "A42",
+      "text": "Self-defense is a valid concept.",
+      "utterance_id": "U25",
+      "speaker": "S10",
+      "confidence": 0.95
+    },
+    {
+      "id": "A43",
+      "text": "Individuals lose their rights the moment they desire human flesh.",
+      "utterance_id": "U25",
+      "speaker": "S10",
+      "confidence": 0.85
+    },
+    {
+      "id": "A44",
+      "text": "Some types of zombies retain thoughts and the ability to speak.",
+      "utterance_id": "U26",
+      "speaker": "S11",
+      "confidence": 0.8
+    },
+    {
+      "id": "A45",
+      "text": "Zombies infected by a virus or fungus progressively lose their humanity.",
+      "utterance_id": "U26",
+      "speaker": "S11",
+      "confidence": 0.85
+    },
+    {
+      "id": "A46",
+      "text": "Freakers in Days Gone are humans who are more animalistic and stronger than average people.",
+      "utterance_id": "U26",
+      "speaker": "S11",
+      "confidence": 0.75
+    },
+    {
+      "id": "A47",
+      "text": "In The Last of Us, a fungus gradually takes control, first affecting mobility, then leading to a complete loss of humanity.",
+      "utterance_id": "U26",
+      "speaker": "S11",
+      "confidence": 0.75
+    },
+    {
+      "id": "A48",
+      "text": "Night of the Living Dead type zombies are completely dead, devoid of humanity and intelligence.",
+      "utterance_id": "U26",
+      "speaker": "S11",
+      "confidence": 0.8
+    },
+    {
+      "id": "A49",
+      "text": "Individuals under a voodoo curse are 100% human, merely obedient slaves until the curse is lifted.",
+      "utterance_id": "U26",
+      "speaker": "S11",
+      "confidence": 0.75
+    },
+    {
+      "id": "A50",
+      "text": "Zombies are half-human because they still resemble humans, but their bodies are not under their control.",
+      "utterance_id": "U29",
+      "speaker": "S14",
+      "confidence": 0.85
+    },
+    {
+      "id": "A51",
+      "text": "Zombies are physically human.",
+      "utterance_id": "U30",
+      "speaker": "S15",
+      "confidence": 0.9
+    },
+    {
+      "id": "A52",
+      "text": "Zombies are not mentally human.",
+      "utterance_id": "U30",
+      "speaker": "S15",
+      "confidence": 0.9
+    },
+    {
+      "id": "A53",
+      "text": "Both humans and zombies are edible.",
+      "utterance_id": "U30",
+      "speaker": "S15",
+      "confidence": 0.7
+    },
+    {
+      "id": "A54",
+      "text": "Zombies are still human, as their bodies are human bodies that have rotted, been infected, or mutated.",
+      "utterance_id": "U32",
+      "speaker": "S16",
+      "confidence": 0.85
+    },
+    {
+      "id": "A55",
+      "text": "Humanity, encompassing emotional and mental aspects, can be lost.",
+      "utterance_id": "U32",
+      "speaker": "S16",
+      "confidence": 0.8
+    },
+    {
+      "id": "A56",
+      "text": "Many types of zombies still have the human alive, but under external control.",
+      "utterance_id": "U32",
+      "speaker": "S16",
+      "confidence": 0.75
+    },
+    {
+      "id": "A57",
+      "text": "A zombie is a human.",
+      "utterance_id": "U33",
+      "speaker": "S5",
+      "confidence": 0.95
+    },
+    {
+      "id": "A58",
+      "text": "The emotional distress experienced by individuals who see a loved one as a zombie indicates that zombies are still recognized as the person they once were.",
+      "utterance_id": "U33",
+      "speaker": "S5",
+      "confidence": 0.85
+    },
+    {
+      "id": "A59",
+      "text": "A zombie virus is a disease, and its carrier is still human, similar to how a person with cancer is still a person.",
+      "utterance_id": "U33",
+      "speaker": "S5",
+      "confidence": 0.85
+    },
+    {
+      "id": "A60",
+      "text": "Zombies are not fully human.",
+      "utterance_id": "U34",
+      "speaker": "S17",
+      "confidence": 0.9
+    },
+    {
+      "id": "A61",
+      "text": "The transformation into a zombie removes essential human qualities such as rational thought, self-awareness, and moral decision-making.",
+      "utterance_id": "U34",
+      "speaker": "S17",
+      "confidence": 0.85
+    },
+    {
+      "id": "A62",
+      "text": "Severe mental and biological changes in zombies signify a fundamental shift from being human to something new.",
+      "utterance_id": "U34",
+      "speaker": "S17",
+      "confidence": 0.85
+    },
+    {
+      "id": "A63",
+      "text": "Zombies are undead, representing a human in a state of decomposition and unconsciousness.",
+      "utterance_id": "U35",
+      "speaker": "S18",
+      "confidence": 0.8
+    },
+    {
+      "id": "A64",
+      "text": "According to some lore, zombies are not technically human but also not typical zombies; they are mutated or evolved humans.",
+      "utterance_id": "U36",
+      "speaker": "S19",
+      "confidence": 0.75
+    },
+    {
+      "id": "A65",
+      "text": "The Autophage results in a gene change after several generations of humans, leading to a new species.",
+      "utterance_id": "U36",
+      "speaker": "S19",
+      "confidence": 0.7
+    },
+    {
+      "id": "A66",
+      "text": "Zombies do not fit the Cambridge dictionary definition of 'human' because they lack qualities, faults, and feelings typical of people and are unable to think.",
+      "utterance_id": "U37",
+      "speaker": "S20",
+      "confidence": 0.85
+    },
+    {
+      "id": "A67",
+      "text": "Typical zombies lack feelings and many human qualities, resembling infected animals from a human perspective.",
+      "utterance_id": "U37",
+      "speaker": "S20",
+      "confidence": 0.8
+    },
+    {
+      "id": "A68",
+      "text": "The dictionary defines zombies as corpses brought back, usually through witchcraft.",
+      "utterance_id": "U39",
+      "speaker": "S22",
+      "confidence": 0.9
+    },
+    {
+      "id": "A69",
+      "text": "The definition of a zombie does not require them to be human.",
+      "utterance_id": "U39",
+      "speaker": "S22",
+      "confidence": 0.85
+    },
+    {
+      "id": "A70",
+      "text": "Zombies are the undead form of their living creature counterpart.",
+      "utterance_id": "U40",
+      "speaker": "S23",
+      "confidence": 0.9
+    },
+    {
+      "id": "A71",
+      "text": "Undead humans are zombies.",
+      "utterance_id": "U40",
+      "speaker": "S23",
+      "confidence": 0.9
+    },
+    {
+      "id": "A72",
+      "text": "A zombie is still human, despite being heavily altered.",
+      "utterance_id": "U41",
+      "speaker": "S5",
+      "confidence": 0.85
+    },
+    {
+      "id": "A73",
+      "text": "Someone with the flu is still human.",
+      "utterance_id": "U41",
+      "speaker": "S5",
+      "confidence": 0.95
+    },
+    {
+      "id": "A74",
+      "text": "A rotting corpse is still human.",
+      "utterance_id": "U41",
+      "speaker": "S5",
+      "confidence": 0.8
+    },
+    {
+      "id": "A75",
+      "text": "Zombies are reanimated humans.",
+      "utterance_id": "U41",
+      "speaker": "S5",
+      "confidence": 0.9
+    },
+    {
+      "id": "A76",
+      "text": "Zombies are still human because their species does not change, only their behavior.",
+      "utterance_id": "U42",
+      "speaker": "S24",
+      "confidence": 0.85
+    },
+    {
+      "id": "A77",
+      "text": "The morality of killing zombies is not an issue, as they kill and infect others.",
+      "utterance_id": "U44",
+      "speaker": "S8",
+      "confidence": 0.8
+    },
+    {
+      "id": "A78",
+      "text": "If being a zombie is beneficial, then everyone should be converted to zombism.",
+      "utterance_id": "U44",
+      "speaker": "S8",
+      "confidence": 0.7
+    },
+    {
+      "id": "A79",
+      "text": "The consciousness, memories, and everything that makes a person human dies when they become undead.",
+      "utterance_id": "U44",
+      "speaker": "S8",
+      "confidence": 0.8
+    },
+    {
+      "id": "A80",
+      "text": "An undead body is technically still 'human' (a human corpse) until it decomposes.",
+      "utterance_id": "U44",
+      "speaker": "S8",
+      "confidence": 0.85
+    },
+    {
+      "id": "A81",
+      "text": "The mind of an undead zombie is either controlled by a necromancer or is non-existent, functioning as a flesh-eating organism without human thought and emotion.",
+      "utterance_id": "U44",
+      "speaker": "S8",
+      "confidence": 0.75
+    },
+    {
+      "id": "A82",
+      "text": "Undead beings are no longer human, but merely human bodies or corpses.",
+      "utterance_id": "U44",
+      "speaker": "S8",
+      "confidence": 0.85
+    },
+    {
+      "id": "A83",
+      "text": "The body of an infected zombie is human, but the mind, consciousness, soul, or essence of the person is absent.",
+      "utterance_id": "U44",
+      "speaker": "S8",
+      "confidence": 0.8
+    },
+    {
+      "id": "A84",
+      "text": "Infected zombies are shells of humans inhabited by a viral infection that uses the body as a host.",
+      "utterance_id": "U44",
+      "speaker": "S8",
+      "confidence": 0.8
+    },
+    {
+      "id": "A85",
+      "text": "There are no human conditions that exhibit zombie-like tendencies such as lack of emotion, reasoning, or thought.",
+      "utterance_id": "U44",
+      "speaker": "S8",
+      "confidence": 0.75
+    },
+    {
+      "id": "A86",
+      "text": "Infected zombies, lacking emotion and reasoning, should not be called human.",
+      "utterance_id": "U44",
+      "speaker": "S8",
+      "confidence": 0.85
+    },
+    {
+      "id": "A87",
+      "text": "Shaun of the Dead's dead Nick Frost, who still plays videogames, is an exception and remains human despite being a cannibalistic sociopath.",
+      "utterance_id": "U44",
+      "speaker": "S8",
+      "confidence": 0.7
+    },
+    {
+      "id": "A88",
+      "text": "Zombies are the undead counterpart of humans.",
+      "utterance_id": "U45",
+      "speaker": "S13",
+      "confidence": 0.9
+    },
+    {
+      "id": "A89",
+      "text": "Once individuals turn into zombies, they are no longer human.",
+      "utterance_id": "U46",
+      "speaker": "S26",
+      "confidence": 0.9
+    },
+    {
+      "id": "A90",
+      "text": "Zombies are reanimated dead.",
+      "utterance_id": "U46",
+      "speaker": "S26",
+      "confidence": 0.9
+    },
+    {
+      "id": "A91",
+      "text": "Zombies lack a soul, which is essential to being human.",
+      "utterance_id": "U46",
+      "speaker": "S26",
+      "confidence": 0.85
+    },
+    {
+      "id": "A92",
+      "text": "Zombies cannot use their brains effectively.",
+      "utterance_id": "U46",
+      "speaker": "S26",
+      "confidence": 0.8
+    },
+    {
+      "id": "A93",
+      "text": "In most media, characters must die before turning into zombies.",
+      "utterance_id": "U46",
+      "speaker": "S26",
+      "confidence": 0.85
+    },
+    {
+      "id": "A94",
+      "text": "Zombies are walking balls of rotting flesh driven by endless hunger.",
+      "utterance_id": "U46",
+      "speaker": "S26",
+      "confidence": 0.8
+    },
+    {
+      "id": "A95",
+      "text": "Anything that lives after death is no longer human.",
+      "utterance_id": "U46",
+      "speaker": "S26",
+      "confidence": 0.85
+    },
+    {
+      "id": "A96",
+      "text": "Zombies are missing many qualities that define a human, such as emotion.",
+      "utterance_id": "U46",
+      "speaker": "S26",
+      "confidence": 0.85
+    },
+    {
+      "id": "A97",
+      "text": "The world is a zombie, and humans are living in it.",
+      "utterance_id": "U47",
+      "speaker": "S27",
+      "confidence": 0.7
+    },
+    {
+      "id": "A98",
+      "text": "A brain is necessary to function in this world.",
+      "utterance_id": "U47",
+      "speaker": "S27",
+      "confidence": 0.8
+    },
+    {
+      "id": "A99",
+      "text": "Donating thoughts and time to the world is equivalent to donating the brain's precious time.",
+      "utterance_id": "U47",
+      "speaker": "S27",
+      "confidence": 0.75
+    }
+  ]
+}

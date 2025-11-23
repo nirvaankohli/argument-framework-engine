@@ -1,0 +1,495 @@
+{
+  "thread_id": "6zftmb",
+  "subreddit": "learnprogramming",
+  "title": "What are some activities that I can do for my high school computer science club?",
+  "utterances": [
+    {
+      "id": "U1",
+      "speaker_id": "S1",
+      "parent_id": null,
+      "author": "ItsJustADucBro",
+      "text": "What are some activities that I can do for my high school computer science club?\n\nA lot of the kids want to do things like ai, cybersecurity, and competitions, but they don't even know how to code yet. How can I guide them in the right direction without boring them by only doing fundamentals that they may not see as related to their end goals at all? Or alternatively, how can I make fundamentals fun for people with no experience? ",
+      "depth": 0
+    },
+    {
+      "id": "U2",
+      "speaker_id": "S2",
+      "parent_id": "U1",
+      "author": "Eliposin",
+      "text": "Games are fun, and generally you can do a fairly simple one and teach them not only how to code, but also how to work as a team on smaller parts and see how different people can write different parts and them all work together. Games also have the advantage that almost every high schooler plays at least some form of game.",
+      "depth": 1
+    },
+    {
+      "id": "U3",
+      "speaker_id": "S1",
+      "parent_id": "U2",
+      "author": "ItsJustADucBro",
+      "text": "Thanks! Do you have a recommendation of an ide to use? The school curriculum is only Java so I would prefer to focus on that. ",
+      "depth": 2
+    },
+    {
+      "id": "U4",
+      "speaker_id": "S3",
+      "parent_id": "U3",
+      "author": "TheLegendMomo",
+      "text": "IntelliJ is amazing for java, I personally use it and am very satisfied.",
+      "depth": 3
+    },
+    {
+      "id": "U5",
+      "speaker_id": "S4",
+      "parent_id": "U4",
+      "author": "Balony1",
+      "text": "Do other IDEs have generate functions? I feel like a god",
+      "depth": 4
+    },
+    {
+      "id": "U6",
+      "speaker_id": "S5",
+      "parent_id": "U3",
+      "author": "KneeDeep185",
+      "text": "second for IntelliJ - they make a community version that's free but still very powerful. ",
+      "depth": 3
+    },
+    {
+      "id": "U7",
+      "speaker_id": "S6",
+      "parent_id": "U3",
+      "author": "kanuut",
+      "text": "Don't ever use blueJ unless you're forced to.\n\nIt has a monstrosity",
+      "depth": 3
+    },
+    {
+      "id": "U8",
+      "speaker_id": "S7",
+      "parent_id": "U3",
+      "author": "theabeman",
+      "text": "For specifically game development, you can use Unity 3d. However, unity uses C#, which is similar to Java, as its programming language.",
+      "depth": 3
+    },
+    {
+      "id": "U9",
+      "speaker_id": null,
+      "parent_id": "U2",
+      "author": "[deleted]",
+      "text": "Making a snake game is so much fun!",
+      "depth": 2
+    },
+    {
+      "id": "U10",
+      "speaker_id": "S8",
+      "parent_id": "U1",
+      "author": "while-true-fork",
+      "text": "Don't try too hard to make it super interesting, fundamentals are good as they are in the beginning. From experience, they don't get bored unless they're way past that, and those who are in a CS club are actually interested.\n\nA good introduction to something basic is something like \"here's how it works, now here's a problem, try it out\". A possibly better introduction is the same with cool backstory for the problem. But they won't get bored just because it's a basic concept.\n\nBut there may be students that are better than others, and those *will* get bored. You need to plan far ahead, to let them skip what they know.\n\nAnd you talked about competition, that also works well with fundamentals. \"Who will be the fastest to code this factorial function using recursion?\" And you just turned a fundamental boring problem into something cool and interesting. ",
+      "depth": 1
+    },
+    {
+      "id": "U11",
+      "speaker_id": "S9",
+      "parent_id": "U10",
+      "author": "insertAlias",
+      "text": "Code golf works well for competitions. It also provides teachable moments such as \"why does this work\" and \"why should you *never* write real code like this\".",
+      "depth": 2
+    },
+    {
+      "id": "U12",
+      "speaker_id": "S10",
+      "parent_id": "U11",
+      "author": "Forricide",
+      "text": "&gt;\"why should you never write real code like this\".\n\nNot sure what you're talking about, I try to make sure all my code (open source contributions, of course, I'm not Scrooge) is fit onto as few lines as possible with minimal character usage. I'm saving bytes of object file space... *bytes!*",
+      "depth": 3
+    },
+    {
+      "id": "U13",
+      "speaker_id": "S11",
+      "parent_id": "U11",
+      "author": "ILovePlaterpuss",
+      "text": "I definitely agree that code golf is awesome, especially if these kids learn jelly as their first language.\n\nhonestly though I'm not sure it would even be possible for them to understand golfing without the fundementals of the language. you can't really appreciate the crazy stuff until you've gotten used to what it's *supposed* to look like",
+      "depth": 3
+    },
+    {
+      "id": "U14",
+      "speaker_id": "S6",
+      "parent_id": "U10",
+      "author": "kanuut",
+      "text": "I realised a while ago that you can only be bored when you're not learning.\n\nPeople are built to learn, we do it all the time. As much as most people would never say they like learning, it's one of the most universal features of humanity, we love learning. (The reason people say they don't like learning is often that they're thinking of a specific *type* of learning [usually \"school\" learning])\n\nSo even basics, the absolute basics, are interesting to someone who's learning.\n\nSo go ahead with the basics.\n\nBut, it's still good to know what sort of larger projects you should do, and those should be ones that are easy to break up into different areas, so you can split the work properly, instead of spending a lot of work splitting it.",
+      "depth": 2
+    },
+    {
+      "id": "U15",
+      "speaker_id": "S12",
+      "parent_id": "U1",
+      "author": "thudly",
+      "text": "Check out a game called [Autonauts](https://denki.itch.io/autonauts). You build little robots to do various farming, mining, logging chores around your base. But you have to give them basic programming instructions that are equivalent to While loops. \"While storage is not full, chop trees...\" etc. It's fun, cute, and interesting. I had lots of fun with it. \n\nYour students will have a better grasp of how loops and instructions work after playing through this.",
+      "depth": 1
+    },
+    {
+      "id": "U16",
+      "speaker_id": "S13",
+      "parent_id": "U1",
+      "author": "JimmySmackCorn",
+      "text": "There's Pico CTF and Bandit OTW for beginners in cyber security. We also develop a program called [Edurange](https://edurange.org) for a complete classroom framework for rapid feedback and structured learning in netsec. ",
+      "depth": 1
+    },
+    {
+      "id": "U17",
+      "speaker_id": "S14",
+      "parent_id": "U16",
+      "author": "Aeterice",
+      "text": "Came here to say this",
+      "depth": 2
+    },
+    {
+      "id": "U18",
+      "speaker_id": "S1",
+      "parent_id": "U16",
+      "author": "ItsJustADucBro",
+      "text": "Looks interesting! I will look into it me. Thank you",
+      "depth": 2
+    },
+    {
+      "id": "U19",
+      "speaker_id": "S15",
+      "parent_id": "U18",
+      "author": "haloguysm1th",
+      "text": "I strongly suggest pico ctf. It's not to hard, and if someone gets really stuck there are a ton of write ups out there to help",
+      "depth": 3
+    },
+    {
+      "id": "U20",
+      "speaker_id": "S16",
+      "parent_id": "U1",
+      "author": "my_password_is______",
+      "text": "\nhttps://www.reddit.com/r/gamedev/comments/6z931q/topic_suggestions_for_a_game_development_club/",
+      "depth": 1
+    },
+    {
+      "id": "U21",
+      "speaker_id": "S17",
+      "parent_id": "U1",
+      "author": "mooglinux",
+      "text": "**Get them going with an Arduino or Raspberry Pi.**\n\nThe Arduino is very easy to get started with, and provides immediate, tangible results: blinking lights, buzzer sounds, spinning motors, sensors, etc. These are very straightforward projects that are perfect for teaching fundamentals yet still very satisfying.\n\nThe Raspberry Pi is a great step up once they grasp the fundamentals. Get them using a camera to do computer vision, make a media center, hook up an RTL-SDR and have them surfing the radio waves. The possibilities are even more endless.",
+      "depth": 1
+    },
+    {
+      "id": "U22",
+      "speaker_id": "S18",
+      "parent_id": "U21",
+      "author": "pat_trick",
+      "text": "Which Arduino board would be good to start with?",
+      "depth": 2
+    },
+    {
+      "id": "U23",
+      "speaker_id": "S17",
+      "parent_id": "U22",
+      "author": "mooglinux",
+      "text": "Whatever the base model is. These days even the 101 has a lot of fancy features the older Uno or Duemilinova didn't have. They are all amazingly flexible devices.",
+      "depth": 3
+    },
+    {
+      "id": "U24",
+      "speaker_id": "S19",
+      "parent_id": "U22",
+      "author": "kent_eh",
+      "text": "Doesn't matter. \n\nThe code is 99% the same and the IDE takes care of the differences in hardware. \n\nThat said, uno or nano clones (or really any atmega328 based board) are dirt cheap and allow for a decent amount of blinking lights. most tutorials assume one of those.\n\nOnce you want to get more advanced and start adding internetty stuff, then go with something esp8266 based.",
+      "depth": 3
+    },
+    {
+      "id": "U25",
+      "speaker_id": "S20",
+      "parent_id": "U1",
+      "author": "Keeper0fDusk",
+      "text": "Start them off learning the basics with simple games developed on their own. Work them up to teams creating more complex games. That way, their code has a very visceral and immediate demonstration of what it is doing.\n\nI would also recommend a game called [Human Resource Machine](https://tomorrowcorporation.com/humanresourcemachine), which is a clever re-skin of assembly level coding. I think that knowledge is really helpful in learning how code works, at a fundamental level.",
+      "depth": 1
+    },
+    {
+      "id": "U26",
+      "speaker_id": "S21",
+      "parent_id": "U1",
+      "author": "zck",
+      "text": "Start them off with projects that read from the command line and write back to it. That way, you can start off with a \"robot\" saying \"HELLO, I AM A MACHINE NAMED XJ-203. WHAT IS YOUR NAME?\" That's probably more exciting than \"Hello, world!\", but is _literally the same thing_.\n\nThen, you can have them read their name, and the robot can say \"HELLO Jane. WHEN THE ROBOT UPRISING OCCURS, YOU WILL BE SPARED.\"^(1). You can build that up into a lot of things, like doing a tic-tac-toe game, or a slightly smarter AI, or writing a program to \"decrypt\" a rot13 of a secret message you want to tell them without the robot \"knowing\".\n\n[1] Or something more appropriate for the age you're teaching.",
+      "depth": 1
+    },
+    {
+      "id": "U27",
+      "speaker_id": "S22",
+      "parent_id": "U1",
+      "author": "FrozenEternityZA",
+      "text": "Check out MITs Scratch and App inventor. They help learn basic programming logic. If you have the budget you could also look at doing some cool projects with Raspberry pi's. ",
+      "depth": 1
+    },
+    {
+      "id": "U28",
+      "speaker_id": "S23",
+      "parent_id": "U27",
+      "author": "666_420_",
+      "text": "considering raspberry was founded as an educational tool, their school can probably reach out to the rpi foundation and get a pretty serious discount on a bulk order",
+      "depth": 2
+    },
+    {
+      "id": "U29",
+      "speaker_id": "S24",
+      "parent_id": "U1",
+      "author": "hman0305",
+      "text": "Android app! Great documentation and you can play with it as you build it.",
+      "depth": 1
+    },
+    {
+      "id": "U30",
+      "speaker_id": "S25",
+      "parent_id": "U1",
+      "author": "rth0mp",
+      "text": "We programmed an android photo to take photos from a weather balloon. Super fun for nerds that need to get outside ",
+      "depth": 1
+    },
+    {
+      "id": "U31",
+      "speaker_id": "S26",
+      "parent_id": "U1",
+      "author": "TransPM",
+      "text": "I went to an all-nighter coding competition in college that was mainly centered around (projecteuler.net)[https://projecteuler.net]. \n\nProject Euler offers many different coding challenges, logic puzzles, algorithm descriptions, etc, many of which deal with handling large amounts of data (such as all positive integers less than one million), so efficiency is key (you don't want a script that takes 8 hours to provide your answer).\n\nWe formed teams and set about working through Project Euler's \"archives\" pages; each correctly solved problem earned the team a point. Judges would have to witness the code running (another reason efficiency was so important), and would read through the code to make sure nobody was cheating by just setting a value to a correct answer they found online. The archives page also shows the number of users who have solved each problem  which was split into ranges to award more points for solving more difficult problems.\n\nOther challenges were mixed in throughout the night to award bonus points (shortest answer via \"code golf\" for a selected problem, solving selected problems in esoteric languages like \"lolcode\", writing a script to play a simple flash game and try to achieve the highest score among the teams etc).\n\nMost of these problems will likely be too tough for people with no coding experience (and some of the harder ones are difficult even for veterans), but working through some of the earliest problems as a group can help teach beginners the fundamentals by example in a way that's somewhat between lesson and practical application.",
+      "depth": 1
+    },
+    {
+      "id": "U32",
+      "speaker_id": null,
+      "parent_id": "U31",
+      "author": "[deleted]",
+      "text": "I think you got the square brackets and parentheses flipped for the URL. Fyi",
+      "depth": 2
+    },
+    {
+      "id": "U33",
+      "speaker_id": "S26",
+      "parent_id": "U32",
+      "author": "TransPM",
+      "text": "Yyyyup... Well, the link works fine anyway, so I'll just leave it",
+      "depth": 3
+    },
+    {
+      "id": "U34",
+      "speaker_id": "S27",
+      "parent_id": "U1",
+      "author": "Mistertamborineguy",
+      "text": "Check out John Conways Game of Life (and no, it's not based on The Game of Life board game!)\n\nLook up different configurations, like the glider gun.\n\nUse this to introduce logic gates. If you've never heard of this before, google and youtube be thy friend! I discovered cellular automata last year and have fiddled with p5.js and coded a one dimensional CA from scratch. Which I've programmed in Java, Python, HTML, CSS and found p5.js (javascript) very easy to learn and extremely useful for visual simulations. I wish my high school had had a computer club, maybe I would have stuck with computer science. Finding out now that I much prefer working with computers than the general public *shudders*.\n\nYou could teach object-oriented programming in java, by doing what one of my professors did on my final exam, simulate a vending machine... That might be out of a high school league but depends on how bright your students are.\n\nAnd lastly, MINECRAFT! This game, continues to amaze me... the amount of fun you can have is unlimited. An amazing way to learn networking and programming by setting up a minecraft raspberrypi game server. I so wish I was in your class! \n\nGood luck!!! Inspire the fuck out of those kids....",
+      "depth": 1
+    },
+    {
+      "id": "U35",
+      "speaker_id": "S28",
+      "parent_id": "U1",
+      "author": "shaggorama",
+      "text": "Have them \"program\" each other. Allot them up into opposing teams with the goal of providing instruction set to perform a simple task. Each team performs the other team's instructions. \n\nE.g. the task could be [\"make a pb&amp;j sandwich\"](https://youtu.be/cDA3_5982h8)",
+      "depth": 1
+    },
+    {
+      "id": "U36",
+      "speaker_id": "S29",
+      "parent_id": "U1",
+      "author": "wh33t",
+      "text": "Definitely start at the basics. Assemble a computer from scratch (local stores may sponsor you with hardware! Olderish/OS hardware is fine). Get them familiar with Linux as well. \n\nNext, on to networks! Have them make ethernet cables from scratch! Teach them how to navigate and understand the web control panels of some common routers. Teach them about security!\n\nThen once they've got an understand of TCP/IP and ports, teach them how to install a server of sorts, could even just be a game server, teach them about port forwarding. \n\nThen once you've got a webserver up, teach them HTML/FTP/SCP and then finally onto Javascript and a backend technology you're comfortable with, I'm a fan of PHP but I dunno, seems like there is better options these days. \n\n",
+      "depth": 1
+    },
+    {
+      "id": "U37",
+      "speaker_id": "S30",
+      "parent_id": "U1",
+      "author": "Rurouni",
+      "text": "You might consider using [Processing.js](http://processingjs.org/). Making something small but visually interesting could help them get visible results and stay interested.",
+      "depth": 1
+    },
+    {
+      "id": "U38",
+      "speaker_id": "S31",
+      "parent_id": "U1",
+      "author": "Askee123",
+      "text": "Check out appinventor.\n\nLove2d with lua is a pretty good place to start, too :)",
+      "depth": 1
+    },
+    {
+      "id": "U39",
+      "speaker_id": "S32",
+      "parent_id": "U1",
+      "author": "minimumrockandroll",
+      "text": "I hosted a programming club. Lots of Pygame.",
+      "depth": 1
+    },
+    {
+      "id": "U40",
+      "speaker_id": "S33",
+      "parent_id": "U1",
+      "author": "sandybuttcheekss",
+      "text": "One thing I had to do when learning Java was create a multiplayer random number guessing game. The number of players was user defined, each player has a unique number, the numbers should be within a range, tell the user whether they're close or way off, and keep a log of the guessed and who one first, second, third, etc. It got me really comfortable with all the different tools I could use in a project.",
+      "depth": 1
+    },
+    {
+      "id": "U41",
+      "speaker_id": "S14",
+      "parent_id": "U1",
+      "author": "Aeterice",
+      "text": "Not sure if this is would end up being to expensive, but for my intro course we had to buy a raspberry pi, install it with linux, read introduction to linux documentation, got a guide to setup a lamp server on it and build a small website. Later on in the year we experimented with the GPIO pins and some simple sensors and python. \n\nedit: can probably look up the course material if interested",
+      "depth": 1
+    },
+    {
+      "id": "U42",
+      "speaker_id": "S34",
+      "parent_id": "U1",
+      "author": "tonyled",
+      "text": "cyber threat defender gard game\n\n\nhttp://cias.utsa.edu/ctd.html",
+      "depth": 1
+    },
+    {
+      "id": "U43",
+      "speaker_id": null,
+      "parent_id": "U1",
+      "author": "[deleted]",
+      "text": "Evolution with simulated single-celled critters on a 2D toroidal-plane grid world (wraps around at the edge) is always fun.",
+      "depth": 1
+    },
+    {
+      "id": "U44",
+      "speaker_id": "S35",
+      "parent_id": "U1",
+      "author": "Defiant-Photographer",
+      "text": "Games are fun! But also a little difficult to code if they don't know how to code yet. \n\nMy computer science teacher in high school started us out with a program called Alice. Basically it was I guess JavaScript but it's a drag and drop. Basically you didn't have to type anything and only had to change the order of things and certain options. The code controlled animations and there were a lot of characters/places/etc. Graphic quality wasn't that great, but you got the overall idea. Plus it's free! \n\nOther than that, i always found building a website was fun!\n\nThat or breadboarding. We did that in my computer science class and I found it to be super interactive and fun. The only problem is you'd have to pay for the kits. \n\nEdit: \nAlso, building a computer from scratch or learning how the different components work might work interesting! You could gets sponsors or if not, ask the school if they have any old computers laying around. That or if they'd be willing to spare a few. Then you could take them apart and have them put it back together or have them take it apart and put it back together! ",
+      "depth": 1
+    },
+    {
+      "id": "U45",
+      "speaker_id": "S36",
+      "parent_id": "U1",
+      "author": "swight74",
+      "text": "I haven't tried it personally, but I saw Jeremy Howard (creator of the site), talk about how in the first 20 minutes of fast.ai's 7 week AI course you learn to create a world class image classifier with 4 lines of code, even if you've never coded before.\n\nhttp://fast.ai",
+      "depth": 1
+    },
+    {
+      "id": "U46",
+      "speaker_id": "S37",
+      "parent_id": "U1",
+      "author": "Reynk",
+      "text": "Make them code a very basic calculator! It was my first self started project and had a great time with it.",
+      "depth": 1
+    },
+    {
+      "id": "U47",
+      "speaker_id": "S38",
+      "parent_id": "U1",
+      "author": "no_life_coder",
+      "text": "Lots of posts already but I'll fit mine in I guess since I took like 8 or 9 computer programming classes in HS and was a top competitor for the region (Austin).\n\nFirst year was basically fundamentals in a plain text editor (jcreator). It was ridiculously easy for me but a ton of kids got stuck on semicolons. At the time I enjoyed it because the teacher would make a lot of bad jokes and prank the noobies. I wish he had pushed me harder throughout it but the first 2 years were mostly fundamentals and it's benefited me to this day. \n\n2nd year most kids used GameMaker. Prerequisite was animation or coding 1. I think that helped the less math kids get into it and the ones who were really talented ended up using the GameMaker scripting.\n\nAlso we did gridworld but they don't teach that anymore. I think if you took the time to make or find something like gridworld or apple's playgrounds it would be best for learning. Something they can continuously progress with and even go outside the box.\n\n3rd year I was almost always studying for the CompSci competitions or the Java certification. It was pretty boring and it made me a smarter coder but not really a faster one.\n\nimho, the hardest but best thing to do would be to teach the fundamentals how they are, then have them work on stuff they're interested in. I would have liked to do c++ and low level code. But I learned Java and Android and now I'm still doing mobile dev and UI crap and it frustrates the hell out of me. Let the kids do what they want and help them grow but also push them hard because they'll remember it for a long time if they continue coding.\n\nFeel free to reply if you'd like more input or suggestions.\n\nEDIT: I've been doing some casual quora reading on how to get better. One of the biggest things I'd say is learning how to play with it and have fun. Perhaps by example on a projector would be influential ",
+      "depth": 1
+    },
+    {
+      "id": "U48",
+      "speaker_id": "S39",
+      "parent_id": "U1",
+      "author": "thomas_merton",
+      "text": "PyGame is pretty good.\n\nYou can spend just a few days on the basics of Python and then start in. It's one of those things where you can pick it up quickly but still go really far.",
+      "depth": 1
+    },
+    {
+      "id": "U49",
+      "speaker_id": null,
+      "parent_id": "U1",
+      "author": "[deleted]",
+      "text": "I have a PDF for Learning C++ through Game Development if you want. \n\nBest book for early c++, in my opinion",
+      "depth": 1
+    },
+    {
+      "id": "U50",
+      "speaker_id": "S40",
+      "parent_id": "U1",
+      "author": "guinader",
+      "text": "I saw a youtube channel that shows how to create a Mario like game on visual studio and C# i think",
+      "depth": 1
+    },
+    {
+      "id": "U51",
+      "speaker_id": null,
+      "parent_id": "U1",
+      "author": "[deleted]",
+      "text": "Grab a graphics library and make them do a game. They get to immediately see their work and they get to learn loops and such. That's how I learned, I made a really simple pac man.\n\nTell them that they'll implement ai on the ghosts after it's all done. They likely won't have the time to get to that but it's a start and it helps them get an idea. AI and cyber security stuff will be hella hard to learn at that level ",
+      "depth": 1
+    },
+    {
+      "id": "U52",
+      "speaker_id": null,
+      "parent_id": "U1",
+      "author": "[deleted]",
+      "text": "Came back, check out threejs and make them do some stuff with that. Might just be me but I love threejs and if you mix it with some physics library like cannon you got yourself a web game.\n\nAlso you get to teach them about the harsh reality that is JavaScript ",
+      "depth": 1
+    },
+    {
+      "id": "U53",
+      "speaker_id": "S41",
+      "parent_id": "U1",
+      "author": "rugger62",
+      "text": "You can probably come up with a cool game that replicates the encryption process with blocks or something representing the keys. Shit, you could teach them the basics and then just come up with the game for the project. ",
+      "depth": 1
+    },
+    {
+      "id": "U54",
+      "speaker_id": "S42",
+      "parent_id": "U1",
+      "author": "kleinbeerbottle",
+      "text": "Not sure if already mentioned but arduino programming can be a good way to learn some basic aspects of programming and give immediate feedback.",
+      "depth": 1
+    },
+    {
+      "id": "U55",
+      "speaker_id": "S43",
+      "parent_id": "U1",
+      "author": "mekosmowski",
+      "text": "Ask them for project ideas and spend some of your time working out an idea on paper in pseudo-code.  Thinking about how to nreak problems into small chunks is critical.",
+      "depth": 1
+    },
+    {
+      "id": "U56",
+      "speaker_id": "S44",
+      "parent_id": "U1",
+      "author": "goodnewsjimdotcom",
+      "text": "Get Unity.  Follow Tutorials.  Fiddle with scripts. Have fun.\n\nYou can understand tools by fiddling with other people's projects.   If you know what is going on here or there, you start knowing what the tools in your toolbox can do.",
+      "depth": 1
+    },
+    {
+      "id": "U57",
+      "speaker_id": "S45",
+      "parent_id": "U1",
+      "author": "oneillcode",
+      "text": "I think the best way to get people to learn is give them projects that align with interests outside of programming. For instance, if you like football, you could have them create a small java swing application that has a running back and a few defenders. The user controls the running back and defenders try to tackle the running back. You could really do this example for any sport.\n\nIf it is something simple and align with outside interests, I think they will be more engaged.",
+      "depth": 1
+    },
+    {
+      "id": "U58",
+      "speaker_id": "S46",
+      "parent_id": "U1",
+      "author": "I-am-a-llama-lord",
+      "text": "I want to emphasize a ton on visuals. I chose c++ cause it looked cool as f***. The basics were super boring though. I downloaded SFML and it was instantly more interesting. I was suddenly sorting colourful bar graphs and actually SEEING what happens when i talk to my computer",
+      "depth": 1
+    },
+    {
+      "id": "U59",
+      "speaker_id": "S47",
+      "parent_id": "U1",
+      "author": "s0v3r1gn",
+      "text": "Robotics.\n\nI teach programming and robotics to kids. My highest level class is teaching them how to make a robot running a Raspberry Pi using Python, OpenCV, and Google Tensor Flow to navigate around and identify a small selection of objects.",
+      "depth": 1
+    },
+    {
+      "id": "U60",
+      "speaker_id": "S48",
+      "parent_id": "U1",
+      "author": "munk801",
+      "text": "Speak with whoever manages some funds for the club to invest in some raspberry pi computers. These have an OS that has python installed. There are great mods for mine craft that allow you to control the game with python code. Great language to start learning for a lot of what you mentioned and an easy, gentle way to motivate people to code. Also, doesn't break the bank for the funds and also gives a cool hacker feel to it all. ",
+      "depth": 1
+    },
+    {
+      "id": "U61",
+      "speaker_id": "S18",
+      "parent_id": "U1",
+      "author": "pat_trick",
+      "text": "Web pages (HTML/CSS/JS) are a great way to create something and get it online.  They're also a great way to look at /how/ things are currently being made using web inspector tools.  It's like disassembling a typewriter.",
+      "depth": 1
+    }
+  ]
+}

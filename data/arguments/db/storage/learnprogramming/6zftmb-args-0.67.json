@@ -1,0 +1,569 @@
+{
+  "thread_id": "6zftmb",
+  "subreddit": "learnprogramming",
+  "title": "What are some activities that I can do for my high school computer science club?",
+  "threshold": 0.67,
+  "num_arguments": 80,
+  "arguments": [
+    {
+      "id": "A1",
+      "text": "Games are a fun and effective way to teach coding and teamwork.",
+      "utterance_id": "U2",
+      "speaker": "S2",
+      "confidence": 0.95
+    },
+    {
+      "id": "A2",
+      "text": "Almost every high schooler plays some form of game.",
+      "utterance_id": "U2",
+      "speaker": "S2",
+      "confidence": 0.9
+    },
+    {
+      "id": "A3",
+      "text": "IntelliJ is an excellent IDE for Java.",
+      "utterance_id": "U4",
+      "speaker": "S3",
+      "confidence": 0.95
+    },
+    {
+      "id": "A4",
+      "text": "IntelliJ's community version is free and powerful.",
+      "utterance_id": "U6",
+      "speaker": "S5",
+      "confidence": 0.95
+    },
+    {
+      "id": "A5",
+      "text": "BlueJ should be avoided unless absolutely necessary.",
+      "utterance_id": "U7",
+      "speaker": "S6",
+      "confidence": 0.9
+    },
+    {
+      "id": "A6",
+      "text": "Unity 3D can be used for game development.",
+      "utterance_id": "U8",
+      "speaker": "S7",
+      "confidence": 0.95
+    },
+    {
+      "id": "A7",
+      "text": "Unity uses C# as its programming language.",
+      "utterance_id": "U8",
+      "speaker": "S7",
+      "confidence": 0.95
+    },
+    {
+      "id": "A8",
+      "text": "C# is similar to Java.",
+      "utterance_id": "U8",
+      "speaker": "S7",
+      "confidence": 0.9
+    },
+    {
+      "id": "A9",
+      "text": "Making a snake game is enjoyable.",
+      "utterance_id": "U9",
+      "speaker": "S9",
+      "confidence": 0.85
+    },
+    {
+      "id": "A10",
+      "text": "Fundamentals are sufficient to engage beginners in a computer science club.",
+      "utterance_id": "U10",
+      "speaker": "S8",
+      "confidence": 0.9
+    },
+    {
+      "id": "A11",
+      "text": "Students in a computer science club are genuinely interested in the subject.",
+      "utterance_id": "U10",
+      "speaker": "S8",
+      "confidence": 0.8
+    },
+    {
+      "id": "A12",
+      "text": "Adding a compelling backstory to a problem can make basic concepts more engaging.",
+      "utterance_id": "U10",
+      "speaker": "S8",
+      "confidence": 0.85
+    },
+    {
+      "id": "A13",
+      "text": "It is necessary to plan for advanced students to skip material they already know.",
+      "utterance_id": "U10",
+      "speaker": "S8",
+      "confidence": 0.9
+    },
+    {
+      "id": "A14",
+      "text": "Competition can make fundamental problems interesting.",
+      "utterance_id": "U10",
+      "speaker": "S8",
+      "confidence": 0.9
+    },
+    {
+      "id": "A15",
+      "text": "Code golf is an effective method for competitions.",
+      "utterance_id": "U11",
+      "speaker": "S9",
+      "confidence": 0.9
+    },
+    {
+      "id": "A16",
+      "text": "Code golf provides opportunities for learning about code functionality and best practices.",
+      "utterance_id": "U11",
+      "speaker": "S9",
+      "confidence": 0.85
+    },
+    {
+      "id": "A17",
+      "text": "Code golf is an amazing activity.",
+      "utterance_id": "U13",
+      "speaker": "S11",
+      "confidence": 0.8
+    },
+    {
+      "id": "A18",
+      "text": "Understanding code golf requires a foundational understanding of the language.",
+      "utterance_id": "U13",
+      "speaker": "S11",
+      "confidence": 0.9
+    },
+    {
+      "id": "A19",
+      "text": "People are only bored when they are not learning.",
+      "utterance_id": "U14",
+      "speaker": "S6",
+      "confidence": 0.8
+    },
+    {
+      "id": "A20",
+      "text": "People are inherently driven to learn.",
+      "utterance_id": "U14",
+      "speaker": "S6",
+      "confidence": 0.85
+    },
+    {
+      "id": "A21",
+      "text": "Basic concepts are interesting to someone who is learning.",
+      "utterance_id": "U14",
+      "speaker": "S6",
+      "confidence": 0.85
+    },
+    {
+      "id": "A22",
+      "text": "It is beneficial to select larger projects that can be easily divided into different tasks.",
+      "utterance_id": "U14",
+      "speaker": "S6",
+      "confidence": 0.9
+    },
+    {
+      "id": "A23",
+      "text": "Autonauts is a fun, charming, and interesting game that teaches programming concepts.",
+      "utterance_id": "U15",
+      "speaker": "S12",
+      "confidence": 0.9
+    },
+    {
+      "id": "A24",
+      "text": "Students will better understand loops and instructions after playing Autonauts.",
+      "utterance_id": "U15",
+      "speaker": "S12",
+      "confidence": 0.9
+    },
+    {
+      "id": "A25",
+      "text": "Pico CTF and Bandit OTW are suitable for beginners in cybersecurity.",
+      "utterance_id": "U16",
+      "speaker": "S13",
+      "confidence": 0.95
+    },
+    {
+      "id": "A26",
+      "text": "Edurange provides a comprehensive classroom framework for network security learning.",
+      "utterance_id": "U16",
+      "speaker": "S13",
+      "confidence": 0.9
+    },
+    {
+      "id": "A27",
+      "text": "Pico CTF is highly recommended for its accessibility and available resources.",
+      "utterance_id": "U19",
+      "speaker": "S15",
+      "confidence": 0.95
+    },
+    {
+      "id": "A28",
+      "text": "Arduinos are easy to use and provide immediate, tangible results for teaching fundamentals.",
+      "utterance_id": "U21",
+      "speaker": "S17",
+      "confidence": 0.95
+    },
+    {
+      "id": "A29",
+      "text": "Raspberry Pi is a suitable next step after learning Arduino fundamentals.",
+      "utterance_id": "U21",
+      "speaker": "S17",
+      "confidence": 0.9
+    },
+    {
+      "id": "A30",
+      "text": "The specific Arduino board model does not significantly impact the coding process.",
+      "utterance_id": "U24",
+      "speaker": "S19",
+      "confidence": 0.9
+    },
+    {
+      "id": "A31",
+      "text": "Uno or Nano clones are inexpensive and sufficient for basic projects.",
+      "utterance_id": "U24",
+      "speaker": "S19",
+      "confidence": 0.9
+    },
+    {
+      "id": "A32",
+      "text": "Most Arduino tutorials are designed for Uno or Nano boards.",
+      "utterance_id": "U24",
+      "speaker": "S19",
+      "confidence": 0.8
+    },
+    {
+      "id": "A33",
+      "text": "ESP8266-based boards are suitable for advanced projects requiring internet connectivity.",
+      "utterance_id": "U24",
+      "speaker": "S19",
+      "confidence": 0.9
+    },
+    {
+      "id": "A34",
+      "text": "Developing simple games individually before moving to team-based projects provides a clear demonstration of code functionality.",
+      "utterance_id": "U25",
+      "speaker": "S20",
+      "confidence": 0.9
+    },
+    {
+      "id": "A35",
+      "text": "Human Resource Machine is a valuable tool for learning fundamental coding concepts at an assembly level.",
+      "utterance_id": "U25",
+      "speaker": "S20",
+      "confidence": 0.9
+    },
+    {
+      "id": "A36",
+      "text": "Projects involving command-line input and output can be more engaging than traditional 'Hello, world!' introductions.",
+      "utterance_id": "U26",
+      "speaker": "S21",
+      "confidence": 0.85
+    },
+    {
+      "id": "A37",
+      "text": "MIT's Scratch and App Inventor are useful for learning basic programming logic.",
+      "utterance_id": "U27",
+      "speaker": "S22",
+      "confidence": 0.95
+    },
+    {
+      "id": "A38",
+      "text": "Raspberry Pis can be used for interesting projects if a budget is available.",
+      "utterance_id": "U27",
+      "speaker": "S22",
+      "confidence": 0.9
+    },
+    {
+      "id": "A39",
+      "text": "Schools may be able to obtain significant discounts on Raspberry Pi bulk orders due to its educational founding.",
+      "utterance_id": "U28",
+      "speaker": "S23",
+      "confidence": 0.9
+    },
+    {
+      "id": "A40",
+      "text": "Android app development offers good documentation and allows for interactive building.",
+      "utterance_id": "U29",
+      "speaker": "S24",
+      "confidence": 0.9
+    },
+    {
+      "id": "A41",
+      "text": "Programming an Android phone to take photos from a weather balloon is an enjoyable activity.",
+      "utterance_id": "U30",
+      "speaker": "S25",
+      "confidence": 0.85
+    },
+    {
+      "id": "A42",
+      "text": "Project Euler offers various coding challenges, logic puzzles, and algorithm descriptions.",
+      "utterance_id": "U31",
+      "speaker": "S26",
+      "confidence": 0.95
+    },
+    {
+      "id": "A43",
+      "text": "Efficiency is crucial in Project Euler challenges involving large datasets.",
+      "utterance_id": "U31",
+      "speaker": "S26",
+      "confidence": 0.9
+    },
+    {
+      "id": "A44",
+      "text": "Most Project Euler problems may be too challenging for individuals without coding experience.",
+      "utterance_id": "U31",
+      "speaker": "S26",
+      "confidence": 0.9
+    },
+    {
+      "id": "A45",
+      "text": "Working through early Project Euler problems as a group can effectively teach beginners fundamentals through practical application.",
+      "utterance_id": "U31",
+      "speaker": "S26",
+      "confidence": 0.9
+    },
+    {
+      "id": "A46",
+      "text": "The link works fine.",
+      "utterance_id": "U33",
+      "speaker": "S26",
+      "confidence": 0.9
+    },
+    {
+      "id": "A47",
+      "text": "P5.js (JavaScript) is very easy to learn and extremely useful for visual simulations.",
+      "utterance_id": "U34",
+      "speaker": "S27",
+      "confidence": 0.95
+    },
+    {
+      "id": "A48",
+      "text": "Working with computers is preferable to working with the general public.",
+      "utterance_id": "U34",
+      "speaker": "S27",
+      "confidence": 0.9
+    },
+    {
+      "id": "A49",
+      "text": "Minecraft allows for an unlimited amount of fun.",
+      "utterance_id": "U34",
+      "speaker": "S27",
+      "confidence": 0.85
+    },
+    {
+      "id": "A50",
+      "text": "Minecraft is an amazing way to learn networking and programming by setting up a Minecraft Raspberry Pi game server.",
+      "utterance_id": "U34",
+      "speaker": "S27",
+      "confidence": 0.95
+    },
+    {
+      "id": "A51",
+      "text": "PHP may not be the best backend technology option these days.",
+      "utterance_id": "U36",
+      "speaker": "S29",
+      "confidence": 0.75
+    },
+    {
+      "id": "A52",
+      "text": "Making something small but visually interesting with Processing.js could help students get visible results and stay interested.",
+      "utterance_id": "U37",
+      "speaker": "S30",
+      "confidence": 0.9
+    },
+    {
+      "id": "A53",
+      "text": "Love2d with Lua is a good place to start.",
+      "utterance_id": "U38",
+      "speaker": "S31",
+      "confidence": 0.8
+    },
+    {
+      "id": "A54",
+      "text": "Games are a little difficult to code if one does not know how to code yet.",
+      "utterance_id": "U44",
+      "speaker": "S35",
+      "confidence": 0.85
+    },
+    {
+      "id": "A55",
+      "text": "Alice is a free program that helps teach programming concepts through drag-and-drop actions.",
+      "utterance_id": "U44",
+      "speaker": "S35",
+      "confidence": 0.9
+    },
+    {
+      "id": "A56",
+      "text": "Building a website is fun.",
+      "utterance_id": "U44",
+      "speaker": "S35",
+      "confidence": 0.8
+    },
+    {
+      "id": "A57",
+      "text": "Breadboarding is interactive and fun.",
+      "utterance_id": "U44",
+      "speaker": "S35",
+      "confidence": 0.85
+    },
+    {
+      "id": "A58",
+      "text": "In the first 20 minutes of fast.ai's 7-week AI course, one can learn to create a world-class image classifier with 4 lines of code, even without prior coding experience.",
+      "utterance_id": "U45",
+      "speaker": "S36",
+      "confidence": 0.8
+    },
+    {
+      "id": "A59",
+      "text": "The fundamentals of computer programming are beneficial.",
+      "utterance_id": "U47",
+      "speaker": "S38",
+      "confidence": 0.9
+    },
+    {
+      "id": "A60",
+      "text": "GameMaker helps less mathematically inclined students get into coding.",
+      "utterance_id": "U47",
+      "speaker": "S38",
+      "confidence": 0.8
+    },
+    {
+      "id": "A61",
+      "text": "Teaching fundamentals and then allowing students to work on projects that align with their interests is the best approach.",
+      "utterance_id": "U47",
+      "speaker": "S38",
+      "confidence": 0.9
+    },
+    {
+      "id": "A62",
+      "text": "PyGame is good.",
+      "utterance_id": "U48",
+      "speaker": "S39",
+      "confidence": 0.85
+    },
+    {
+      "id": "A63",
+      "text": "PyGame can be picked up quickly and allows for significant progress.",
+      "utterance_id": "U48",
+      "speaker": "S39",
+      "confidence": 0.9
+    },
+    {
+      "id": "A64",
+      "text": "Learning C++ through Game Development is the best book for early C++ learners.",
+      "utterance_id": "U49",
+      "speaker": null,
+      "confidence": 0.8
+    },
+    {
+      "id": "A65",
+      "text": "Using a graphics library to make a game allows immediate visual feedback and helps learn concepts like loops.",
+      "utterance_id": "U51",
+      "speaker": null,
+      "confidence": 0.9
+    },
+    {
+      "id": "A66",
+      "text": "AI and cybersecurity are difficult to learn at a high school level.",
+      "utterance_id": "U51",
+      "speaker": null,
+      "confidence": 0.85
+    },
+    {
+      "id": "A67",
+      "text": "Three.js is enjoyable.",
+      "utterance_id": "U52",
+      "speaker": null,
+      "confidence": 0.8
+    },
+    {
+      "id": "A68",
+      "text": "Mixing Three.js with a physics library like Cannon can create a web game.",
+      "utterance_id": "U52",
+      "speaker": null,
+      "confidence": 0.85
+    },
+    {
+      "id": "A69",
+      "text": "Arduino programming can be a good way to learn basic programming aspects and provide immediate feedback.",
+      "utterance_id": "U54",
+      "speaker": "S42",
+      "confidence": 0.9
+    },
+    {
+      "id": "A70",
+      "text": "Thinking about how to break problems into small chunks is critical.",
+      "utterance_id": "U55",
+      "speaker": "S43",
+      "confidence": 0.95
+    },
+    {
+      "id": "A71",
+      "text": "One can understand tools by fiddling with other people's projects.",
+      "utterance_id": "U56",
+      "speaker": "S44",
+      "confidence": 0.85
+    },
+    {
+      "id": "A72",
+      "text": "The best way to encourage learning is to provide projects that align with interests outside of programming.",
+      "utterance_id": "U57",
+      "speaker": "S45",
+      "confidence": 0.95
+    },
+    {
+      "id": "A73",
+      "text": "Students will be more engaged if projects are simple and align with their outside interests.",
+      "utterance_id": "U57",
+      "speaker": "S45",
+      "confidence": 0.9
+    },
+    {
+      "id": "A74",
+      "text": "Visuals are important in programming education.",
+      "utterance_id": "U58",
+      "speaker": "S46",
+      "confidence": 0.9
+    },
+    {
+      "id": "A75",
+      "text": "SFML makes C++ more interesting.",
+      "utterance_id": "U58",
+      "speaker": "S46",
+      "confidence": 0.85
+    },
+    {
+      "id": "A76",
+      "text": "Raspberry Pi computers are a good investment for a programming club.",
+      "utterance_id": "U60",
+      "speaker": "S48",
+      "confidence": 0.9
+    },
+    {
+      "id": "A77",
+      "text": "Python is a great language to start learning.",
+      "utterance_id": "U60",
+      "speaker": "S48",
+      "confidence": 0.9
+    },
+    {
+      "id": "A78",
+      "text": "Minecraft mods that allow control with Python code are an easy and gentle way to motivate people to code.",
+      "utterance_id": "U60",
+      "speaker": "S48",
+      "confidence": 0.9
+    },
+    {
+      "id": "A79",
+      "text": "Web pages (HTML/CSS/JS) are a great way to create something and get it online.",
+      "utterance_id": "U61",
+      "speaker": "S18",
+      "confidence": 0.95
+    },
+    {
+      "id": "A80",
+      "text": "Web pages are a great way to examine how things are currently being made using web inspector tools.",
+      "utterance_id": "U61",
+      "speaker": "S18",
+      "confidence": 0.95
+    }
+  ]
+}
